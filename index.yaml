@@ -33,6 +33,15 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
+  cluster-autoscaler-app:
+  - apiVersion: v1
+    created: "2019-09-17T13:32:14.063696221Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: f6a80565f54a0966f56eb1b532976864f0f68013bbedd406626993e2a0fd5f73
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-0.9.0.tgz
+    version: 0.9.0
   external-dns-app:
   - apiVersion: v1
     appVersion: v0.5.11
@@ -62,4 +71,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
-generated: "2019-09-17T13:14:52.950407622Z"
+generated: "2019-09-17T13:32:14.063178445Z"
