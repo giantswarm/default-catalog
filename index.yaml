@@ -33,6 +33,16 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
+  external-dns-app:
+  - apiVersion: v1
+    appVersion: v0.5.11
+    created: "2019-09-17T12:56:18.197737018Z"
+    description: A Helm chart for the external-dns
+    digest: d5c03fa55228086a6642f2d1f7018260c1a4c6f16c9d06c0cb6a59ca7253859f
+    name: external-dns-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/external-dns-app-0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472.tgz
+    version: 0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472
   kube-state-metrics-app:
   - apiVersion: v1
     appVersion: v1.7.2
@@ -43,4 +53,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
-generated: "2019-09-17T12:54:02.825474809Z"
+generated: "2019-09-17T12:56:18.197327358Z"
