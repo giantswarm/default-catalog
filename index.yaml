@@ -71,4 +71,14 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
-generated: "2019-09-17T13:32:14.063178445Z"
+  metrics-server-app:
+  - apiVersion: v1
+    appVersion: 0.3.3
+    created: "2019-09-17T14:24:16.117528249Z"
+    description: Metrics Server is a cluster-wide aggregator of resource usage data.
+    digest: 2183e1aadb262e85b4a1c702b993a7fbdcbc152c4592668ddcad65ccb5667bc1
+    name: metrics-server-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.0.tgz
+    version: 0.4.0
+generated: "2019-09-17T14:24:16.1170943Z"
