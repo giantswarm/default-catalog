@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   chart-operator:
   - apiVersion: v1
+    created: "2019-09-25T14:47:29.143372534Z"
+    description: A Helm chart for the chart-operator
+    digest: a04c2555117e884be5d4c01f6c7370cf892a7d5a7d414df065fc4e8a62ce4234
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
     created: "2019-09-24T19:45:58.890609727Z"
     description: A Helm chart for the chart-operator
     digest: 9795acde9f9a6efac0b8e07b9f3dcab52ee8c549a0bdaca0434de5987405ae59
@@ -105,4 +113,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.0.tgz
     version: 0.4.0
-generated: "2019-09-24T19:45:58.890213047Z"
+generated: "2019-09-25T14:47:29.142756431Z"
