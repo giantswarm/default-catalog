@@ -138,4 +138,14 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.0.tgz
     version: 0.4.0
-generated: "2019-10-09T09:21:28.671223486Z"
+  node-exporter-app:
+  - apiVersion: v1
+    appVersion: v0.18.0
+    created: "2019-10-09T10:03:47.363765205Z"
+    description: A Helm chart for Kubernetes Node-Exporter Service
+    digest: 7ca27abed1d65eeb7af923ba6f70294dbdaf6942bd1ce50463c941f93fda2988
+    name: node-exporter-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
+    version: 0.6.0
+generated: "2019-10-09T10:03:47.363370876Z"
