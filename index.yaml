@@ -1,5 +1,12 @@
 apiVersion: v1
 entries:
+  cert-exporter:
+  - created: "2019-10-23T18:18:30.417065518Z"
+    digest: e88869e2a5efb66cb1c6082991232574c1873409b7841a583d68ff0052508b37
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.0.tgz
+    version: 1.2.0
   chart-operator:
   - apiVersion: v1
     created: "2019-10-23T15:07:54.129636505Z"
@@ -180,4 +187,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-10-23T18:18:19.392212854Z"
+generated: "2019-10-23T18:18:30.416535016Z"
