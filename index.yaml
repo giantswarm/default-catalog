@@ -113,6 +113,16 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-0.9.0.tgz
     version: 0.9.0
+  coredns-app:
+  - apiVersion: v1
+    appVersion: 1.6.2
+    created: "2019-10-24T12:26:02.672168088Z"
+    description: A Helm chart for CoreDNS
+    digest: 5af6887eddea1a2e420bc8b655d94f15974a4dc84e4a0d27aa9bb56f67fcab50
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/coredns-app-0.9.0.tgz
+    version: 0.9.0
   external-dns-app:
   - apiVersion: v1
     appVersion: v0.5.11
@@ -187,4 +197,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-10-23T18:18:30.416535016Z"
+generated: "2019-10-24T12:26:02.671565701Z"
