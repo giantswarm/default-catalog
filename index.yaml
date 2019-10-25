@@ -142,6 +142,18 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/external-dns-app-0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472.tgz
     version: 0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472
+  kiam-app:
+  - apiVersion: v1
+    appVersion: "3.4"
+    created: "2019-10-25T12:35:53.351824065Z"
+    description: Integrate AWS IAM with Kubernetes
+    digest: 60875f6107dd81f4496a026d3193a43be27fa64e74b5751832be30d54db71891
+    home: https://github.com/uswitch/kiam
+    icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
+    name: kiam-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/kiam-app-0.1.0.tgz
+    version: 0.1.0
   kube-state-metrics-app:
   - apiVersion: v1
     appVersion: v1.8.0
@@ -197,4 +209,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-10-24T12:26:02.671565701Z"
+generated: "2019-10-25T12:35:53.351069875Z"
