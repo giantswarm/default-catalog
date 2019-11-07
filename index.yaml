@@ -132,6 +132,14 @@ entries:
     version: 0.9.0
   cluster-autoscaler-app:
   - apiVersion: v1
+    created: "2019-11-07T14:33:56.037453627Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: 07ec4087d00feea827ab4804908496180f5d5d48d750eb4d5853b045a7de7fd6
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     created: "2019-10-29T17:18:16.316813419Z"
     description: A Helm chart for the cluster autoscaler.
     digest: aa29c4f6cfa1779cbe7dbd8f18be0aa5c3aeaea7415a1ed399190edeacd01057
@@ -289,4 +297,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-11-01T10:31:36.338676687Z"
+generated: "2019-11-07T14:33:56.03704533Z"
