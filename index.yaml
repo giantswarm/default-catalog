@@ -165,6 +165,15 @@ entries:
     version: 0.9.0
   coredns-app:
   - apiVersion: v1
+    appVersion: 1.6.5
+    created: "2019-11-20T04:06:30.227781996Z"
+    description: A Helm chart for CoreDNS
+    digest: 5ef353c5bf1ddd91e2544049d7e355e4351e64aca9c1e052e230868d7f5020d3
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
     appVersion: 1.6.2
     created: "2019-10-29T17:19:38.031699296Z"
     description: A Helm chart for CoreDNS
@@ -308,4 +317,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-11-15T14:20:19.26432409Z"
+generated: "2019-11-20T04:06:30.227321089Z"
