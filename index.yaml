@@ -383,6 +383,12 @@ entries:
     - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.0.tgz
     version: 0.4.0
   net-exporter:
+  - created: "2019-12-27T19:27:20.412878466Z"
+    digest: 3ff69d0447dd45826b594fc21e3f9a6e2ee6d080652bff083039d019504ab881
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.com/default-catalog/net-exporter-1.4.3.tgz
+    version: 1.4.3
   - created: "2019-12-24T14:34:21.869951046Z"
     digest: 3a4df5dbc572bfe58beab57f562015b80aef387fed4b1b3a9aa667dfc9820d24
     name: net-exporter
@@ -446,4 +452,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-12-27T13:27:52.296157907Z"
+generated: "2019-12-27T19:27:20.412312367Z"
