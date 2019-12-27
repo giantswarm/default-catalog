@@ -1,6 +1,12 @@
 apiVersion: v1
 entries:
   cert-exporter:
+  - created: "2019-12-27T11:02:42.55022096Z"
+    digest: 9eea01fff90698696bde6d5a5e28d86100c162326bb6fee78cd9e9683396805b
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.1.tgz
+    version: 1.2.1
   - created: "2019-10-23T18:18:30.417065518Z"
     digest: e88869e2a5efb66cb1c6082991232574c1873409b7841a583d68ff0052508b37
     name: cert-exporter
@@ -395,4 +401,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-12-24T14:34:21.869578066Z"
+generated: "2019-12-27T11:02:42.549684028Z"
