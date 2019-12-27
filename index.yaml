@@ -15,6 +15,15 @@ entries:
     version: 1.2.0
   cert-manager-app:
   - appVersion: 0.9.0
+    created: "2019-12-27T12:56:51.476162358Z"
+    description: Certificate management controller
+    digest: 5a5aaf10b96d217fe188a0478154c7609fe057e8b02fd111da9e65603718fa8d
+    home: https://github.com/jetstack/cert-manager
+    name: cert-manager-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.2.tgz
+    version: 1.0.2
+  - appVersion: 0.9.0
     created: "2019-12-04T11:35:07.725984258Z"
     description: Certificate management controller
     digest: d6a820fd36410c819777622ada49474c8ff724f2af6f7e2b66a1c778bd1a1821
@@ -426,4 +435,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2019-12-27T11:42:24.896283421Z"
+generated: "2019-12-27T12:56:51.47533865Z"
