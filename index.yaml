@@ -15,6 +15,14 @@ entries:
     version: 1.2.0
   cert-manager-app:
   - appVersion: 0.9.0
+    created: "2020-02-19T13:16:22.379137463Z"
+    description: A Helm chart for cert-manager
+    digest: e91c1d6b6fa8f78acb93a72bb66f1b8b225a63e0f937d95924655377095467a1
+    name: cert-manager-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.5.tgz
+    version: 1.0.5
+  - appVersion: 0.9.0
     created: "2020-01-15T12:40:37.461389506Z"
     description: Certificate management controller
     digest: a79d25f8d8839ad28586b6d620f9ecb1ac449bb80d0c1f7e8929a47ab56abd9b
@@ -722,4 +730,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2020-02-18T10:47:42.554778846Z"
+generated: "2020-02-19T13:16:22.378326272Z"
