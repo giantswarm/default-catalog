@@ -80,6 +80,14 @@ entries:
     version: 1.0.0
   chart-operator:
   - apiVersion: v1
+    created: "2020-02-28T10:16:06.593105965Z"
+    description: A Helm chart for the chart-operator
+    digest: af3ec4e3cfbf93538aee4172a8da6a9669e10df321d3f80c1aa4c6c6ca82e89f
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.5.tgz
+    version: 0.11.5
+  - apiVersion: v1
     created: "2020-01-29T11:40:03.674652684Z"
     description: A Helm chart for the chart-operator
     digest: 4a53b075a0725c7ee8515d3e68fd92373072c81db0646dd985805de45668896d
@@ -781,4 +789,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2020-02-28T09:50:04.779652435Z"
+generated: "2020-02-28T10:16:06.592621648Z"
