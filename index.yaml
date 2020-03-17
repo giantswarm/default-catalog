@@ -876,4 +876,15 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
-generated: "2020-03-14T19:01:04.556071214Z"
+  test-app:
+  - apiVersion: v1
+    appVersion: v1.8.0
+    created: "2020-03-17T09:05:48.974109247Z"
+    description: A Helm chart for a test app
+    digest: 80c5c75816f97a057d3d7eb45ecbb0eafae369fd8ee926488f9e7073e163ae2b
+    home: https://github.com/giantswarm/test-app
+    name: test-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-17T09:05:48.973705173Z"
