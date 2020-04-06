@@ -86,6 +86,17 @@ entries:
     version: 1.0.0
   chart-operator:
   - apiVersion: v1
+    appVersion: 1.0.0-alpha.1
+    created: "2020-04-01T20:13:58.711289Z"
+    description: A Helm chart for the chart-operator
+    digest: 519e4db3e02f3f5932fe1c772b84fb1be8a2bd8eb99b2255181d19c2ed4222f7
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.0-alpha.1.tgz
+    version: 1.0.0-alpha.1
+  - apiVersion: v1
+    created: "0001-01-01T00:00:00Z"
     description: A Helm chart for the chart-operator
     digest: d38dfdbc166b44e9ec171d77f0e6651b037301f8b2fe59f7be9755e9e31b2575
     name: chart-operator
@@ -260,16 +271,6 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
-  - apiVersion: v1
-    appVersion: 1.0.0-alpha.1
-    created: "2020-04-01T20:13:58.711289Z"
-    description: A Helm chart for the chart-operator
-    digest: 519e4db3e02f3f5932fe1c772b84fb1be8a2bd8eb99b2255181d19c2ed4222f7
-    home: https://github.com/giantswarm/chart-operator
-    name: chart-operator
-    urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.0-alpha.1.tgz
-    version: 1.0.0-alpha.1
   cluster-autoscaler-app:
   - apiVersion: v1
     created: "2020-02-05T12:54:15.266719146Z"
@@ -721,6 +722,17 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
+  loadtest-app:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2020-04-06T15:13:43.114958388Z"
+    description: A Helm chart for Load Test App
+    digest: 6245fd42982262afda690a9039efe9c3d6c3e4d49360b6fe5fd6db2076b016fa
+    home: https://github.com/giantswarm/loadtest-app
+    name: loadtest-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/loadtest-app-0.1.0.tgz
+    version: 0.1.0
   metrics-server-app:
   - apiVersion: v1
     appVersion: 0.3.3
@@ -1016,4 +1028,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-01T11:22:22.613033515Z"
+generated: "2020-04-06T15:13:43.114492164Z"
