@@ -85,7 +85,16 @@ entries:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.0.tgz
     version: 1.0.0
   chart-operator:
-
+  - apiVersion: v1
+    appVersion: 1.0.0-alpha.1
+    created: "2020-04-01T20:13:58.711289Z"
+    description: A Helm chart for the chart-operator
+    digest: 519e4db3e02f3f5932fe1c772b84fb1be8a2bd8eb99b2255181d19c2ed4222f7
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.0-alpha.1.tgz
+    version: 1.0.0-alpha.1
   - apiVersion: v1
     created: "0001-01-01T00:00:00Z"
     description: A Helm chart for the chart-operator
@@ -262,16 +271,6 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
-  - apiVersion: v1
-    appVersion: 1.0.0-alpha.1
-    created: "2020-04-01T20:13:58.711289Z"
-    description: A Helm chart for the chart-operator
-    digest: 519e4db3e02f3f5932fe1c772b84fb1be8a2bd8eb99b2255181d19c2ed4222f7
-    home: https://github.com/giantswarm/chart-operator
-    name: chart-operator
-    urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.0-alpha.1.tgz
-    version: 1.0.0-alpha.1
   cluster-autoscaler-app:
   - apiVersion: v1
     created: "2020-02-05T12:54:15.266719146Z"
@@ -836,6 +835,17 @@ entries:
   nginx-ingress-controller-app:
   - apiVersion: v1
     appVersion: v0.30.0
+    created: "2020-04-07T22:13:05.382459098Z"
+    description: A Helm chart for the nginx ingress-controller
+    digest: c635d0527a7f825e058b55dc9951c7c706380f0a0d9de947d1f5319a5c48a20e
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    name: nginx-ingress-controller-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.7.tgz
+    version: 1.6.7
+  - apiVersion: v1
+    appVersion: v0.30.0
     created: "2020-04-01T11:18:43.733590005Z"
     description: A Helm chart for the nginx ingress-controller
     digest: 0288ae3dd8b84bfdc7fa6862bd65ad5d5d46c97e96a4e160b6f9d62e54ea871f
@@ -1039,4 +1049,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-07T07:25:24.871125848Z"
+generated: "2020-04-07T22:13:05.380888015Z"
