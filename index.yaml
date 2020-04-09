@@ -825,6 +825,19 @@ entries:
   nginx-ingress-controller-app:
   - apiVersion: v1
     appVersion: v0.30.0
+    created: "2020-04-09T09:34:23.119825383Z"
+    description: A Helm chart for the nginx ingress-controller
+    digest: 34bd34c75720004f3b9b8c1abc55793f11f418f4f54ddb6467e6ab9f54d9f4b8
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    name: nginx-ingress-controller-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/1.6.8/README.md
+    urls:
+    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.8.tgz
+    version: 1.6.8
+  - apiVersion: v1
+    appVersion: v0.30.0
     created: "2020-04-07T22:13:05.382459098Z"
     description: A Helm chart for the nginx ingress-controller
     digest: c635d0527a7f825e058b55dc9951c7c706380f0a0d9de947d1f5319a5c48a20e
@@ -1039,4 +1052,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-07T22:13:05.380888015Z"
+generated: "2020-04-09T09:34:23.119044198Z"
