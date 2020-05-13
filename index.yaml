@@ -552,6 +552,16 @@ entries:
   helm-2to3-migration:
   - apiVersion: v1
     appVersion: 0.5.0
+    created: "2020-05-13T07:58:57.190720264Z"
+    description: A Helm chart to create a job for helmV3 migration.
+    digest: a0dca40c7dc64e5aede22f590930d7768452b1566415bee94f9cafb4ef6d5d9b
+    home: https://github.com/giantswarm/helm-2to3-migration
+    name: helm-2to3-migration
+    urls:
+    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
+    appVersion: 0.5.0
     created: "2020-05-11T19:31:31.491849525Z"
     description: A Helm chart to create a job for helmV3 migration.
     digest: cfb23011a278ac168f1ee956c09fc3461fed2987232fac2b88f4c76e34a8133c
@@ -1160,4 +1170,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-11T19:31:31.491169475Z"
+generated: "2020-05-13T07:58:57.190279266Z"
