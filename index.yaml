@@ -528,6 +528,15 @@ entries:
   external-dns-app:
   - apiVersion: v1
     appVersion: v0.5.18
+    created: "2020-05-29T08:59:35.070951853Z"
+    description: A Helm chart for the external-dns
+    digest: 58d7cb4048390a78e86d66058184a5b74c80f4f00af4b4a16b1a9ce4a6576fac
+    name: external-dns-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/external-dns-app-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: v0.5.18
     created: "2020-02-04T10:55:32.228316529Z"
     description: A Helm chart for the external-dns
     digest: 50911037be1da78d3e0e9615762f8e3225ca02fa630553cf0656d47dc6a4b92f
@@ -1325,4 +1334,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-27T14:44:52.711243048Z"
+generated: "2020-05-29T08:59:35.07051596Z"
