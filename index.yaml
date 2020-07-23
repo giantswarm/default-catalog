@@ -947,6 +947,16 @@ entries:
     version: 0.1.0
   kube-state-metrics-app:
   - apiVersion: v1
+    appVersion: v1.9.7
+    created: "2020-07-23T05:18:52.066035672Z"
+    description: A Helm chart for the Kubernetes kube-state-metrics service
+    digest: cba32ae80aec5769638e1ccf1f7ecacf3ae0cc5b68b0998f796ca69f59bcc79f
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    name: kube-state-metrics-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v1
     appVersion: v1.9.5
     created: "2020-06-17T15:19:32.731935923Z"
     description: A Helm chart for the Kubernetes kube-state-metrics service
@@ -1613,4 +1623,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-22T15:24:07.466348219Z"
+generated: "2020-07-23T05:18:52.065468061Z"
