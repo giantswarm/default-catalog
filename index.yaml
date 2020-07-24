@@ -132,6 +132,16 @@ entries:
     version: 1.0.0
   chart-operator:
   - apiVersion: v1
+    appVersion: 1.0.6
+    created: "2020-07-24T09:30:50.167291247Z"
+    description: A Helm chart for the chart-operator
+    digest: b0ed3a1ae1d567bbbd83da3ddc4ac872fdfd2b25aa5ad1b1047c8b7a65528f55
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v1
     appVersion: 1.0.5
     created: "2020-07-15T07:44:04.877880955Z"
     description: A Helm chart for the chart-operator
@@ -1687,4 +1697,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-23T13:29:30.176665655Z"
+generated: "2020-07-24T09:30:50.166582643Z"
