@@ -1128,6 +1128,16 @@ entries:
   loadtest-app:
   - apiVersion: v1
     appVersion: 0.0.1
+    created: "2020-08-11T12:21:58.361994598Z"
+    description: A Helm chart for Load Test App
+    digest: ba56ef45049c5bfb3ce230f8fa610b1518dc4d56a596c4ec554c22eec99d6541
+    home: https://github.com/giantswarm/loadtest-app
+    name: loadtest-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/loadtest-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.0.1
     created: "2020-07-14T11:42:33.502876842Z"
     description: A Helm chart for Load Test App
     digest: f3365aea7d10860a1cd3aac53f3607760aecec3a73494d3f83c982063278dbfa
@@ -1829,4 +1839,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-06T16:05:49.784505155Z"
+generated: "2020-08-11T12:21:58.361142241Z"
