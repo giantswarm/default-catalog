@@ -1324,6 +1324,16 @@ entries:
     version: 0.4.0
   net-exporter:
   - apiVersion: v1
+    appVersion: 1.9.1
+    created: "2020-08-19T13:19:56.039611147Z"
+    description: Helm chart for net-exporter.
+    digest: 6c17c61e0e0def71867edd19b27ffdfb9073e8ee6b798076ab96867c16b97c1d
+    home: https://github.com/giantswarm/net-exporter
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.com/default-catalog/net-exporter-1.9.1.tgz
+    version: 1.9.1
+  - apiVersion: v1
     appVersion: 1.9.0
     created: "2020-07-20T13:39:25.97449538+02:00"
     description: Helm chart for net-exporter.
@@ -1963,4 +1973,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-19T12:26:22.239917539Z"
+generated: "2020-08-19T13:19:56.038915739Z"
