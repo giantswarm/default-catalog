@@ -935,6 +935,17 @@ entries:
   kiam-app:
   - apiVersion: v1
     appVersion: "3.6"
+    created: "2020-08-19T09:30:51.567212334Z"
+    description: Integrate AWS IAM with Kubernetes
+    digest: 3eb2ec3d064e370e0f2430b10da3705e83fa535c371c0689782d517060c8643d
+    home: https://github.com/uswitch/kiam
+    icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
+    name: kiam-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/kiam-app-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v1
+    appVersion: "3.6"
     created: "2020-08-05T16:09:59.613079515Z"
     description: Integrate AWS IAM with Kubernetes
     digest: 02cdaff52b0556a908f9ac3f49991e959d94961241fd6263c06d2877994d92c3
@@ -1929,4 +1940,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-19T07:54:34.823414688Z"
+generated: "2020-08-19T09:30:51.56568595Z"
