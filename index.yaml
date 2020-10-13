@@ -2052,6 +2052,16 @@ entries:
   node-exporter-app:
   - apiVersion: v1
     appVersion: v1.0.1
+    created: "2020-10-13T10:19:02.249919059Z"
+    description: A Helm chart for Kubernetes Node-Exporter Service
+    digest: 0a3016553fc7ea3d69803104ff775e3eda1eb383bca1be2b533ce9e792c72cd9
+    home: https://github.com/giantswarm/node-exporter-app
+    name: node-exporter-app
+    urls:
+    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v1
+    appVersion: v1.0.1
     created: "2020-09-30T12:27:25.065104172Z"
     description: A Helm chart for Kubernetes Node-Exporter Service
     digest: f5367c4e06faf839dc15691d333f2e21ee9eddbc85799867da5a66eebf1e54be
@@ -2262,4 +2272,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-08T07:35:45.489923796Z"
+generated: "2020-10-13T10:19:02.249354745Z"
