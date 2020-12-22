@@ -188,9 +188,9 @@ entries:
   azure-scheduledevents-manager-app:
   - apiVersion: v1
     appVersion: 20.11.0
-    created: "2020-12-22T15:00:58.668882676Z"
+    created: "2020-12-22T15:08:21.330829925Z"
     description: A Helm chart for azure-scheduledevents-manager
-    digest: 014b4bd8642d18864f8fbb6bee5996d9c49ba64a4564c936597275f9f3521f98
+    digest: 2c04f52f2ab68d226791b99d8b3810a881ec2e75f58b4814ed35bde5ad31b2af
     home: https://github.com/giantswarm/azure-scheduledevents-manager-app
     icon: https://some.domain.com/logo.png
     name: azure-scheduledevents-manager-app
@@ -2806,4 +2806,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T15:00:58.66831158Z"
+generated: "2020-12-22T15:08:21.330041375Z"
