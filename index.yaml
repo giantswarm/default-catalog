@@ -170,6 +170,21 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.1.tgz
     version: 0.0.1
+  azure-scheduledevents-manager:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2020-12-22T13:57:28.304495917Z"
+    description: A Helm chart for azure-scheduledevents-manager
+    digest: 3aa42d78f82bab3bcc800be789f878cb77cbc2c44dbcd7966a559d01db566670
+    home: https://github.com/giantswarm/azure-scheduledevents-manager-app
+    icon: https://some.domain.com/logo.png
+    name: azure-scheduledevents-manager
+    sources:
+    - https://github.com/giantswarm/azure-scheduledevents-manager-app
+    - https://github.com/webdevops/azure-scheduledevents-manager
+    urls:
+    - https://giantswarm.github.com/default-catalog/azure-scheduledevents-manager-20.11.0.tgz
+    version: 20.11.0
   cert-exporter:
   - apiVersion: v1
     appVersion: 1.4.0
@@ -2776,4 +2791,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T12:08:19.08799303Z"
+generated: "2020-12-22T13:57:28.303813656Z"
