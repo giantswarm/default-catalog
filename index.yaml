@@ -276,6 +276,22 @@ entries:
     version: 1.2.0
   cert-manager-app:
   - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.1/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.1/helm/cert-manager-app/values.schema.json
+    apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-01-19T09:43:30.046108166Z"
+    description: A Helm chart for cert-manager
+    digest: a996f4181b3aceb10c052fc9a08a9644290ec921c15927e96a53daf757bed6c9
+    home: https://github.com/giantswarm/cert-manager-app
+    icon: https://s.giantswarm.io/app-icons/1/png/cert-manager-app-light.png
+    name: cert-manager-app
+    sources:
+    - https://github.com/jetstack/cert-manager
+    urls:
+    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.4.1.tgz
+    version: 2.4.1
+  - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.0/README.md
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.0/helm/cert-manager-app/values.schema.json
     apiVersion: v1
@@ -2979,4 +2995,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-13T13:43:58.138687807Z"
+generated: "2021-01-19T09:43:30.037168545Z"
