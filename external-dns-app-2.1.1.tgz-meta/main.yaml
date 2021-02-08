@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: external-dns-app-2.1.1.tgz
+dateCreated: '2021-02-08T12:41:43+00:00'
+digest: e17ecdabdd1563ae2c42562d940d3ae9a377db10340d0ac0f685d058b7f40046
