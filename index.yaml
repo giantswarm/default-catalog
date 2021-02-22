@@ -187,6 +187,19 @@ entries:
   azure-scheduled-events-app:
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2021-02-22T08:36:10.641412092Z"
+    description: A Helm chart for azure-scheduled-events
+    digest: c306252bf6f7801c8e361f1299b01d36f83f3576fe0bc3f1f2b29cd3a4657099
+    home: https://github.com/giantswarm/azure-scheduled-events
+    icon: https://some.domain.com/logo.png
+    name: azure-scheduled-events-app
+    sources:
+    - https://github.com/giantswarm/azure-scheduled-events
+    urls:
+    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2021-01-27T10:09:30.077607118Z"
     description: A Helm chart for azure-scheduled-events
     digest: a76bbb797d7a42fb7128839c859bf99024f61c0b5459ab421c3ce27c7f079c87
@@ -3366,4 +3379,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-10T13:54:35.30109846Z"
+generated: "2021-02-22T08:36:10.640093296Z"
