@@ -685,6 +685,18 @@ entries:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.0.tgz
     version: 1.0.0
   chart-operator:
+  - annotations:
+      application.giantswarm.io/team: batman
+    apiVersion: v1
+    appVersion: 2.10.0
+    created: "2021-03-17T13:48:23.92969392Z"
+    description: A Helm chart for the chart-operator
+    digest: abec1e3715cfa75d736d876b46d43b2e253c906774337161d80b905422da6ebe
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.10.0.tgz
+    version: 2.10.0
   - apiVersion: v1
     appVersion: 2.9.0
     created: "2021-02-03T10:20:42.65752312Z"
@@ -3478,4 +3490,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-01T07:38:22.934838549Z"
+generated: "2021-03-17T13:48:23.928295172Z"
