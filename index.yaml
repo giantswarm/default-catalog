@@ -267,6 +267,19 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/azure-scheduledevents-manager-app-20.11.0.tgz
     version: 20.11.0
+  calico:
+  - apiVersion: v1
+    appVersion: 3.18.0
+    created: "2021-03-18T09:09:55.187373462Z"
+    description: A Helm chart for projectcalico/calico
+    digest: 5ada8fdd28b2f5ede013a5442db77c0439ec29d27215f27c4ba44cc8463cc8fe
+    home: https://github.com/giantswarm/calico-app
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://giantswarm.github.com/default-catalog/calico-0.1.0.tgz
+    version: 0.1.0
   cert-exporter:
   - apiVersion: v1
     appVersion: 1.6.0
@@ -3490,4 +3503,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-17T13:48:23.928295172Z"
+generated: "2021-03-18T09:09:55.185255301Z"
