@@ -283,6 +283,18 @@ entries:
   calico:
   - apiVersion: v1
     appVersion: 3.18.0
+    created: "2021-03-22T11:22:54.914731887Z"
+    description: A Helm chart for projectcalico/calico
+    digest: 42572fea85d7c891159cfb4fa29887c31d83b33ca33078ba04752eb0f0cfc084
+    home: https://github.com/giantswarm/calico-app
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://giantswarm.github.com/default-catalog/calico-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 3.18.0
     created: "2021-03-18T09:09:55.187373462Z"
     description: A Helm chart for projectcalico/calico
     digest: 5ada8fdd28b2f5ede013a5442db77c0439ec29d27215f27c4ba44cc8463cc8fe
@@ -3528,4 +3540,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T15:47:29.432527688Z"
+generated: "2021-03-22T11:22:54.913249561Z"
