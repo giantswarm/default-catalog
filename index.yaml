@@ -309,8 +309,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.6.0
     created: "2021-01-27T10:49:14.385984399Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: 2c9a66429c3699cdca7e36c69c4e074fd5b3182c8d1c16dfb29e0c7e9af8498e
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
@@ -320,8 +319,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.5.0
     created: "2021-01-05T13:41:52.165025218Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: 08cb8f465c842bacb5ed2e8b756d9c8da979281e1c81e7cb7bced0d7af4deddf
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
@@ -331,8 +329,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.0
     created: "2020-12-02T17:18:42.323213655Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: cbbeb3c047d064f8f810dbdc1ab24e00cd50cdc59cedbc9d4d4a7d70c99b2ec2
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
@@ -342,8 +339,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.3.0
     created: "2020-09-17T12:08:07.229317989Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: 4b889d6a329aaaec60665fd7f4958b66a42789c85fe0b2fe88308f2b692ae578
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
@@ -353,8 +349,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.4
     created: "2020-08-13T11:58:23.963780943Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: 35a3b62bacd1fccbf7f5bcbd8b01023f6d32547e48211a810606112c52567ccf
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
@@ -364,27 +359,29 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.3
     created: "2020-05-15T16:08:36.670689261Z"
-    description: The cert-exporter walks a directory path it has gotten as input and
-      emits all NotAfter timestamps as metrics.
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     digest: c1840f880d9d0c4d87ad00dec11b40ea0401bc16008e4a7aafd96799f93ac90e
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.3.tgz
     version: 1.2.3
-  - created: "2020-04-01T11:19:19.303585721Z"
+  - apiVersion: v1
+    created: "2020-04-01T11:19:19.303585721Z"
     digest: bc1802ace98768f006534b9ef15be308aae9db3bc019ed83aab4d9734dbd053b
     name: cert-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.2.tgz
     version: 1.2.2
-  - created: "2019-12-27T11:02:42.55022096Z"
+  - apiVersion: v1
+    created: "2019-12-27T11:02:42.55022096Z"
     digest: 9eea01fff90698696bde6d5a5e28d86100c162326bb6fee78cd9e9683396805b
     name: cert-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.1.tgz
     version: 1.2.1
-  - created: "2019-10-23T18:18:30.417065518Z"
+  - apiVersion: v1
+    created: "2019-10-23T18:18:30.417065518Z"
     digest: e88869e2a5efb66cb1c6082991232574c1873409b7841a583d68ff0052508b37
     name: cert-exporter
     urls:
@@ -669,7 +666,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.6.tgz
     version: 1.0.6
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2020-02-19T13:16:22.379137463Z"
     description: A Helm chart for cert-manager
     digest: e91c1d6b6fa8f78acb93a72bb66f1b8b225a63e0f937d95924655377095467a1
@@ -677,7 +675,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.5.tgz
     version: 1.0.5
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2020-01-15T12:40:37.461389506Z"
     description: Certificate management controller
     digest: a79d25f8d8839ad28586b6d620f9ecb1ac449bb80d0c1f7e8929a47ab56abd9b
@@ -686,7 +685,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.4.tgz
     version: 1.0.4
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2020-01-03T21:19:58.893087002Z"
     description: Certificate management controller
     digest: 4da7ecb0fa89cd149d587d300f9c51acb343b72fd271916b55778154c540c839
@@ -695,7 +695,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.3.tgz
     version: 1.0.3
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2019-12-27T12:56:51.476162358Z"
     description: Certificate management controller
     digest: 5a5aaf10b96d217fe188a0478154c7609fe057e8b02fd111da9e65603718fa8d
@@ -704,7 +705,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.2.tgz
     version: 1.0.2
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2019-12-04T11:35:07.725984258Z"
     description: Certificate management controller
     digest: d6a820fd36410c819777622ada49474c8ff724f2af6f7e2b66a1c778bd1a1821
@@ -713,7 +715,8 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.1.tgz
     version: 1.0.1
-  - appVersion: 0.9.0
+  - apiVersion: v1
+    appVersion: 0.9.0
     created: "2019-10-28T15:21:44.146024533Z"
     description: Certificate management controller
     digest: 3e054256f5227848df7007e2f980968a5aaaf39d7a64f99af3a4e675130d3c99
@@ -1566,6 +1569,23 @@ entries:
     version: 0.9.0
   external-dns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-app-2.2.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-app-2.2.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-03-24T15:07:53.871168533Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 970b98eb2b2611d171d49c57644a1d2b197392dfdb783ad4b4053add2909b7a0
+    home: https://github.com/giantswarm/external-dns-app
+    icon: https://s.giantswarm.io/app-icons/1/png/external-dns-app-light.png
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.2.0.tgz
+    version: 2.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz-meta/values.schema.json
@@ -2408,61 +2428,71 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.8.0.tgz
     version: 1.8.0
-  - created: "2020-04-01T11:22:22.613610737Z"
+  - apiVersion: v1
+    created: "2020-04-01T11:22:22.613610737Z"
     digest: 7a38d5d5fd6fda1db72484710c595c9d60756f70777c13ef98255c9224adddd0
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.7.1.tgz
     version: 1.7.1
-  - created: "2020-03-20T11:45:38.236605473Z"
+  - apiVersion: v1
+    created: "2020-03-20T11:45:38.236605473Z"
     digest: 06df0cc05c1a242297d45f466941108e0ba6fbf80c2a1fadf2ccf1ccf55d25dc
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.7.0.tgz
     version: 1.7.0
-  - created: "2020-01-29T10:05:22.769790728Z"
+  - apiVersion: v1
+    created: "2020-01-29T10:05:22.769790728Z"
     digest: f22e3e6742d801c4386be351c6a134f110b634a82b34844068f51677dd0d3a0d
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.6.0.tgz
     version: 1.6.0
-  - created: "2020-01-08T13:32:17.02449831Z"
+  - apiVersion: v1
+    created: "2020-01-08T13:32:17.02449831Z"
     digest: 47c2f9309d501b64d6b76be12f51425213959d526bc9e0365fe94f5abd86bff3
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.5.1.tgz
     version: 1.5.1
-  - created: "2020-01-07T16:04:41.665111096Z"
+  - apiVersion: v1
+    created: "2020-01-07T16:04:41.665111096Z"
     digest: 9a931f9ff55718167ef56dd4de50a3f9c893c22a0f4406845c8ae5be80d498c0
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.5.0.tgz
     version: 1.5.0
-  - created: "2019-12-27T19:27:20.412878466Z"
+  - apiVersion: v1
+    created: "2019-12-27T19:27:20.412878466Z"
     digest: 3ff69d0447dd45826b594fc21e3f9a6e2ee6d080652bff083039d019504ab881
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.4.3.tgz
     version: 1.4.3
-  - created: "2019-12-24T14:34:21.869951046Z"
+  - apiVersion: v1
+    created: "2019-12-24T14:34:21.869951046Z"
     digest: 3a4df5dbc572bfe58beab57f562015b80aef387fed4b1b3a9aa667dfc9820d24
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.4.2.tgz
     version: 1.4.2
-  - created: "2019-12-24T14:28:41.9327468Z"
+  - apiVersion: v1
+    created: "2019-12-24T14:28:41.9327468Z"
     digest: 102ae6847d889f0f83b876a7ba44f407469a6e74b593a578a130fe8d1f85bc33
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.4.1.tgz
     version: 1.4.1
-  - created: "2019-11-21T09:34:36.419380863Z"
+  - apiVersion: v1
+    created: "2019-11-21T09:34:36.419380863Z"
     digest: ceec6849f306966b90fa7df55df9955c27ad8be9db26adb0da3a69546316a189
     name: net-exporter
     urls:
     - https://giantswarm.github.com/default-catalog/net-exporter-1.4.0.tgz
     version: 1.4.0
-  - created: "2019-10-23T18:18:19.39269824Z"
+  - apiVersion: v1
+    created: "2019-10-23T18:18:19.39269824Z"
     digest: 235276177c694647b7c2145ef5bc41b2108de4f258a3120767ecc977c597659f
     name: net-exporter
     urls:
@@ -3100,10 +3130,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 6.4.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 471ea59ddf3651c6adff8cc4f82ff4b9855010cd56962c1b7a428c7960eaa99d
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -3155,10 +3182,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: e6bd0533f964ba3fbb7fc6a4c829e0ce6468865f3cd32c118269110e1bf01fc1
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -3210,10 +3234,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 31e619075b43dd537b0263372abe17289d4543ded0ffb134b1835901990e42d3
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -3265,10 +3286,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 1d94977916aec3e79dded4cd6d73751158c28cec1faa6bf931a08ef6162a130e
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -3320,10 +3338,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.8.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: f556a6a25b5f1f882ea525deb269083f967023b3c1bc244a8c1260f674260275
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
@@ -3374,10 +3389,7 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 5.7.*
-    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
-      and Prometheus rules combined with documentation and scripts to provide easy
-      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
-      Prometheus Operator.
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
     digest: 99607e15896f6926e5960a004eea74d53735f7f634fc5a2321bbf3bb6b6aa81f
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3421,8 +3433,7 @@ entries:
       name: grafana
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 5.3.*
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: b716b6962e3fbbcbac6617a0feac55f3a319c235daecd16effd525f5277fd055
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3441,8 +3452,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-06-16T11:44:46.198934047Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: d21908f7f0adf79361f54a3e52858e65329077ae29a7338cb4059ad4f918778a
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3461,8 +3471,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-27T14:44:52.729413883Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 3524d84f1c9e1135cb7e4eee77bee8a84b977059bfaa69103078114571e85307
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3478,8 +3487,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-20T14:17:23.288843057Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 24ac01e2a83f85cde2a6e3fffca3cfd3fd38e76f428008378a00b2332153c6ce
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3495,8 +3503,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.38.1
     created: "2020-05-20T13:06:05.685397925Z"
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
+    description: Provides easy monitoring definitions for Kubernetes services, and deployment and management of Prometheus instances.
     digest: 2921ec54241899def8b29cf725f413f89fdafbe1b4b3bf21fead9bcd4c301c1e
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -3540,4 +3547,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-22T11:22:54.913249561Z"
+generated: "2021-03-24T15:07:53.870321623Z"
