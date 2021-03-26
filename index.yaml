@@ -1247,6 +1247,22 @@ entries:
     - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
   cluster-autoscaler-app:
+  - annotations:
+      application.giantswarm.io/owners: |
+        - catalog: control-plane-catalog
+          team: biscuit
+        - catalog: control-plane-test-catalog
+          team: biscuit
+    apiVersion: v1
+    appVersion: v1.20.0
+    created: "2021-03-26T15:35:24.023495852Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: 23b9d4f517a0c242ae17088afc23ab300158d199ea102cab7c5d239b64109d2a
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.20.2.tgz
+    version: 1.20.2
   - apiVersion: v1
     appVersion: v1.20.0
     created: "2020-12-17T21:17:57.160288434Z"
@@ -3624,4 +3640,4 @@ entries:
     urls:
     - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-26T15:30:46.346737881Z"
+generated: "2021-03-26T15:35:24.022864982Z"
