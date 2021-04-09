@@ -12,7 +12,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.13/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.13.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.13.tgz
     version: 0.0.13
   - apiVersion: v1
     appVersion: 0.7.1
@@ -25,7 +25,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.12/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.12.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.12.tgz
     version: 0.0.12
   - apiVersion: v1
     appVersion: 0.7.1
@@ -38,7 +38,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.11/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.11.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.11.tgz
     version: 0.0.11
   - apiVersion: v1
     appVersion: 0.7.1
@@ -51,7 +51,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.10/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.10.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.10.tgz
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.7.0
@@ -64,7 +64,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.9/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.9.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.9.tgz
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.7.0
@@ -77,7 +77,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.8/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.8.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.7.0
@@ -90,7 +90,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.7/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.7.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.7.0
@@ -103,7 +103,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.6/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.6.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.7.0
@@ -116,7 +116,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.5/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.5.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.7.0
@@ -129,7 +129,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.4/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.4.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.7.0
@@ -142,7 +142,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.3/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.3.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
     appVersion: 0.7.0
@@ -155,7 +155,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.2/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: 0.7.0
@@ -168,7 +168,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.1/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/aws-ebs-csi-driver-app-0.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-0.0.1.tgz
     version: 0.0.1
   azure-scheduled-events:
   - apiVersion: v1
@@ -182,7 +182,7 @@ entries:
     sources:
     - https://github.com/giantswarm/azure-scheduled-events
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-0.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-0.1.0.tgz
     version: 0.1.0
   azure-scheduled-events-app:
   - apiVersion: v1
@@ -209,7 +209,7 @@ entries:
     sources:
     - https://github.com/giantswarm/azure-scheduled-events
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-app-0.2.2.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-app-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.2.1
@@ -222,7 +222,7 @@ entries:
     sources:
     - https://github.com/giantswarm/azure-scheduled-events
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-app-0.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-app-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.1.0
@@ -235,7 +235,7 @@ entries:
     sources:
     - https://github.com/giantswarm/azure-scheduled-events
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-app-0.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
@@ -248,7 +248,7 @@ entries:
     sources:
     - https://github.com/giantswarm/azure-scheduled-events
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduled-events-app-0.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-app-0.1.1.tgz
     version: 0.1.1
   azure-scheduledevents-manager:
   - apiVersion: v1
@@ -263,7 +263,7 @@ entries:
     - https://github.com/giantswarm/azure-scheduledevents-manager-app
     - https://github.com/webdevops/azure-scheduledevents-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduledevents-manager-20.11.0.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduledevents-manager-20.11.0.tgz
     version: 20.11.0
   azure-scheduledevents-manager-app:
   - apiVersion: v1
@@ -278,7 +278,7 @@ entries:
     - https://github.com/giantswarm/azure-scheduledevents-manager-app
     - https://github.com/webdevops/azure-scheduledevents-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/azure-scheduledevents-manager-app-20.11.0.tgz
+    - https://giantswarm.github.io/default-catalog/azure-scheduledevents-manager-app-20.11.0.tgz
     version: 20.11.0
   calico:
   - apiVersion: v1
@@ -291,7 +291,7 @@ entries:
     sources:
     - https://github.com/projectcalico/calico
     urls:
-    - https://giantswarm.github.com/default-catalog/calico-0.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/calico-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 3.18.0
@@ -303,7 +303,7 @@ entries:
     sources:
     - https://github.com/projectcalico/calico
     urls:
-    - https://giantswarm.github.com/default-catalog/calico-0.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/calico-0.1.0.tgz
     version: 0.1.0
   cert-exporter:
   - apiVersion: v1
@@ -324,7 +324,7 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.5.0
@@ -334,7 +334,7 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.0
@@ -344,7 +344,7 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
@@ -354,7 +354,7 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.4
@@ -364,7 +364,7 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.4.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.2.4.tgz
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
@@ -374,28 +374,28 @@ entries:
     home: https://github.com/giantswarm/cert-exporter
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.3.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.2.3.tgz
     version: 1.2.3
   - apiVersion: v1
     created: "2020-04-01T11:19:19.303585721Z"
     digest: bc1802ace98768f006534b9ef15be308aae9db3bc019ed83aab4d9734dbd053b
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
     created: "2019-12-27T11:02:42.55022096Z"
     digest: 9eea01fff90698696bde6d5a5e28d86100c162326bb6fee78cd9e9683396805b
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     created: "2019-10-23T18:18:30.417065518Z"
     digest: e88869e2a5efb66cb1c6082991232574c1873409b7841a583d68ff0052508b37
     name: cert-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-exporter-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.2.0.tgz
     version: 1.2.0
   cert-manager-app:
   - annotations:
@@ -449,7 +449,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.4.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.4.2.tgz
     version: 2.4.2
   - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.1/README.md
@@ -465,7 +465,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.4.1.tgz
     version: 2.4.1
   - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.4.0/README.md
@@ -481,7 +481,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.4.0.tgz
     version: 2.4.0
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.3.3/helm/cert-manager-app/values.schema.json
@@ -496,7 +496,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.3.3.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.3.3.tgz
     version: 2.3.3
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/cert-manager-app/v2.3.2/helm/cert-manager-app/values.schema.json
@@ -511,7 +511,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.3.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.3.2.tgz
     version: 2.3.2
   - apiVersion: v1
     appVersion: 1.0.2
@@ -524,7 +524,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.3.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.3.1.tgz
     version: 2.3.1
   - apiVersion: v1
     appVersion: 1.0.2
@@ -537,7 +537,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v1
     appVersion: 0.16.1
@@ -550,7 +550,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.2.5.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.2.5.tgz
     version: 2.2.5
   - apiVersion: v1
     appVersion: 0.16.1
@@ -563,7 +563,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.2.4.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.2.4.tgz
     version: 2.2.4
   - apiVersion: v1
     appVersion: 0.16.1
@@ -576,7 +576,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.1.4.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.1.4.tgz
     version: 2.1.4
   - apiVersion: v1
     appVersion: 0.16.1
@@ -589,7 +589,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.1.3.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.1.3.tgz
     version: 2.1.3
   - apiVersion: v1
     appVersion: 0.16.1
@@ -602,7 +602,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.1.2.tgz
     version: 2.1.2
   - apiVersion: v1
     appVersion: 0.16.1
@@ -615,7 +615,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.1.1.tgz
     version: 2.1.1
   - apiVersion: v1
     appVersion: 0.16.1
@@ -628,7 +628,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
     appVersion: 0.15.2
@@ -641,7 +641,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v1
     appVersion: 0.15.2
@@ -654,7 +654,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
     appVersion: 0.15.2
@@ -667,7 +667,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-2.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.9.0
@@ -678,7 +678,7 @@ entries:
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 0.9.0
@@ -689,7 +689,7 @@ entries:
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.8.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v1
     appVersion: 0.9.0
@@ -700,7 +700,7 @@ entries:
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.7.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v1
     appVersion: 0.9.0
@@ -711,7 +711,7 @@ entries:
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.6.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v1
     appVersion: 0.9.0
@@ -720,7 +720,7 @@ entries:
     digest: e91c1d6b6fa8f78acb93a72bb66f1b8b225a63e0f937d95924655377095467a1
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.5.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v1
     appVersion: 0.9.0
@@ -730,7 +730,7 @@ entries:
     home: https://github.com/jetstack/cert-manager
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.4.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
     appVersion: 0.9.0
@@ -740,7 +740,7 @@ entries:
     home: https://github.com/jetstack/cert-manager
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.3.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v1
     appVersion: 0.9.0
@@ -750,7 +750,7 @@ entries:
     home: https://github.com/jetstack/cert-manager
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.9.0
@@ -760,7 +760,7 @@ entries:
     home: https://github.com/jetstack/cert-manager
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.9.0
@@ -770,7 +770,7 @@ entries:
     home: https://github.com/jetstack/cert-manager
     name: cert-manager-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cert-manager-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.0.tgz
     version: 1.0.0
   chart-operator:
   - annotations:
@@ -841,7 +841,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.9.0.tgz
     version: 2.9.0
   - apiVersion: v1
     appVersion: 2.8.0
@@ -851,7 +851,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.8.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.8.0.tgz
     version: 2.8.0
   - apiVersion: v1
     appVersion: 2.7.1
@@ -861,7 +861,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.7.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.7.1.tgz
     version: 2.7.1
   - apiVersion: v1
     appVersion: 2.7.0
@@ -871,7 +871,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.7.0.tgz
     version: 2.7.0
   - apiVersion: v1
     appVersion: 2.6.0
@@ -881,7 +881,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.6.0.tgz
     version: 2.6.0
   - apiVersion: v1
     appVersion: 2.5.2
@@ -891,7 +891,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.5.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.5.2.tgz
     version: 2.5.2
   - apiVersion: v1
     appVersion: 2.5.1
@@ -901,7 +901,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.5.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.5.1.tgz
     version: 2.5.1
   - apiVersion: v1
     appVersion: 2.5.0
@@ -911,7 +911,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.5.0.tgz
     version: 2.5.0
   - apiVersion: v1
     appVersion: 2.4.0
@@ -921,7 +921,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.4.0.tgz
     version: 2.4.0
   - apiVersion: v1
     appVersion: 2.3.5
@@ -931,7 +931,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.5.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.5.tgz
     version: 2.3.5
   - apiVersion: v1
     appVersion: 2.3.4
@@ -941,7 +941,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.4.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.4.tgz
     version: 2.3.4
   - apiVersion: v1
     appVersion: 2.3.3
@@ -951,7 +951,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.3.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.3.tgz
     version: 2.3.3
   - apiVersion: v1
     appVersion: 2.3.2
@@ -961,7 +961,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.2.tgz
     version: 2.3.2
   - apiVersion: v1
     appVersion: 2.3.1
@@ -971,7 +971,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.1.tgz
     version: 2.3.1
   - apiVersion: v1
     appVersion: 2.3.0
@@ -981,7 +981,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v1
     appVersion: 2.2.1
@@ -991,7 +991,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.2.1.tgz
     version: 2.2.1
   - apiVersion: v1
     appVersion: 2.2.0
@@ -1001,7 +1001,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v1
     appVersion: 2.1.0
@@ -1011,7 +1011,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
     appVersion: 2.0.0
@@ -1021,7 +1021,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-2.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.7
@@ -1031,7 +1031,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.7.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v1
     appVersion: 1.0.6
@@ -1041,7 +1041,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.6.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v1
     appVersion: 1.0.5
@@ -1051,7 +1051,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.5.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v1
     appVersion: 1.0.4
@@ -1061,7 +1061,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.4.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
     appVersion: 1.0.3
@@ -1071,7 +1071,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.3.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v1
     appVersion: 1.0.2
@@ -1081,7 +1081,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
@@ -1091,7 +1091,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
@@ -1101,7 +1101,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.13.2
@@ -1111,7 +1111,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.13.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.13.2.tgz
     version: 0.13.2
   - apiVersion: v1
     appVersion: 0.13.1
@@ -1121,7 +1121,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.13.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.13.1.tgz
     version: 0.13.1
   - apiVersion: v1
     appVersion: 0.13.0
@@ -1131,7 +1131,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.13.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.13.0.tgz
     version: 0.13.0
   - apiVersion: v1
     appVersion: 0.12.4
@@ -1141,7 +1141,7 @@ entries:
     home: https://github.com/giantswarm/chart-operator
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.12.4.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.12.4.tgz
     version: 0.12.4
   - apiVersion: v1
     created: "0001-01-01T00:00:00Z"
@@ -1149,7 +1149,7 @@ entries:
     digest: d38dfdbc166b44e9ec171d77f0e6651b037301f8b2fe59f7be9755e9e31b2575
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.12.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.12.1.tgz
     version: 0.12.1
   - apiVersion: v1
     created: "2020-03-10T09:44:00.644313805Z"
@@ -1157,7 +1157,7 @@ entries:
     digest: cb17e0c35b564149ff2f4ea63fe90e2352279a98f334d4c3636870083e38b219
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.12.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.12.0.tgz
     version: 0.12.0
   - apiVersion: v1
     created: "2020-02-28T10:16:06.593105965Z"
@@ -1165,7 +1165,7 @@ entries:
     digest: af3ec4e3cfbf93538aee4172a8da6a9669e10df321d3f80c1aa4c6c6ca82e89f
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.5.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.5.tgz
     version: 0.11.5
   - apiVersion: v1
     created: "2020-01-29T11:40:03.674652684Z"
@@ -1173,7 +1173,7 @@ entries:
     digest: 4a53b075a0725c7ee8515d3e68fd92373072c81db0646dd985805de45668896d
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.4.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.4.tgz
     version: 0.11.4
   - apiVersion: v1
     created: "2020-01-17T14:29:01.111675435Z"
@@ -1181,7 +1181,7 @@ entries:
     digest: 942cec639bc8e38acacdf322ab74c7fe75552e0e6f4729422d8eb56cd0fed45b
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.3.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.3.tgz
     version: 0.11.3
   - apiVersion: v1
     created: "2019-12-27T11:23:36.666590763Z"
@@ -1189,7 +1189,7 @@ entries:
     digest: 26f38ac5c3cc6f72212b04f9ffb9aaf4cb836bf167621ef30a51c49f944d5f1e
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.2.tgz
     version: 0.11.2
   - apiVersion: v1
     created: "2019-12-12T09:05:55.27408846Z"
@@ -1197,7 +1197,7 @@ entries:
     digest: 8f5a6c037b38ca2a5dc357536046627bdcbbf05c35819bf3d9cacff9248563b4
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.1.tgz
     version: 0.11.1
   - apiVersion: v1
     created: "2019-12-10T14:01:17.517567352Z"
@@ -1205,7 +1205,7 @@ entries:
     digest: 7f97dcd3b546b342b9b1416905fcc668f4efd3a4edd81a84beb0e7f64a4b4a1e
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.11.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v1
     created: "2019-11-01T10:31:36.339360543Z"
@@ -1213,7 +1213,7 @@ entries:
     digest: 99fe75e27e9f2aa5c88c6dde1f4c7e3f361955e3d109b43f02de0e06d2eba6df
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.10.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.10.tgz
     version: 0.10.10
   - apiVersion: v1
     created: "2019-10-29T11:28:25.936755903Z"
@@ -1221,7 +1221,7 @@ entries:
     digest: e50bfdb27b208ba17dd672490b833c73c1de12920ff0a4eba4e1bd04fb2ebb4b
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.9.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.9.tgz
     version: 0.10.9
   - apiVersion: v1
     created: "2019-10-23T15:07:54.129636505Z"
@@ -1229,7 +1229,7 @@ entries:
     digest: 302822dd421587bd68094fbf4c0a094411b817c51ffb3f4aded7a9c23bfe7bca
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.8.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.8.tgz
     version: 0.10.8
   - apiVersion: v1
     created: "2019-10-14T07:43:44.329636296Z"
@@ -1237,7 +1237,7 @@ entries:
     digest: 5a9ffa133e13a8895463432c5f21b08bc7fb564ffdba22431ebc64c55eb67848
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.7.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.7.tgz
     version: 0.10.7
   - apiVersion: v1
     created: "2019-10-03T12:50:34.03053068Z"
@@ -1245,7 +1245,7 @@ entries:
     digest: 304921a822e33f6429d81c51100c72153a1683e0f73636efdc75a979a05e3f7a
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.6.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.6.tgz
     version: 0.10.6
   - apiVersion: v1
     created: "2019-09-30T07:28:35.177633201Z"
@@ -1253,7 +1253,7 @@ entries:
     digest: 86a2c7eb338e777b84b2140f7075d2c4124ea21eede63099269f469ebd7686bd
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.5.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.5.tgz
     version: 0.10.5
   - apiVersion: v1
     created: "2019-09-25T14:47:29.143372534Z"
@@ -1261,7 +1261,7 @@ entries:
     digest: a04c2555117e884be5d4c01f6c7370cf892a7d5a7d414df065fc4e8a62ce4234
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.4.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.4.tgz
     version: 0.10.4
   - apiVersion: v1
     created: "2019-09-24T19:45:58.890609727Z"
@@ -1269,7 +1269,7 @@ entries:
     digest: 9795acde9f9a6efac0b8e07b9f3dcab52ee8c549a0bdaca0434de5987405ae59
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.3.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.3.tgz
     version: 0.10.3
   - apiVersion: v1
     created: "2019-09-18T10:37:02.278566838Z"
@@ -1277,7 +1277,7 @@ entries:
     digest: 8a37a2f4d0d317043067c281ea4bfedea03e2913dccc389734da45ea39b2839e
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.2.tgz
     version: 0.10.2
   - apiVersion: v1
     created: "2019-09-17T14:49:04.401595962Z"
@@ -1285,7 +1285,7 @@ entries:
     digest: 25013dcba0e312a3849539a1e1a888b3090a00242c7f552b975d850b04e4d391
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.1.tgz
     version: 0.10.1
   - apiVersion: v1
     created: "2019-09-17T12:54:02.825931036Z"
@@ -1293,7 +1293,7 @@ entries:
     digest: c9a1af9f98fb0e9678d78ed6dba9d6512c698bbee37e78b3259f1a4bb283222e
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.10.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v1
     created: "2019-09-12T09:29:01.511631109Z"
@@ -1301,7 +1301,7 @@ entries:
     digest: cd515c39ddffa8105503179dc62efa7317fe7e27ea40965a444b1606b55756cd
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.9.2.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.9.2.tgz
     version: 0.9.2
   - apiVersion: v1
     created: "2019-09-05T17:38:03.368322773Z"
@@ -1309,7 +1309,7 @@ entries:
     digest: cf2f8bc2c6850a94c3a9f02af334934ae9de63cb750a32e35bf6271e6136086d
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.9.1.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v1
     created: "2019-08-06T10:32:01.792573065Z"
@@ -1317,7 +1317,7 @@ entries:
     digest: a1599da756539b87e5a583ee0b00e90ccaeceda4616af5e39a322628d2e70b4f
     name: chart-operator
     urls:
-    - https://giantswarm.github.com/default-catalog/chart-operator-0.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
   cluster-autoscaler-app:
   - annotations:
@@ -1344,7 +1344,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.20.1.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.20.1.tgz
     version: 1.20.1
   - apiVersion: v1
     appVersion: v1.19.1
@@ -1354,7 +1354,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.20.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.20.0.tgz
     version: 1.20.0
   - apiVersion: v1
     appVersion: v1.19.1
@@ -1364,7 +1364,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.19.2.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.19.2.tgz
     version: 1.19.2
   - apiVersion: v1
     appVersion: v1.19.1
@@ -1374,7 +1374,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.19.1.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.19.1.tgz
     version: 1.19.1
   - apiVersion: v1
     appVersion: v1.19.1
@@ -1384,7 +1384,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.19.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.19.0.tgz
     version: 1.19.0
   - apiVersion: v1
     appVersion: v1.18.3
@@ -1394,7 +1394,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.18.3.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.18.3.tgz
     version: 1.18.3
   - apiVersion: v1
     appVersion: v1.18.2
@@ -1404,7 +1404,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.18.2.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.18.2.tgz
     version: 1.18.2
   - apiVersion: v1
     appVersion: v1.17.3
@@ -1414,7 +1414,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.17.4.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.17.4.tgz
     version: 1.17.4
   - apiVersion: v1
     appVersion: v1.17.3
@@ -1424,7 +1424,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.17.3.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.17.3.tgz
     version: 1.17.3
   - apiVersion: v1
     appVersion: v1.17.2
@@ -1434,7 +1434,7 @@ entries:
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.17.2.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.17.2.tgz
     version: 1.17.2
   - apiVersion: v1
     appVersion: v1.16.5
@@ -1443,7 +1443,7 @@ entries:
     digest: 676dca9f987c8dcbe3c96860404acb94a3c2403238569462acd56334a009bac0
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.16.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.16.0.tgz
     version: 1.16.0
   - apiVersion: v1
     created: "2020-02-05T12:54:15.266719146Z"
@@ -1451,7 +1451,7 @@ entries:
     digest: fedbd270976fc08f814472dc79affafd645e66086446657f0e32aeade2fd4878
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.1.4.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
     created: "2020-01-22T17:23:32.273122582Z"
@@ -1459,7 +1459,7 @@ entries:
     digest: df05fcd38df14396944ab8857227dc441f285e21e9cdc897522b4c8e8046224b
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.1.3.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v1
     created: "2020-01-03T23:04:04.607916992Z"
@@ -1467,7 +1467,7 @@ entries:
     digest: ef56c3feeb8c8702c03643bc67644d76a347c6958d333fec5e2b656cce037c56
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
     created: "2019-12-27T11:23:41.535270934Z"
@@ -1475,7 +1475,7 @@ entries:
     digest: 785c76c136d76d3acc988df0a3cb0b308f0499b81bde43396496b168f29c9fe0
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     created: "2019-11-21T10:14:04.492151704Z"
@@ -1483,7 +1483,7 @@ entries:
     digest: 48bd7a7fae4b12b75499d37a45a12f874cc39342e76af32d4cb75871c1d5a82c
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     created: "2019-11-07T14:33:56.037453627Z"
@@ -1491,7 +1491,7 @@ entries:
     digest: 07ec4087d00feea827ab4804908496180f5d5d48d750eb4d5853b045a7de7fd6
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     created: "2019-10-29T17:18:16.316813419Z"
@@ -1499,7 +1499,7 @@ entries:
     digest: aa29c4f6cfa1779cbe7dbd8f18be0aa5c3aeaea7415a1ed399190edeacd01057
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     created: "2019-10-25T17:05:07.829660787Z"
@@ -1507,7 +1507,7 @@ entries:
     digest: 14ef40664bf1a0aef5ea5400526be21c3ab8431dede1bfac011ba14ef6ee853a
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-0.10.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v1
     created: "2019-09-17T13:32:14.063696221Z"
@@ -1515,7 +1515,7 @@ entries:
     digest: f6a80565f54a0966f56eb1b532976864f0f68013bbedd406626993e2a0fd5f73
     name: cluster-autoscaler-app
     urls:
-    - https://giantswarm.github.com/default-catalog/cluster-autoscaler-app-0.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-0.9.0.tgz
     version: 0.9.0
   coredns-app:
   - apiVersion: v1
@@ -1536,7 +1536,7 @@ entries:
     home: https://github.com/giantswarm/coredns-app
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.7.1
@@ -1546,7 +1546,7 @@ entries:
     home: https://github.com/giantswarm/coredns-app
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.6.9
@@ -1556,7 +1556,7 @@ entries:
     home: https://github.com/giantswarm/coredns-app
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1566,7 +1566,7 @@ entries:
     home: https://github.com/giantswarm/coredns-app
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1576,7 +1576,7 @@ entries:
     home: https://github.com/giantswarm/coredns-app
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.10.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.10.tgz
     version: 1.1.10
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1585,7 +1585,7 @@ entries:
     digest: 5618102711ff2c5044d73f0ad8c616e3f5c21908eec0943cb835e0155a02829d
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.9.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.9.tgz
     version: 1.1.9
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1594,7 +1594,7 @@ entries:
     digest: 4ab4898def71703b278be778b6b2d2d0e1e31b82c13cb9b3ae8b35b3597448ed
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.8.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1603,7 +1603,7 @@ entries:
     digest: 66e9985f4a260a29c669f4080e4412c4c0b7c62aa6103b23b98ca420c073af22
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.7.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1612,7 +1612,7 @@ entries:
     digest: 668185de28443924434c818ab39a5fed4afc621d5747381842a394a92509fe24
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.6.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1621,7 +1621,7 @@ entries:
     digest: 59b19096b92d3e26519dd61b5ea7089c131a8e2cd148f4b015cdabe1a1b018d2
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.5.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1630,7 +1630,7 @@ entries:
     digest: b3b4a8ca25f7bb439ce079d42a348fbd1c2004275f15c77e012870e88f145302
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.4.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1639,7 +1639,7 @@ entries:
     digest: 14c01d4a896ac4bb4df53cee836b2255a202f5918482861160b53906bf6a9d08
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.3.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1648,7 +1648,7 @@ entries:
     digest: 6ed0a74cdb8771ca5d4293835596f36bef4396c3d3332c6fbee3af4c3c3081ae
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1657,7 +1657,7 @@ entries:
     digest: 46c611c1bdc953afdb5bcd1efcc087744bfd4793fff6e5fabe9555f4a17b7a48
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.6.5
@@ -1666,7 +1666,7 @@ entries:
     digest: 5ef353c5bf1ddd91e2544049d7e355e4351e64aca9c1e052e230868d7f5020d3
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.6.2
@@ -1675,7 +1675,7 @@ entries:
     digest: dbe1d7157992dcccf69fed7bca0735a07dea38754dfe8bb03397c9f4dcc732aa
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.6.2
@@ -1684,7 +1684,7 @@ entries:
     digest: 5af6887eddea1a2e420bc8b655d94f15974a4dc84e4a0d27aa9bb56f67fcab50
     name: coredns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/coredns-app-0.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/coredns-app-0.9.0.tgz
     version: 0.9.0
   external-dns-app:
   - annotations:
@@ -1770,7 +1770,7 @@ entries:
     sources:
     - https://github.com/kubernetes-sigs/external-dns
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-2.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.1.1.tgz
     version: 2.1.1
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.1.0.tgz-meta/main.yaml
@@ -1787,7 +1787,7 @@ entries:
     sources:
     - https://github.com/kubernetes-sigs/external-dns
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-2.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.1.0.tgz
     version: 2.1.0
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.0.2.tgz-meta/main.yaml
@@ -1804,7 +1804,7 @@ entries:
     sources:
     - https://github.com/kubernetes-sigs/external-dns
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-2.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.0.2.tgz
     version: 2.0.2
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.0.1.tgz-meta/main.yaml
@@ -1821,7 +1821,7 @@ entries:
     sources:
     - https://github.com/kubernetes-sigs/external-dns
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-2.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.0.1.tgz
     version: 2.0.1
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.0.0.tgz-meta/main.yaml
@@ -1837,7 +1837,7 @@ entries:
     sources:
     - https://github.com/kubernetes-sigs/external-dns
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-2.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.0.0.tgz
     version: 2.0.0
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-1.6.0.tgz-meta/main.yaml
@@ -1850,7 +1850,7 @@ entries:
     home: https://github.com/giantswarm/external-dns-app
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: v0.7.4
@@ -1860,7 +1860,7 @@ entries:
     home: https://github.com/giantswarm/external-dns-app
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: v0.7.3
@@ -1870,7 +1870,7 @@ entries:
     home: https://github.com/giantswarm/external-dns-app
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: v0.7.3
@@ -1880,7 +1880,7 @@ entries:
     home: https://github.com/giantswarm/external-dns-app
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: v0.7.2
@@ -1890,7 +1890,7 @@ entries:
     home: https://github.com/giantswarm/external-dns-app
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.2.2.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
     appVersion: v0.5.18
@@ -1899,7 +1899,7 @@ entries:
     digest: 58d7cb4048390a78e86d66058184a5b74c80f4f00af4b4a16b1a9ce4a6576fac
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: v0.5.18
@@ -1908,7 +1908,7 @@ entries:
     digest: 50911037be1da78d3e0e9615762f8e3225ca02fa630553cf0656d47dc6a4b92f
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1917,7 +1917,7 @@ entries:
     digest: e168b1c5ffe1c0ba265a3b224eaac4ea0cc4964e4548fe3503f628f85ac43186
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1926,7 +1926,7 @@ entries:
     digest: c1b7a83e15eb928cd22fc83038c6535a723c0949d2605d0f64eca3c557e052d3
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1935,7 +1935,7 @@ entries:
     digest: 2de4f0653cc043ea205cbd15c5dd4c60278b5cc646f5c8105dba960edf7f1352
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1944,7 +1944,7 @@ entries:
     digest: 73cc957286a161ee3463e4bfda045294f37d7d696c65ea98e460acaadd7f6b77
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-0.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1953,7 +1953,7 @@ entries:
     digest: 5809a91ecde3621fcd8e20897ecf896026d69781d1db5849b18ad2dbe9deb304
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-0.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: v0.5.11
@@ -1962,7 +1962,7 @@ entries:
     digest: d5c03fa55228086a6642f2d1f7018260c1a4c6f16c9d06c0cb6a59ca7253859f
     name: external-dns-app
     urls:
-    - https://giantswarm.github.com/default-catalog/external-dns-app-0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472.tgz
+    - https://giantswarm.github.io/default-catalog/external-dns-app-0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472.tgz
     version: 0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472
   helm-2to3-migration:
   - apiVersion: v1
@@ -1973,7 +1973,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.7.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v1
     appVersion: 0.5.0
@@ -1983,7 +1983,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.6.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v1
     appVersion: 0.5.0
@@ -1993,7 +1993,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.5.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2003,7 +2003,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.4.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2013,7 +2013,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.3.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2023,7 +2023,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2033,7 +2033,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2043,7 +2043,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2053,7 +2053,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.5.0
@@ -2063,7 +2063,7 @@ entries:
     home: https://github.com/giantswarm/helm-2to3-migration
     name: helm-2to3-migration
     urls:
-    - https://giantswarm.github.com/default-catalog/helm-2to3-migration-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.0.0.tgz
     version: 1.0.0
   kiam-app:
   - apiVersion: v1
@@ -2075,7 +2075,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-2.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
     appVersion: "3.6"
@@ -2097,7 +2097,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
     appVersion: "3.6"
@@ -2108,7 +2108,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: "3.6"
@@ -2119,7 +2119,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: "3.6"
@@ -2130,7 +2130,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.4.2.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.4.2.tgz
     version: 1.4.2
   - apiVersion: v1
     appVersion: "3.6"
@@ -2141,7 +2141,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     appVersion: "3.6"
@@ -2152,7 +2152,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: "3.6"
@@ -2163,7 +2163,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.3.1.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v1
     appVersion: "3.5"
@@ -2174,7 +2174,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: "3.5"
@@ -2185,7 +2185,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.2.2.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
     appVersion: "3.5"
@@ -2196,7 +2196,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: "3.5"
@@ -2207,7 +2207,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: "3.5"
@@ -2218,7 +2218,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: "3.5"
@@ -2229,7 +2229,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "3.4"
@@ -2240,7 +2240,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.0.4.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
     appVersion: "3.4"
@@ -2251,7 +2251,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.0.3.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v1
     appVersion: "3.4"
@@ -2262,7 +2262,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: "3.4"
@@ -2273,7 +2273,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: "3.4"
@@ -2284,7 +2284,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: "3.4"
@@ -2295,7 +2295,7 @@ entries:
     icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
     name: kiam-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kiam-app-0.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/kiam-app-0.1.0.tgz
     version: 0.1.0
   kube-state-metrics-app:
   - apiVersion: v1
@@ -2316,7 +2316,7 @@ entries:
     home: https://github.com/giantswarm/kube-state-metrics-app
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: v1.9.7
@@ -2326,7 +2326,7 @@ entries:
     home: https://github.com/giantswarm/kube-state-metrics-app
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: v1.9.7
@@ -2336,7 +2336,7 @@ entries:
     home: https://github.com/giantswarm/kube-state-metrics-app
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: v1.9.7
@@ -2346,7 +2346,7 @@ entries:
     home: https://github.com/giantswarm/kube-state-metrics-app
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: v1.9.5
@@ -2356,7 +2356,7 @@ entries:
     home: https://github.com/giantswarm/kube-state-metrics-app
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: v1.9.5
@@ -2365,7 +2365,7 @@ entries:
     digest: 485913e34184e6af88bda0b1ef7125fb8e747c969f97349158c7835c89da1d1a
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.5.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v1
     appVersion: v1.9.2
@@ -2374,7 +2374,7 @@ entries:
     digest: 5c7be2f3dd66a701b798f16a98013f7ae178bb883dc74ed9f5c0aa17610e18c2
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.4.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v1
     appVersion: v1.9.2
@@ -2383,7 +2383,7 @@ entries:
     digest: dac581673959915d0096e5596712a0036ad512eced37c1ce72368b8e6a890df6
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.3.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v1
     appVersion: v1.9.2
@@ -2392,7 +2392,7 @@ entries:
     digest: 0335b09086bda2537d9a2b71622894a865aeb17c58269f51205022c149af2d34
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.2.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: v1.9.2
@@ -2401,7 +2401,7 @@ entries:
     digest: f1d77d2d57ee1152b82407a75a9a22faab5b476c01d3eb47bcfff74a44bd6616
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.1.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: v1.8.0
@@ -2410,7 +2410,7 @@ entries:
     digest: 467a44f549a52798c83bbe844eeef5a527aeb85ddffa4dd895a9f37c603a6da0
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: v1.8.0
@@ -2419,7 +2419,7 @@ entries:
     digest: 662fa06bd65cbbd1e61b3dc2ec045905ec0515c438d8bca38aa5806c2d227516
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
     appVersion: v1.8.0
@@ -2428,7 +2428,7 @@ entries:
     digest: 8ad399697c4d044f0953f644fadb4762eb2792873cb3e5c414fd34abf7b3491a
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
     appVersion: v1.7.2
@@ -2437,7 +2437,7 @@ entries:
     digest: 4d9115166d383951ba20d84fb55bb1806c87bdf77ee527d438a63e01aa03d30f
     name: kube-state-metrics-app
     urls:
-    - https://giantswarm.github.com/default-catalog/kube-state-metrics-app-0.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
   loadtest-app:
   - apiVersion: v1
@@ -2448,7 +2448,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.0.1
@@ -2458,7 +2458,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.0.1
@@ -2468,7 +2468,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.1.3.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.0.1
@@ -2478,7 +2478,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.0.1
@@ -2488,7 +2488,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.0.1
@@ -2498,7 +2498,7 @@ entries:
     home: https://github.com/giantswarm/loadtest-app
     name: loadtest-app
     urls:
-    - https://giantswarm.github.com/default-catalog/loadtest-app-0.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.1.0.tgz
     version: 0.1.0
   metrics-server-app:
   - apiVersion: v1
@@ -2519,7 +2519,7 @@ entries:
     home: https://github.com/giantswarm/metrics-server-app
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: 0.4.1
@@ -2529,7 +2529,7 @@ entries:
     home: https://github.com/giantswarm/metrics-server-app
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: 0.3.6
@@ -2539,7 +2539,7 @@ entries:
     home: https://github.com/giantswarm/metrics-server-app
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: 0.3.3
@@ -2549,7 +2549,7 @@ entries:
     home: https://github.com/giantswarm/metrics-server-app
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 0.3.3
@@ -2558,7 +2558,7 @@ entries:
     digest: 919f0a44d7907232166ef40deb20d0bedb9d43e197b66f91deb2938a1f759a1f
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-1.0.0.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.3.3
@@ -2567,7 +2567,7 @@ entries:
     digest: f194ca68874e1c085485be39f9d7f7bb45f27ccc740ba69ac47fb491f36b91a3
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.3.3
@@ -2576,7 +2576,7 @@ entries:
     digest: 2183e1aadb262e85b4a1c702b993a7fbdcbc152c4592668ddcad65ccb5667bc1
     name: metrics-server-app
     urls:
-    - https://giantswarm.github.com/default-catalog/metrics-server-app-0.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-0.4.0.tgz
     version: 0.4.0
   net-exporter:
   - apiVersion: v1
@@ -2597,7 +2597,7 @@ entries:
     home: https://github.com/giantswarm/net-exporter
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.9.2.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.9.2.tgz
     version: 1.9.2
   - apiVersion: v1
     appVersion: 1.9.1
@@ -2607,7 +2607,7 @@ entries:
     home: https://github.com/giantswarm/net-exporter
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.9.1.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.9.1.tgz
     version: 1.9.1
   - apiVersion: v1
     appVersion: 1.9.0
@@ -2617,7 +2617,7 @@ entries:
     home: https://github.com/giantswarm/net-exporter
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v1
     appVersion: 1.8.1
@@ -2627,7 +2627,7 @@ entries:
     home: https://github.com/giantswarm/net-exporter
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.8.1.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.8.1.tgz
     version: 1.8.1
   - apiVersion: v1
     appVersion: 1.8.0
@@ -2637,77 +2637,77 @@ entries:
     home: https://github.com/giantswarm/net-exporter
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.8.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v1
     created: "2020-04-01T11:22:22.613610737Z"
     digest: 7a38d5d5fd6fda1db72484710c595c9d60756f70777c13ef98255c9224adddd0
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.7.1.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v1
     created: "2020-03-20T11:45:38.236605473Z"
     digest: 06df0cc05c1a242297d45f466941108e0ba6fbf80c2a1fadf2ccf1ccf55d25dc
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
     created: "2020-01-29T10:05:22.769790728Z"
     digest: f22e3e6742d801c4386be351c6a134f110b634a82b34844068f51677dd0d3a0d
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     created: "2020-01-08T13:32:17.02449831Z"
     digest: 47c2f9309d501b64d6b76be12f51425213959d526bc9e0365fe94f5abd86bff3
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.5.1.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
     created: "2020-01-07T16:04:41.665111096Z"
     digest: 9a931f9ff55718167ef56dd4de50a3f9c893c22a0f4406845c8ae5be80d498c0
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     created: "2019-12-27T19:27:20.412878466Z"
     digest: 3ff69d0447dd45826b594fc21e3f9a6e2ee6d080652bff083039d019504ab881
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.4.3.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.4.3.tgz
     version: 1.4.3
   - apiVersion: v1
     created: "2019-12-24T14:34:21.869951046Z"
     digest: 3a4df5dbc572bfe58beab57f562015b80aef387fed4b1b3a9aa667dfc9820d24
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.4.2.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.4.2.tgz
     version: 1.4.2
   - apiVersion: v1
     created: "2019-12-24T14:28:41.9327468Z"
     digest: 102ae6847d889f0f83b876a7ba44f407469a6e74b593a578a130fe8d1f85bc33
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     created: "2019-11-21T09:34:36.419380863Z"
     digest: ceec6849f306966b90fa7df55df9955c27ad8be9db26adb0da3a69546316a189
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     created: "2019-10-23T18:18:19.39269824Z"
     digest: 235276177c694647b7c2145ef5bc41b2108de4f258a3120767ecc977c597659f
     name: net-exporter
     urls:
-    - https://giantswarm.github.com/default-catalog/net-exporter-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.3.0.tgz
     version: 1.3.0
   nginx-ingress-controller-app:
   - annotations:
@@ -2756,7 +2756,7 @@ entries:
     kubeVersion: '>=1.16.0-0'
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.14.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.14.1.tgz
     version: 1.14.1
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.14.0.tgz-meta/main.yaml
@@ -2772,7 +2772,7 @@ entries:
     kubeVersion: '>=1.16.0-0'
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.14.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.14.0.tgz
     version: 1.14.0
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.13.0.tgz-meta/main.yaml
@@ -2788,7 +2788,7 @@ entries:
     kubeVersion: '>=1.16.0-0'
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.13.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.13.0.tgz
     version: 1.13.0
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.12.0.tgz-meta/main.yaml
@@ -2804,7 +2804,7 @@ entries:
     kubeVersion: '>=1.16.0-0'
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.12.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.12.0.tgz
     version: 1.12.0
   - apiVersion: v1
     appVersion: v0.41.2
@@ -2818,7 +2818,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.11.0/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.11.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.11.0.tgz
     version: 1.11.0
   - apiVersion: v1
     appVersion: v0.40.2
@@ -2832,7 +2832,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.10.0/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.10.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.10.0.tgz
     version: 1.10.0
   - apiVersion: v1
     appVersion: v0.35.0
@@ -2845,7 +2845,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.9.2/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.9.2.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.9.2.tgz
     version: 1.9.2
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2858,7 +2858,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.9.1/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.9.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.9.1.tgz
     version: 1.9.1
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2871,7 +2871,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.9.0/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.9.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2884,7 +2884,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.4/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.8.4.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.8.4.tgz
     version: 1.8.4
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2897,7 +2897,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.3/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.8.3.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.8.3.tgz
     version: 1.8.3
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2910,7 +2910,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.2/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.8.2.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.8.2.tgz
     version: 1.8.2
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2923,7 +2923,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.1/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.8.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.8.1.tgz
     version: 1.8.1
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2936,7 +2936,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.8.0/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.8.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v1
     appVersion: v0.34.1
@@ -2949,7 +2949,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.7.3/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.7.3.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.7.3.tgz
     version: 1.7.3
   - apiVersion: v1
     appVersion: v0.34.0
@@ -2962,7 +2962,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.7.2/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.7.2.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.7.2.tgz
     version: 1.7.2
   - apiVersion: v1
     appVersion: v0.33.0
@@ -2975,7 +2975,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.7.1/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.7.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v1
     appVersion: v0.33.0
@@ -2988,7 +2988,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.7.0/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3001,7 +3001,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.6.12/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.12.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.12.tgz
     version: 1.6.12
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3014,7 +3014,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.6.11/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.11.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.11.tgz
     version: 1.6.11
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3027,7 +3027,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.6.10/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.10.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.10.tgz
     version: 1.6.10
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3040,7 +3040,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/v1.6.9/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.9.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.9.tgz
     version: 1.6.9
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3053,7 +3053,7 @@ entries:
     sources:
     - https://raw.githubusercontent.com/giantswarm/nginx-ingress-controller-app/1.6.8/README.md
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.8.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.8.tgz
     version: 1.6.8
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3064,7 +3064,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.7.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.7.tgz
     version: 1.6.7
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3075,7 +3075,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.6.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.6.tgz
     version: 1.6.6
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3086,7 +3086,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.5.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.5.tgz
     version: 1.6.5
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3097,7 +3097,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.4.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.4.tgz
     version: 1.6.4
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3108,7 +3108,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.3.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.3.tgz
     version: 1.6.3
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3119,7 +3119,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.2.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.2.tgz
     version: 1.6.2
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3130,7 +3130,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v1
     appVersion: v0.30.0
@@ -3141,7 +3141,7 @@ entries:
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: v0.29.0
@@ -3151,7 +3151,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: v0.28.0
@@ -3161,7 +3161,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: v0.27.1
@@ -3171,7 +3171,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: v0.27.1
@@ -3181,7 +3181,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.2.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: v0.27.1
@@ -3191,7 +3191,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: v0.26.1
@@ -3201,7 +3201,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: v0.26.1
@@ -3211,7 +3211,7 @@ entries:
     home: https://github.com/giantswarm/nginx-ingress-controller-app
     name: nginx-ingress-controller-app
     urls:
-    - https://giantswarm.github.com/default-catalog/nginx-ingress-controller-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.1.0.tgz
     version: 1.1.0
   node-exporter-app:
   - apiVersion: v1
@@ -3232,7 +3232,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.7.1.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3242,7 +3242,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.7.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3252,7 +3252,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3262,7 +3262,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3272,7 +3272,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.4.2.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.4.2.tgz
     version: 1.4.2
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3282,7 +3282,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.4.1.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3292,7 +3292,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: v1.0.1
@@ -3302,7 +3302,7 @@ entries:
     home: https://github.com/giantswarm/node-exporter-app
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: v0.18.1
@@ -3311,7 +3311,7 @@ entries:
     digest: ab33964e6af7465e27609a0f3865ffe4b5f21dee6468e2ddffdbb064f477e639
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.2.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: v0.18.1
@@ -3320,7 +3320,7 @@ entries:
     digest: e159ee8771ae51b7eb7eb00801d678ec660fd2cc1ec5df8db3b0537a9e0258e7
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: v0.18.1
@@ -3329,7 +3329,7 @@ entries:
     digest: dec03819e6513f2a6362f17706ebbb123f062b0e8c21b9e946fd9e999ac163dd
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-1.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: v0.18.0
@@ -3338,7 +3338,7 @@ entries:
     digest: 7ca27abed1d65eeb7af923ba6f70294dbdaf6942bd1ce50463c941f93fda2988
     name: node-exporter-app
     urls:
-    - https://giantswarm.github.com/default-catalog/node-exporter-app-0.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-0.6.0.tgz
     version: 0.6.0
   prometheus-operator-app:
   - annotations:
@@ -3445,7 +3445,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     - https://github.com/prometheus-operator/kube-prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.6.0.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.6.0.tgz
     version: 0.6.0
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-app/v0.5.2/helm/prometheus-operator-app/values.schema.json
@@ -3497,7 +3497,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     - https://github.com/prometheus-operator/kube-prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.5.2.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.5.2.tgz
     version: 0.5.2
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-app/v0.5.1/helm/prometheus-operator-app/values.schema.json
@@ -3549,7 +3549,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     - https://github.com/prometheus-operator/kube-prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.5.1.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.5.1.tgz
     version: 0.5.1
   - annotations:
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-app/v0.5.0/helm/prometheus-operator-app/values.schema.json
@@ -3601,7 +3601,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     - https://github.com/prometheus-operator/kube-prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.5.0.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.5.0.tgz
     version: 0.5.0
   - annotations:
       artifacthub.io/links: |
@@ -3652,7 +3652,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     - https://github.com/prometheus-operator/kube-prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.4.0.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.38.1
@@ -3684,7 +3684,7 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.3.4.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v1
     appVersion: v0.38.1
@@ -3703,7 +3703,7 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.3.3.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v1
     appVersion: v0.38.1
@@ -3719,7 +3719,7 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.3.2.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
     appVersion: v0.38.1
@@ -3735,7 +3735,7 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.3.1.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: v0.38.1
@@ -3751,7 +3751,7 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://giantswarm.github.com/default-catalog/prometheus-operator-app-0.3.0.tgz
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-0.3.0.tgz
     version: 0.3.0
   test-app:
   - apiVersion: v1
@@ -3762,7 +3762,7 @@ entries:
     home: https://github.com/giantswarm/test-app
     name: test-app
     urls:
-    - https://giantswarm.github.com/default-catalog/test-app-0.1.2.tgz
+    - https://giantswarm.github.io/default-catalog/test-app-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: v1.8.0
@@ -3772,7 +3772,7 @@ entries:
     home: https://github.com/giantswarm/test-app
     name: test-app
     urls:
-    - https://giantswarm.github.com/default-catalog/test-app-0.1.1.tgz
+    - https://giantswarm.github.io/default-catalog/test-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: v1.8.0
@@ -3782,6 +3782,6 @@ entries:
     home: https://github.com/giantswarm/test-app
     name: test-app
     urls:
-    - https://giantswarm.github.com/default-catalog/test-app-0.1.0.tgz
+    - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
 generated: "2021-04-06T16:19:42.101096707Z"
