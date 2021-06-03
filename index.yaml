@@ -743,6 +743,18 @@ entries:
   - annotations:
       application.giantswarm.io/team: batman
     apiVersion: v1
+    appVersion: 2.16.0
+    created: "2021-06-03T13:32:50.361119041Z"
+    description: A Helm chart for the chart-operator
+    digest: 41680387dfe38d9d9dd9b0d18f75df6df8f00716dd8bc794fb7ad635d504746e
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.16.0.tgz
+    version: 2.16.0
+  - annotations:
+      application.giantswarm.io/team: batman
+    apiVersion: v1
     appVersion: 2.15.0
     created: "2021-05-20T14:33:44.287132989Z"
     description: A Helm chart for the chart-operator
@@ -4165,4 +4177,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-27T08:43:36.010476836Z"
+generated: "2021-06-03T13:32:50.360271542Z"
