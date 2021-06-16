@@ -2861,6 +2861,22 @@ entries:
     version: 1.3.0
   nginx-ingress-controller-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.17.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.17.0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.17.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.47.0
+    created: "2021-06-16T09:53:33.49279121Z"
+    description: A Helm chart for the nginx ingress-controller
+    digest: 6dc4b77a2beb35ca10fc107e11cbde8466c59f99817c3e56ea3c16dcd31fdbec
+    home: https://github.com/giantswarm/nginx-ingress-controller-app
+    icon: https://s.giantswarm.io/app-icons/1/png/nginx-ingress-controller-app-light.png
+    kubeVersion: '>=1.16.0-0'
+    name: nginx-ingress-controller-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.17.0.tgz
+    version: 1.17.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.16.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.16.1.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/nginx-ingress-controller-app-1.16.1.tgz-meta/values.schema.json
@@ -4233,4 +4249,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-16T07:18:08.625546857Z"
+generated: "2021-06-16T09:53:33.490791207Z"
