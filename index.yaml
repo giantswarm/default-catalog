@@ -1417,6 +1417,23 @@ entries:
           team: biscuit
         - catalog: control-plane-test-catalog
           team: biscuit
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v1.20.0
+    created: "2021-07-28T09:20:45.811824856Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: d9eeb9321a186b15ea2baab6054f002a572a8c58ccd86c870dc8d95828272674
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.22.0.tgz
+    version: 1.22.0
+  - annotations:
+      application.giantswarm.io/owners: |
+        - catalog: control-plane-catalog
+          team: biscuit
+        - catalog: control-plane-test-catalog
+          team: biscuit
     apiVersion: v1
     appVersion: v1.20.0
     created: "2021-07-27T13:55:48.106453336Z"
@@ -4403,4 +4420,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-27T13:55:48.105479225Z"
+generated: "2021-07-28T09:20:45.811045685Z"
