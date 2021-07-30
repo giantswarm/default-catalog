@@ -2517,6 +2517,20 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/kiam-app-0.1.0.tgz
     version: 0.1.0
+  kiam-watchdog:
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2021-07-30T14:49:00.768242409Z"
+    description: A Helm chart for kiam-watchdog
+    digest: 6f82346eefcf48ee5afbc887b4c599b585fa1f00a3ca6dd26c6825d225feae3c
+    home: https://github.com/giantswarm/kiam-watchdog
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: kiam-watchdog
+    sources:
+    - https://github.com/giantswarm/kiam-watchdog
+    urls:
+    - https://giantswarm.github.io/default-catalog/kiam-watchdog-0.3.0.tgz
+    version: 0.3.0
   kube-state-metrics-app:
   - apiVersion: v1
     appVersion: v1.9.7
@@ -4420,4 +4434,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-28T09:20:45.811045685Z"
+generated: "2021-07-30T14:49:00.767484086Z"
