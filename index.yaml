@@ -2865,6 +2865,18 @@ entries:
     - https://giantswarm.github.io/default-catalog/metrics-server-app-0.4.0.tgz
     version: 0.4.0
   net-exporter:
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.10.3
+    created: "2021-08-12T15:53:25.770465537Z"
+    description: Helm chart for net-exporter.
+    digest: 02dadab2090c0d4c3356e2eaac38972f53ddf79130a10b7f5e17b18265e607b6
+    home: https://github.com/giantswarm/net-exporter
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.10.3.tgz
+    version: 1.10.3
   - apiVersion: v1
     appVersion: 1.10.2
     created: "2021-05-20T19:03:11.449622954Z"
@@ -4543,4 +4555,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-12T11:18:27.323927279Z"
+generated: "2021-08-12T15:53:25.769849158Z"
