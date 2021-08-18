@@ -29,6 +29,19 @@ entries:
     version: 2.3.0
   - apiVersion: v1
     appVersion: 1.1.1
+    created: "2021-08-18T12:45:15.735496702Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 61b82673a1a8391884aef81fb366fcb7031cc3d0e4aad80517e66b50fb768467
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    kubeVersion: '>=1.16.0-0'
+    name: aws-ebs-csi-driver-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v2.2.1/README.md
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v1
+    appVersion: 1.1.1
     created: "2021-07-11T23:37:08.342203852Z"
     description: A Helm chart for AWS EBS CSI Driver
     digest: bd3325ebfe7087014415b7fb49288dba99aaed5eba174d9b47fb5d3ac7b5da7e
@@ -4634,4 +4647,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-18T12:17:05.025727573Z"
+generated: "2021-08-18T12:45:15.734235874Z"
