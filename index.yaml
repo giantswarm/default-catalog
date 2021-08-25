@@ -231,6 +231,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.8.0
+    created: "2021-08-25T09:03:32.005774116Z"
+    description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
+    digest: 5f81ec1b369a9fda901c82dec7898f29359c4946b8b95eca7bcf79a4f09475b0
+    home: https://github.com/giantswarm/cert-exporter
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-exporter-1.8.0.tgz
+    version: 1.8.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.7.1
     created: "2021-05-26T09:06:42.55142694Z"
     description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
@@ -4647,4 +4659,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-18T12:47:56.354670507Z"
+generated: "2021-08-25T09:03:32.005069237Z"
