@@ -230,6 +230,19 @@ entries:
   calico-policy-only:
   - apiVersion: v1
     appVersion: 0.0.1
+    created: "2021-09-09T15:44:01.547468574Z"
+    description: A Helm chart to apply needed iptables rules in order for Calico user defined routes to work on Azure.
+    digest: 95fe59c2047cda84ee87bd8ba90dcdd35fc287e589926f7511ddbd543d2a0ff1
+    home: https://github.com/giantswarm/calico-policy-only-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: calico-policy-only
+    sources:
+    - https://github.com/giantswarm/calico-policy-only-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/calico-policy-only-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: 0.0.1
     created: "2021-08-30T14:59:20.583468154Z"
     description: A Helm chart to apply needed iptables rules in order for Calico user defined routes to work on Azure.
     digest: 5f4fce407496240dfa149a0c8210da575e4fd376b6b65183ab9250d8c2f68cbf
@@ -4775,4 +4788,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-09T11:39:43.227712788Z"
+generated: "2021-09-09T15:44:01.546854675Z"
