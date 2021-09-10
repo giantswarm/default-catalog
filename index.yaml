@@ -1,5 +1,19 @@
 apiVersion: v1
 entries:
+  aws-cni:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-09-10T06:15:00.180408246Z"
+    description: A Helm chart for aws-cni
+    digest: 9bca39a76b51007c9e7b81b1f8f02de05dedef1a6a7156d7dc9fd19c3441e8ee
+    home: https://github.com/giantswarm/aws-cni-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: aws-cni
+    sources:
+    - https://github.com/aws/amazon-vpc-cni-k8s
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-cni-0.1.0.tgz
+    version: 0.1.0
   aws-ebs-csi-driver-app:
   - apiVersion: v1
     appVersion: 1.2.0
@@ -4788,4 +4802,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-09T15:44:01.546854675Z"
+generated: "2021-09-10T06:15:00.179813866Z"
