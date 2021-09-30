@@ -4034,9 +4034,9 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 7.1.3
-    created: "2021-09-30T19:25:30.949638449Z"
+    created: "2021-09-30T19:48:53.5277247Z"
     description: Helm chart for oauth2-proxy.
-    digest: 23873d46f771069d2bfe86c226153e6862abd8c2475b9d2920109475dd2fec43
+    digest: ba4c391d06e5b3bb7b622e6b5a62d42d7585745f4256a980294eb891c2a5e5e5
     home: https://github.com/giantswarm/oauth2-proxy-app
     name: oauth2-proxy
     urls:
@@ -4921,4 +4921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-30T19:25:30.948789706Z"
+generated: "2021-09-30T19:48:53.526954091Z"

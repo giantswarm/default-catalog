@@ -4,6 +4,6 @@ annotations:
   config.giantswarm.io/version: 1.x.x
 chartApiVersion: v1
 chartFile: oauth2-proxy-2.0.1.tgz
-dateCreated: '2021-09-30T19:25:28.853657'
-digest: 23873d46f771069d2bfe86c226153e6862abd8c2475b9d2920109475dd2fec43
+dateCreated: '2021-09-30T19:48:51.819765'
+digest: ba4c391d06e5b3bb7b622e6b5a62d42d7585745f4256a980294eb891c2a5e5e5
 home: https://github.com/giantswarm/oauth2-proxy-app
