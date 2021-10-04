@@ -4053,6 +4053,20 @@ entries:
     version: 0.6.0
   oauth2-proxy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.2.1.tgz-meta/README.md
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 7.1.3
+    created: "2021-10-04T08:52:54.773422719Z"
+    description: Helm chart for oauth2-proxy.
+    digest: f48570f3de5a5cc47e9d576d4b44c650852fd24f415e05a8e71a8f51adb52e11
+    home: https://github.com/giantswarm/oauth2-proxy-app
+    name: oauth2-proxy
+    urls:
+    - https://giantswarm.github.io/default-catalog/oauth2-proxy-2.2.1.tgz
+    version: 2.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.2.0.tgz-meta/README.md
       config.giantswarm.io/version: 1.x.x
@@ -4973,4 +4987,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-02T09:32:26.916863296Z"
+generated: "2021-10-04T08:52:54.772533679Z"
