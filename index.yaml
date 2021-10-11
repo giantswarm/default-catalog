@@ -334,6 +334,19 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/calico-policy-only-0.2.0.tgz
     version: 0.2.0
+  capi-node-labeler:
+  - annotations:
+      application.giantswarm.io/team: firecracker
+    apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-10-11T18:07:12.569162101Z"
+    description: CAPI node labeler
+    digest: c168e3fb3b5dd257da0ebee1480293534ad3c8f340d673cdc66df17220475802
+    home: https://github.com/giantswarm/capi-node-labeler-app
+    name: capi-node-labeler
+    urls:
+    - https://giantswarm.github.io/default-catalog/capi-node-labeler-0.3.1.tgz
+    version: 0.3.1
   cert-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -5026,4 +5039,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-08T17:36:40.98463092Z"
+generated: "2021-10-11T18:07:12.568487586Z"
