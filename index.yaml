@@ -339,6 +339,18 @@ entries:
       application.giantswarm.io/team: firecracker
     apiVersion: v1
     appVersion: 0.0.1
+    created: "2021-10-12T07:09:43.289680692Z"
+    description: CAPI node labeler
+    digest: 38a10e30197580b7b08980cf9bbdd0cdf4b6a0a5ca1435510407e53fd07081e4
+    home: https://github.com/giantswarm/capi-node-labeler-app
+    name: capi-node-labeler
+    urls:
+    - https://giantswarm.github.io/default-catalog/capi-node-labeler-0.3.4.tgz
+    version: 0.3.4
+  - annotations:
+      application.giantswarm.io/team: firecracker
+    apiVersion: v1
+    appVersion: 0.0.1
     created: "2021-10-11T20:37:15.016367006Z"
     description: CAPI node labeler
     digest: e8e5dd8fd01d593d06db18be62911dddca0f035df8216993bff9a584fc741bf3
@@ -5063,4 +5075,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-11T20:37:15.015810102Z"
+generated: "2021-10-12T07:09:43.289166187Z"
