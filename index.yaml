@@ -3039,6 +3039,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v2.2.4
+    created: "2021-11-30T14:34:37.903637765Z"
+    description: A Helm chart for the Kubernetes kube-state-metrics service
+    digest: dde6247659aaf4f5d4e0866bae574d2075da9487d3752d362f3e16d0df1ada04
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    name: kube-state-metrics-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-1.5.1.tgz
+    version: 1.5.1
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v2.2.4
     created: "2021-11-29T15:01:03.192659924Z"
     description: A Helm chart for the Kubernetes kube-state-metrics service
     digest: f6c5de2d83659092b40550a0314f7f854501ae31468adffb5c1e94bf9a91d6fe
@@ -5397,4 +5409,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-29T15:01:03.191389631Z"
+generated: "2021-11-30T14:34:37.902980605Z"
