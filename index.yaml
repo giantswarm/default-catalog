@@ -1794,6 +1794,26 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
+  cloud-provider-openstack-app:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-12-03T18:03:57.47491831Z"
+    dependencies:
+    - name: openstack-cloud-controller-manager
+      repository: ""
+      version: 1.1.2
+    - name: openstack-cinder-csi
+      repository: ""
+      version: 1.2.14
+    description: A Helm chart for cloud-provider-openstack
+    digest: 221d40b836628225b704a727f255087f63c4ef87a2b8b6a05684f3a6c1defdfb
+    home: https://github.com/giantswarm/cloud-provider-openstack-app
+    name: cloud-provider-openstack-app
+    sources:
+    - https://github.com/giantswarm/cloud-provider-openstack-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-openstack-app-0.1.0.tgz
+    version: 0.1.0
   cluster-autoscaler-app:
   - annotations:
       application.giantswarm.io/owners: |
@@ -5409,4 +5429,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-30T14:34:37.902980605Z"
+generated: "2021-12-03T18:03:57.46904402Z"
