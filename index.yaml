@@ -2903,6 +2903,23 @@ entries:
     - https://giantswarm.github.io/default-catalog/helm-2to3-migration-1.0.0.tgz
     version: 1.0.0
   kiam-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: "4.2"
+    created: "2022-01-03T14:38:56.027913796Z"
+    dependencies:
+    - name: kiam-namespace-annotation
+      repository: ""
+      version: 0.1.0
+    description: Integrate AWS IAM with Kubernetes
+    digest: b64c9cf54652e951ebc57cc4fb7a95e6eace5023d4198d1ebb181ae77ab95bf3
+    home: https://github.com/uswitch/kiam
+    icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
+    name: kiam-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/kiam-app-2.1.0.tgz
+    version: 2.1.0
   - apiVersion: v1
     appVersion: "4.1"
     created: "2021-08-02T12:43:34.04154895Z"
@@ -5703,4 +5720,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-21T15:14:53.891201311Z"
+generated: "2022-01-03T14:38:56.026313277Z"
