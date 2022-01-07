@@ -8,7 +8,7 @@ annotations:
   config.giantswarm.io/version: 1.x.x
 chartApiVersion: v2
 chartFile: prometheus-operator-app-0.12.1-crd.tgz
-dateCreated: '2022-01-07T11:33:45.045303'
-digest: d93e20f8f1955226217e268b55b661c9007543f23b5bf0f153636b6642890ed1
+dateCreated: '2022-01-07T11:36:01.780948'
+digest: 93ca894659965973baf1a3e9d7139363def5c05b4b89fe6435512503e6d2ef72
 home: https://github.com/giantswarm/prometheus-operator-app
 icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
