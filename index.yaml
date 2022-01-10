@@ -4779,7 +4779,7 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 0.52.1
-    created: "2021-12-17T14:08:59.155500644Z"
+    created: "2022-01-10T15:26:45.118357295Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -4797,7 +4797,7 @@ entries:
       and Prometheus rules combined with documentation and scripts to provide easy
       to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
       Prometheus Operator.
-    digest: 97661312119d73a6ace1edac551e5e05e5803b2d843eea719aa5a15ec795b450
+    digest: bf074a6ee304dc45e9a3448a390597bb35ac30ff2b0f9f15c31d2da0a5c4237b
     home: https://github.com/giantswarm/prometheus-operator-app
     icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
     keywords:
@@ -5976,4 +5976,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-07T12:01:54.183674833Z"
+generated: "2022-01-10T15:26:45.087275398Z"
