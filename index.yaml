@@ -3309,6 +3309,21 @@ entries:
   - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
+    appVersion: 0.5.1
+    created: "2022-02-03T12:55:23.844903586Z"
+    description: A Helm chart for kiam-watchdog
+    digest: eaaf9e0409478e4d865ff172a038cd62b2b189b482f16922a1e210585f37a6ff
+    home: https://github.com/giantswarm/kiam-watchdog
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: kiam-watchdog
+    sources:
+    - https://github.com/giantswarm/kiam-watchdog
+    urls:
+    - https://giantswarm.github.io/default-catalog/kiam-watchdog-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
     appVersion: 0.5.0
     created: "2022-02-03T11:31:46.246043611Z"
     description: A Helm chart for kiam-watchdog
@@ -6252,4 +6267,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-03T11:31:46.245451451Z"
+generated: "2022-02-03T12:55:23.844369658Z"
