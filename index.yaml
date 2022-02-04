@@ -471,6 +471,21 @@ entries:
     version: 0.3.1
   cert-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.1.0.tgz-meta/README.md
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.1.0
+    created: "2022-02-04T13:23:46.38151299Z"
+    description: The cert-exporter walks a directory path it has gotten as input and
+      emits all NotAfter timestamps as metrics.
+    digest: d7667de5f460d7cac11c27fe49f706f46a07ffcf8c6c6e70af9c459fca9a1caa
+    home: https://github.com/giantswarm/cert-exporter
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-exporter-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.0.1.tgz-meta/README.md
       config.giantswarm.io/version: 1.x.x
@@ -6378,4 +6393,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-03T15:36:37.057919484Z"
+generated: "2022-02-04T13:23:46.380844685Z"
