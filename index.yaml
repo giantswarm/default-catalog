@@ -219,6 +219,18 @@ entries:
     version: 0.1.0
   azure-scheduled-events-app:
   - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-02-09T16:53:33.842695854Z"
+    description: A Helm chart for azure-scheduled-events
+    digest: 81833518524e3f5c356ba5dfe771336e424e68fbed25ff6d34f17ca8c9f75833
+    home: https://github.com/giantswarm/azure-scheduled-events
+    name: azure-scheduled-events-app
+    sources:
+    - https://github.com/giantswarm/azure-scheduled-events
+    urls:
+    - https://giantswarm.github.io/default-catalog/azure-scheduled-events-app-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
     appVersion: 0.5.0
     created: "2021-12-06T16:47:32.492769471Z"
     description: A Helm chart for azure-scheduled-events
@@ -6365,4 +6377,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-08T16:10:05.410239777Z"
+generated: "2022-02-09T16:53:33.841353826Z"
