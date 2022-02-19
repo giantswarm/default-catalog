@@ -3656,6 +3656,16 @@ entries:
   loadtest-app:
   - apiVersion: v1
     appVersion: 0.0.1
+    created: "2022-02-19T14:09:26.199204791Z"
+    description: A Helm chart for Load Test App
+    digest: a8e9eed8b3e758e334a0e7f55e9ac488c965acc9fa2dcb3a10c950822219875e
+    home: https://github.com/giantswarm/loadtest-app
+    name: loadtest-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v1
+    appVersion: 0.0.1
     created: "2022-02-19T13:58:07.465847251Z"
     description: A Helm chart for Load Test App
     digest: 97d34156359bab3361f23b36be01122a24a18b6eabc546bd1895716d73597820
@@ -6428,4 +6438,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-19T13:58:07.465020342Z"
+generated: "2022-02-19T14:09:26.198312651Z"
