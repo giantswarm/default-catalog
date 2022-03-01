@@ -203,6 +203,21 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-2.0.0.tgz
     version: 2.0.0
+  aws-pod-identity-webhook:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-03-01T07:00:47.900408819Z"
+    description: This webhook is for mutating pods that will require AWS IAM access.
+    digest: f565d7771d3843e83a7b588bf0c74b52323c08509b8310f545c52ba8275ad52a
+    home: https://github.com/giantswarm/aws-pod-identity-webhook
+    name: aws-pod-identity-webhook
+    sources:
+    - https://github.com/aws/amazon-eks-pod-identity-webhook
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-0.3.0.tgz
+    version: 0.3.0
   azure-scheduled-events:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -6578,4 +6593,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-28T07:34:23.549340106Z"
+generated: "2022-03-01T07:00:47.899817301Z"
