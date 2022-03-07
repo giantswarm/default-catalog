@@ -4003,6 +4003,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.11.0
+    created: "2022-03-07T09:44:34.525738483Z"
+    description: Helm chart for net-exporter.
+    digest: eb91e061183227ddbce7c35fd9514ae5840fd8491aeb710f810b4147f6f8a603
+    home: https://github.com/giantswarm/net-exporter
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.11.0.tgz
+    version: 1.11.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.10.3
     created: "2021-08-12T15:53:25.770465537Z"
     description: Helm chart for net-exporter.
@@ -6673,4 +6685,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-03T16:06:25.150388003Z"
+generated: "2022-03-07T09:44:34.52475355Z"
