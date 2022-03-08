@@ -3163,6 +3163,23 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: "4.2"
+    created: "2022-03-08T11:31:08.31705751Z"
+    dependencies:
+    - name: kiam-namespace-annotation
+      repository: ""
+      version: 0.1.0
+    description: Integrate AWS IAM with Kubernetes
+    digest: 0915357ce9cf86b278be25bfcb4ed33202f5a611e0a2c336111dd2440fdd8b65
+    home: https://github.com/uswitch/kiam
+    icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
+    name: kiam-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/kiam-app-2.2.0.tgz
+    version: 2.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: "4.2"
     created: "2022-02-28T07:34:17.899653422Z"
     dependencies:
     - name: kiam-namespace-annotation
@@ -6685,4 +6702,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-07T09:44:34.52475355Z"
+generated: "2022-03-08T11:31:08.31510097Z"
