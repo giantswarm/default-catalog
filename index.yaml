@@ -3,6 +3,18 @@ entries:
   aws-cni:
   - apiVersion: v1
     appVersion: 0.0.1
+    created: "2022-03-09T10:02:26.236902364Z"
+    description: A Helm chart for aws-cni
+    digest: 13e00b5ae2ce679383d8fb540dff24588040fb5e9fdc24914c63198eee45e0aa
+    home: https://github.com/giantswarm/aws-cni-app
+    name: aws-cni
+    sources:
+    - https://github.com/aws/amazon-vpc-cni-k8s
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-cni-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.0.1
     created: "2021-09-10T06:15:00.180408246Z"
     description: A Helm chart for aws-cni
     digest: 9bca39a76b51007c9e7b81b1f8f02de05dedef1a6a7156d7dc9fd19c3441e8ee
@@ -6715,4 +6727,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-08T14:36:26.352458469Z"
+generated: "2022-03-09T10:02:26.236293644Z"
