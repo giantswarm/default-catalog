@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cluster-resources-0.1.0.tgz
+dateCreated: '2022-03-29T19:28:57.881602'
+digest: 1c0c6db514ec1eb537da3cc3864a6f5d6cdd120b62583ba5b375127df11b3a6d
+home: https://github.com/giantswarm/cluster-resources-app
