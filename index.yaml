@@ -2347,9 +2347,9 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v1.22.2
-    created: "2022-04-07T06:51:03.905989115Z"
+    created: "2022-04-07T06:51:08.470680432Z"
     description: A Helm chart for the cluster autoscaler.
-    digest: 7496122d61b191d0551a68ec7ecc34ac4ad5143ec4267b4c6019ef099d54512f
+    digest: 71914ac8b3420ff9a612c3674256705c0aa2bd46e62840ca6480f656e9407561
     home: https://github.com/giantswarm/cluster-autoscaler-app
     name: cluster-autoscaler-app
     urls:
@@ -7251,4 +7251,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-07T06:51:03.904662003Z"
+generated: "2022-04-07T06:51:08.469915619Z"
