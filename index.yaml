@@ -2447,6 +2447,25 @@ entries:
   cloud-provider-openstack-app:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-04-25T12:20:51.999368478Z"
+    dependencies:
+    - name: openstack-cloud-controller-manager
+      repository: ""
+      version: 1.2.0
+    - name: openstack-cinder-csi
+      repository: ""
+      version: 2.1.0
+    description: A Helm chart for cloud-provider-openstack
+    digest: ae4b7aa88c46ea7be04414b64443f3f7a16b932523ffb76c4c2b9914855b121e
+    home: https://github.com/giantswarm/cloud-provider-openstack-app
+    name: cloud-provider-openstack-app
+    sources:
+    - https://github.com/giantswarm/cloud-provider-openstack-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-openstack-app-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-04-01T11:31:31.361296528Z"
     dependencies:
     - name: openstack-cloud-controller-manager
@@ -7599,4 +7618,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-25T12:17:26.658298508Z"
+generated: "2022-04-25T12:20:51.996820973Z"
