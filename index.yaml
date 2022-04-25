@@ -3209,6 +3209,19 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/coredns-app-0.9.0.tgz
     version: 0.9.0
+  csi-external-snapshotter-app:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2022-04-25T12:17:26.659225014Z"
+    description: CSI external snapshotter which deploys CRDs and controllers
+    digest: d6bca8a6e816636260b3d36d46beca2c4b11ea844550ec581620c9d2cc21f685
+    home: https://github.com/giantswarm/csi-external-snapshotter-app
+    name: csi-external-snapshotter-app
+    sources:
+    - https://github.com/giantswarm/csi-external-snapshotter-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/csi-external-snapshotter-app-0.1.0.tgz
+    version: 0.1.0
   external-dns-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.10.0.tgz-meta/main.yaml
@@ -7586,4 +7599,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-25T11:09:34.40735113Z"
+generated: "2022-04-25T12:17:26.658298508Z"
