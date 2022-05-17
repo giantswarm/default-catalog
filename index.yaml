@@ -2749,6 +2749,28 @@ entries:
     version: 0.1.0
   cloud-provider-vsphere-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-05-17T14:31:07.70468084Z"
+    description: A Helm chart for vSphere Cloud Provider Interface Manager (CPI)
+    digest: 463fd041c4b8472b65784c3307b08634da019fd1b99974e27f655e57169941bc
+    home: https://github.com/giantswarm/cloud-provider-vsphere-app
+    keywords:
+    - vsphere
+    - vmware
+    - cloud
+    - provider
+    - cpi
+    name: cloud-provider-vsphere-app
+    sources:
+    - https://github.com/kubernetes/cloud-provider-vsphere
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.1.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -8113,4 +8135,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-17T14:18:56.113324592Z"
+generated: "2022-05-17T14:31:07.703847536Z"
