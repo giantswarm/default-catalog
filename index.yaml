@@ -5951,6 +5951,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v1.3.1
+    created: "2022-05-30T06:59:40.762323511Z"
+    description: A Helm chart for Kubernetes Node-Exporter Service
+    digest: 34d5d65b8f7fd312d0e106faa3f31393471f425b4bb4458a6e1d89c07c4e41e6
+    home: https://github.com/giantswarm/node-exporter-app
+    name: node-exporter-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.12.0.tgz
+    version: 1.12.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v1.3.1
     created: "2022-04-07T10:39:25.093862089Z"
     description: A Helm chart for Kubernetes Node-Exporter Service
     digest: 9f162b39924e1ee362296f88c6341950e7a8f62d494c2682ee2423bfad00dd82
@@ -8267,4 +8279,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-25T11:57:08.444632995Z"
+generated: "2022-05-30T06:59:40.76172874Z"
