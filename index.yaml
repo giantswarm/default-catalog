@@ -4816,6 +4816,23 @@ entries:
       application.giantswarm.io/team: hydra
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.4.0
+    created: "2022-07-19T11:06:47.451006737Z"
+    description: The Google Compute Engine Persistent Disk (GCE PD) Container Storage
+      Interface (CSI) Storage Plugin.
+    digest: dde61a6395e102fbb69ed19716baa1e8167b7d6a85ae7f4d4f9a6a61f4aa2b69
+    home: https://github.com/giantswarm/gcp-compute-persistent-disk-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: gcp-compute-persistent-disk-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver
+    urls:
+    - https://giantswarm.github.io/default-catalog/gcp-compute-persistent-disk-csi-driver-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      application.giantswarm.io/team: hydra
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.3.0
     created: "2022-07-15T10:18:16.76684249Z"
     description: The Google Compute Engine Persistent Disk (GCE PD) Container Storage
@@ -9198,4 +9215,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/webhook-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-15T10:47:49.498764655Z"
+generated: "2022-07-19T11:06:47.450185838Z"
