@@ -9260,6 +9260,26 @@ entries:
       version: fb2ccec4228c26e366bd1ac96aade056f3db0151
     apiVersion: v2
     appVersion: 0.10.0
+    created: "2022-07-27T08:40:28.889336267Z"
+    description: A Helm chart for Kubernetes Vertical Pod Autoscaler
+    digest: 36b21b8f9ee78529057e3eb548f3b18c68b856211b2aafccd07e6a537451de87
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-app
+    maintainers:
+    - name: sudermanjr
+    name: vertical-pod-autoscaler-app
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-app-2.4.2.tgz
+    version: 2.4.2
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+      repository: https://github.com/FairwindsOps/charts/tree/master/stable/vpa
+      version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+    apiVersion: v2
+    appVersion: 0.10.0
     created: "2022-07-05T18:28:39.859875408Z"
     description: A Helm chart for Kubernetes Vertical Pod Autoscaler
     digest: 73668173f610153d9f5647f9f5a5195c2d452573b332eba23aa1e449fb3cc818
@@ -9479,4 +9499,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-07-26T18:56:41.284237221Z"
+generated: "2022-07-27T08:40:28.887121529Z"
