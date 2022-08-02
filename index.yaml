@@ -4526,6 +4526,25 @@ entries:
     version: 0.5.0
   external-dns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.15.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-app-2.15.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-app-2.15.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.11.0
+    created: "2022-08-02T10:49:20.173697943Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 33eb5243b11f94d5b1ee10451a560168ed7e3757a791ab866514edd22eb32f34
+    home: https://github.com/giantswarm/external-dns-app
+    icon: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
+    kubeVersion: '>=1.19.0-0'
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-app-2.15.1.tgz
+    version: 2.15.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-app-2.15.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-app-2.15.0.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -9536,4 +9555,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-07-29T11:09:26.99183108Z"
+generated: "2022-08-02T10:49:20.172698978Z"
