@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.7.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.7.1.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/oauth2-proxy-2.7.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: oauth2-proxy-2.7.1.tgz
+dateCreated: '2022-08-05T14:12:02.254021'
+digest: 91ef5b5f38022f628a0b070e50a53bfa3aedeb6827fa5dc6be4aeee4736e7b5e
+home: https://github.com/giantswarm/oauth2-proxy-app
+icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
