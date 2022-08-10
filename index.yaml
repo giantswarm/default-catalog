@@ -5259,6 +5259,19 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: "4.2"
+    created: "2022-08-10T13:16:27.394229231Z"
+    description: Integrate AWS IAM with Kubernetes
+    digest: 3de75d0d89b80b917954118675c99345c4f95bc7bb37e151207844d82dc0bc74
+    home: https://github.com/uswitch/kiam
+    icon: https://user-images.githubusercontent.com/44974642/63503185-ee2ce880-c4c6-11e9-9a65-c398db914289.png
+    name: kiam-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/kiam-app-2.5.0.tgz
+    version: 2.5.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: "4.2"
     created: "2022-08-09T12:32:16.025561363Z"
     dependencies:
     - name: kiam-namespace-annotation
@@ -9517,4 +9530,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-09T12:32:16.024339327Z"
+generated: "2022-08-10T13:16:27.393219697Z"
