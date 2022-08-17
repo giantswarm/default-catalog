@@ -3518,6 +3518,26 @@ entries:
   cloud-provider-openstack-app:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-08-17T12:52:52.066445468Z"
+    dependencies:
+    - name: openstack-cloud-controller-manager
+      repository: ""
+      version: 1.2.0
+    - name: openstack-cinder-csi
+      repository: ""
+      version: 2.1.0
+    description: A Helm chart for cloud-provider-openstack
+    digest: 7b88431e356d5aef483c5f0181f2c997c9185e9ced31d38980f115e51cd4fd80
+    home: https://github.com/giantswarm/cloud-provider-openstack-app
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: cloud-provider-openstack-app
+    sources:
+    - https://github.com/giantswarm/cloud-provider-openstack-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-openstack-app-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-06-22T18:34:49.741958484Z"
     dependencies:
     - name: openstack-cloud-controller-manager
@@ -9664,4 +9684,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-12T12:12:04.19267298Z"
+generated: "2022-08-17T12:52:52.064363351Z"
