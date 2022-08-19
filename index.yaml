@@ -9674,6 +9674,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.3.1
+    created: "2022-08-19T09:14:11.832125631Z"
+    description: Operator for managing workload identity on GCP clusters
+    digest: 14c271511e9e63ac529341b4180162d3f7fd1e8eb64a420da5399b151674640d
+    home: https://github.com/giantswarm/workload-identity-operator-gcp
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: workload-identity-operator-gcp
+    urls:
+    - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.3.0
     created: "2022-08-18T13:36:17.083691223Z"
     description: Operator for managing workload identity on GCP clusters
@@ -9698,4 +9712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-18T13:36:17.0831386Z"
+generated: "2022-08-19T09:14:11.831630829Z"
