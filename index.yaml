@@ -532,6 +532,17 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-0.3.0.tgz
     version: 0.3.0
+  azure-cloud-controller-manager-app:
+  - apiVersion: v1
+    appVersion: 1.1.17
+    created: "2022-08-23T08:57:17.410512212Z"
+    description: A Helm chart to run Azure Cloud Controller Manager
+    digest: 0fd466177e203423df620b31ec9b528ba5209e4fec65f687eecf3d3ef4bf4abc
+    home: https://github.com/giantswarm/azure-cloud-controller-manager-app
+    name: azure-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azure-cloud-controller-manager-app-1.23.17-gs3.tgz
+    version: 1.23.17-gs3
   azure-scheduled-events:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -9766,4 +9777,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-23T08:50:43.632037296Z"
+generated: "2022-08-23T08:57:17.409683121Z"
