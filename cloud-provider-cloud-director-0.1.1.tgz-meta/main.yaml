@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.1.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cloud-provider-cloud-director-0.1.1.tgz
+dateCreated: '2022-08-25T08:16:38.172725'
+digest: a10635ba1f8af6cdaaf000e4f46bc526c47ef0ca0d10b2f050d371658d6325bf
+home: https://github.com/giantswarm/cloud-provider-cloud-director-app
