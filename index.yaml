@@ -761,6 +761,17 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/azuredisk-csi-driver-app-1.21.0-gs2.tgz
     version: 1.21.0-gs2
+  azurefile-csi-driver-app:
+  - apiVersion: v1
+    appVersion: 1.20.0
+    created: "2022-08-29T07:36:49.83106089Z"
+    description: A Helm chart to run Azure CSI driver for Azure File.
+    digest: 2420451136726c22f5fc2a0d500c5e8811e9b8b24f4810bcfc33ef2387049e1d
+    home: https://github.com/giantswarm/azurefile-csi-driver-app
+    name: azurefile-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azurefile-csi-driver-app-1.20.0-gs1.tgz
+    version: 1.20.0-gs1
   cadvisor:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cadvisor-0.44.0-gs2.tgz-meta/main.yaml
@@ -9839,4 +9850,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-25T08:16:40.375233981Z"
+generated: "2022-08-29T07:36:49.829393898Z"
