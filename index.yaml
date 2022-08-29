@@ -5947,6 +5947,34 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/kiam-watchdog-0.3.0.tgz
     version: 0.3.0
+  kube-state-metrics:
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 2.5.0
+    created: "2022-08-29T14:58:34.140102995Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: a8b4116c794efdec9bcf2e0775fdc672e690c710cb3622c31fe364c8d029f98f
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-1.12.1.tgz
+    version: 1.12.1
   kube-state-metrics-app:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -9887,4 +9915,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-29T12:01:46.195073807Z"
+generated: "2022-08-29T14:58:34.138875087Z"
