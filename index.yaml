@@ -949,6 +949,23 @@ entries:
     version: 0.3.1
   cert-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cert-exporter-2.3.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.3.0
+    created: "2022-09-05T07:55:01.221071716Z"
+    description: The cert-exporter walks a directory path it has gotten as input and
+      emits all NotAfter timestamps as metrics.
+    digest: b427cc8cfcfeee676e0f6de36e9f03b77c6ae71e52a7206785d3e2e9809e561f
+    home: https://github.com/giantswarm/cert-exporter
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-exporter-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.2.0.tgz-meta/README.md
       config.giantswarm.io/version: 1.x.x
@@ -9925,4 +9942,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-31T09:55:25.415361112Z"
+generated: "2022-09-05T07:55:01.220158391Z"
