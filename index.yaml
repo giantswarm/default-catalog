@@ -6400,6 +6400,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 0.6.1
+    created: "2022-09-07T07:51:41.143738995Z"
+    description: Metrics Server is a cluster-wide aggregator of resource usage data.
+    digest: b2b301e5ddc8ea8e15729a327dff1f8399398ed5808b965c89dd17e159c97a4a
+    home: https://github.com/giantswarm/metrics-server-app
+    name: metrics-server-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/metrics-server-app-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.6.1
     created: "2022-07-12T12:40:11.059728512Z"
     description: Metrics Server is a cluster-wide aggregator of resource usage data.
     digest: bf907b21432bb35739f5dbdb420b6226c18f8353d7a5a69796e9ee183794dc66
@@ -9955,4 +9967,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-09-06T09:38:54.285921361Z"
+generated: "2022-09-07T07:51:41.14303233Z"
