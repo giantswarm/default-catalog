@@ -4485,6 +4485,22 @@ entries:
     version: 0.9.0
   cluster-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-09-19T05:54:21.569848997Z"
+    description: Resources installed in a freshly created cluster.
+    digest: 62e078c76a7cbf2ce0a5a5c1c02b33e892ce3088271e467427486daa34e07c68
+    home: https://github.com/giantswarm/cluster-resources-app
+    name: cluster-resources
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-resources-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -10154,4 +10170,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-09-15T14:21:40.421486994Z"
+generated: "2022-09-19T05:54:21.569381473Z"
