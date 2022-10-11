@@ -5095,6 +5095,18 @@ entries:
   csi-external-snapshotter-app:
   - apiVersion: v1
     appVersion: latest
+    created: "2022-10-11T14:59:14.220349338Z"
+    description: CSI external snapshotter which deploys CRDs and controllers
+    digest: 96e465820dc6048e10bfd2c757a41f0804094a307a2ba81037df5451f767e587
+    home: https://github.com/giantswarm/csi-external-snapshotter-app
+    name: csi-external-snapshotter-app
+    sources:
+    - https://github.com/giantswarm/csi-external-snapshotter-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/csi-external-snapshotter-app-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: latest
     created: "2022-05-23T07:21:05.550519544Z"
     description: CSI external snapshotter which deploys CRDs and controllers
     digest: 13eaf4ba19c0df3d7a5d2607be27151b82fddf04d3f29cbb26ce627d34207e41
@@ -10635,4 +10647,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-10-11T14:47:37.612906864Z"
+generated: "2022-10-11T14:59:14.21943973Z"
