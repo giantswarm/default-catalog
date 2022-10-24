@@ -8780,6 +8780,22 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/oauth2-proxy-2.0.0.tgz
     version: 2.0.0
+  observability-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/team: atlas
+    apiVersion: v2
+    created: "2022-10-24T12:25:46.535568986Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: 8855afebe383aca910799336bb2cdd8890cd5f28df8ecc3e77810cda66940475
+    home: https://github.com/giantswarm/observability-bundle
+    name: observability-bundle
+    sources:
+    - https://github.com/giantswarm/observability-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-bundle-0.1.0.tgz
+    version: 0.1.0
   prometheus-operator-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -11105,4 +11121,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-10-24T10:05:03.569332436Z"
+generated: "2022-10-24T12:25:46.534882616Z"
