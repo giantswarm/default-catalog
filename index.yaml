@@ -10664,6 +10664,27 @@ entries:
     version: 0.3.0
   prometheus-operator-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-2.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-2.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.54.0
+    created: "2022-10-31T11:12:55.407409973Z"
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: 1610efe14ea399889d2b708cba752ed763ad00a017e3b118929cc693d046b7a1
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.16.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-crd-2.0.1.tgz
+    version: 2.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-2.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-2.0.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -11136,4 +11157,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-10-26T10:24:41.815243072Z"
+generated: "2022-10-31T11:12:55.400674018Z"
