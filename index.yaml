@@ -9399,6 +9399,24 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-bundle-0.1.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-bundle-0.1.5.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/observability-bundle-0.1.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-12-14T10:40:08.993443157Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: 9f8285959732eb925f68ef813e24f263329cbc505c31c774e646019586d5dbac
+    home: https://github.com/giantswarm/observability-bundle
+    name: observability-bundle
+    sources:
+    - https://github.com/giantswarm/observability-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-bundle-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/team: atlas
     apiVersion: v2
     created: "2022-12-06T12:54:05.548137478Z"
@@ -11956,4 +11974,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2022-12-13T11:51:03.572538021Z"
+generated: "2022-12-14T10:40:08.992709987Z"
