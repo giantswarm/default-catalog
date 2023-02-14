@@ -1082,6 +1082,17 @@ entries:
     version: 1.21.0-gs2
   azurefile-csi-driver-app:
   - apiVersion: v1
+    appVersion: 1.26.0
+    created: "2023-02-14T15:16:39.071990163Z"
+    description: A Helm chart to run Azure CSI driver for Azure File.
+    digest: 8fb7b5fa45d9d505f88aea1b72f28ad471a04a6fef9c264753609a9812574866
+    home: https://github.com/giantswarm/azurefile-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azurefile-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azurefile-csi-driver-app-1.26.0-gs1.tgz
+    version: 1.26.0-gs1
+  - apiVersion: v1
     appVersion: 1.20.0
     created: "2022-08-29T07:36:49.83106089Z"
     description: A Helm chart to run Azure CSI driver for Azure File.
@@ -12818,4 +12829,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-02-14T14:12:16.275413373Z"
+generated: "2023-02-14T15:16:39.070346319Z"
