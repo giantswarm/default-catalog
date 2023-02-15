@@ -5945,6 +5945,17 @@ entries:
   coredns-app:
   - apiVersion: v1
     appVersion: 1.9.3
+    created: "2023-02-15T12:16:34.267592727Z"
+    description: A Helm chart for CoreDNS
+    digest: c456524fe71c0a8b3c5804c807b3e4544aff1ba9747b9b878b7361b3163b28eb
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.14.2.tgz
+    version: 1.14.2
+  - apiVersion: v1
+    appVersion: 1.9.3
     created: "2023-02-14T13:52:15.846834347Z"
     description: A Helm chart for CoreDNS
     digest: 47f0bce0434a20026eb5202956d5fc36d32260a6beb98d8d519097910770f845
@@ -12840,4 +12851,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-02-15T08:38:50.020234305Z"
+generated: "2023-02-15T12:16:34.266561913Z"
