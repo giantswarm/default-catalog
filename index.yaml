@@ -5116,6 +5116,22 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/cilium-0.1.0.tgz
     version: 0.1.0
+  cilium-servicemonitors:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-24T11:48:41.000940467Z"
+    description: Cilium ServiceMonitors
+    digest: 1db6ece0691c7cc2b6719cbc581a2107fc1f15f450cbde582eee1ab28d86710d
+    home: https://github.com/giantswarm/cilium_servicemonitors_app
+    keywords:
+    - monitoring
+    name: cilium-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/cilium-servicemonitors-0.0.1.tgz
+    version: 0.0.1
   cloud-provider-cloud-director:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.3.tgz-meta/main.yaml
@@ -13086,4 +13102,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-02-24T09:05:21.427006925Z"
+generated: "2023-02-24T11:48:41.000515903Z"
