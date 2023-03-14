@@ -5724,6 +5724,34 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/cloud-provider-openstack-app-0.1.0.tgz
     version: 0.1.0
+  cloud-provider-vsphere:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.3.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.3.1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.3.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-03-14T15:50:06.411543087Z"
+    dependencies:
+    - name: cloud-provider-for-vsphere
+      repository: ""
+      version: 1.0.0
+    - name: vsphere-csi-driver
+      repository: ""
+      version: 1.0.0
+    description: A Helm chart for cloud-provider-vsphere with CPI and CSI
+    digest: bb390fd2ca7d7a59b535387fd46afe9ef00518d038e3be705e3a8fef21386797
+    home: https://github.com/giantswarm/cloud-provider-vsphere-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-vsphere
+    sources:
+    - https://github.com/giantswarm/cloud-provider-vsphere-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.3.1.tgz
+    version: 1.3.1
   cloud-provider-vsphere-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-app-1.3.0.tgz-meta/main.yaml
@@ -13438,4 +13466,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-03-13T14:47:06.736740032Z"
+generated: "2023-03-14T15:50:06.410003482Z"
