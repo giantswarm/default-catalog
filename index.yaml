@@ -5588,6 +5588,33 @@ entries:
     version: 0.0.1
   cloud-provider-cloud-director:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.6.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-04-04T15:16:39.139486317Z"
+    dependencies:
+    - name: cloud-director-named-disk-csi-driver
+      repository: ""
+      version: 0.0.1
+    - name: cloud-provider-for-cloud-director
+      repository: ""
+      version: 0.0.1
+    description: A Helm chart for cloud-provider-cloud-director with CPI and CSI
+    digest: 9bd104c7847fe132d354afb1c561be8c0e5ef01d3ec5e083fcac91f6e205e59b
+    home: https://github.com/giantswarm/cloud-provider-cloud-director-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-cloud-director
+    sources:
+    - https://github.com/giantswarm/cloud-provider-cloud-director-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.6.tgz
+    version: 0.2.6
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.2.5.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -14300,4 +14327,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-04-04T13:35:01.288901317Z"
+generated: "2023-04-04T15:16:39.138177582Z"
