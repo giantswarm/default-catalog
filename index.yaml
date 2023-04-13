@@ -5836,6 +5836,22 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 1.13.0
+    created: "2023-04-13T14:57:53.717287426Z"
+    description: Cilium Network Policy CRDs.
+    digest: f0abb0703cb24f57612fa0effd0fcdc50b154810b7923fdf743d756245438cff
+    home: https://github.com/giantswarm/cilium-prerequisites
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cilium-prerequisites
+    sources:
+    - https://github.com/cilium/cilium
+    urls:
+    - https://giantswarm.github.io/default-catalog/cilium-prerequisites-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.13.0
     created: "2023-04-13T14:33:09.602196933Z"
     description: Cilium Network Policy CRDs.
     digest: 47a355372acac9facf6d7e66b3e161a5a0c400939515902faff0a8bf9cc75a96
@@ -14863,4 +14879,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-04-13T14:33:09.597930004Z"
+generated: "2023-04-13T14:57:53.711786834Z"
