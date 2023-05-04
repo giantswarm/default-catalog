@@ -2857,6 +2857,20 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.35.0
+    created: "2023-05-04T09:37:56.41854665Z"
+    description: A Helm chart for the chart-operator
+    digest: 29ba8ce180f272c38cc5a7cd86a478b0238adfbd925a8cc61fdd1961b6bc8830
+    home: https://github.com/giantswarm/chart-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-2.35.0.tgz
+    version: 2.35.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.34.1
     created: "2023-05-02T12:25:37.007928568Z"
     description: A Helm chart for the chart-operator
@@ -15603,4 +15617,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-05-04T08:26:59.551406799Z"
+generated: "2023-05-04T09:37:56.417606896Z"
