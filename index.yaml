@@ -13224,6 +13224,32 @@ entries:
     version: 0.0.0
   prometheus-operator-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.5.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.65.1
+    created: "2023-06-09T16:15:02.613671513Z"
+    dependencies:
+    - alias: prometheus-operator-app
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 46.8.0
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: bdd7218101588780319d9d5b445d4eeaa75d6ad781a8371023626d28c013969b
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: prometheus-operator-app
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.5.tgz
+    version: 5.0.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-operator-app-5.0.4.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -16490,4 +16516,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-06-08T14:01:16.364642063Z"
+generated: "2023-06-09T16:15:02.57359819Z"
