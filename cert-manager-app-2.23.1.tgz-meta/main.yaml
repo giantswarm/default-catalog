@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-manager-app-2.23.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-manager-app-2.23.1.tgz-meta/README.md
+  application.giantswarm.io/team: team-cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cert-manager-app-2.23.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cert-manager-app-2.23.1.tgz
+dateCreated: '2023-06-19T11:32:03.602774'
+digest: 22dd87ecea4d8e2b5fcebed5ada2589665445a9b3c5a3a80afe9e5bf90d5a140
+home: https://github.com/giantswarm/cert-manager-app
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
