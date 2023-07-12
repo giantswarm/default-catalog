@@ -10056,6 +10056,19 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 1.22.13
+    created: "2023-07-12T10:29:39.314070348Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: 78d3553b7d8e99b78fa224334762065d4d8b0b729c1898751a346a8cfafc2ccf
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.3.1.tgz
+    version: 2.3.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.22.13
     created: "2023-07-12T10:12:59.784898949Z"
     description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
     digest: badf707ef2adb1eab9cb597fe44363d71d770634460c5afbd22e5bb18de7c1b3
@@ -17239,4 +17252,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-07-12T10:12:59.783771197Z"
+generated: "2023-07-12T10:29:39.313428461Z"
