@@ -2094,6 +2094,34 @@ entries:
     version: 1.2.0
   cert-manager-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-manager-app-3.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-manager-app-3.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cert-manager-app-3.0.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.12.2
+    created: "2023-07-26T08:13:18.380564935Z"
+    dependencies:
+    - alias: giantSwarmClusterIssuer
+      name: cert-manager-giantswarm-clusterissuer
+      repository: ""
+      version: 2.0.0
+    - condition: ciliumNetworkPolicy.enabled
+      name: cert-manager-giantswarm-netpol
+      repository: ""
+      version: 0.1.0
+    description: Simplifies the process of obtaining, renewing and using certificates.
+    digest: 7895251a4ba5713ec37273ab7959669c6133a56752dc7461dc6d0c10271ed7d3
+    home: https://github.com/giantswarm/cert-manager-app
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    kubeVersion: '>=1.22.0-0'
+    name: cert-manager-app
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-manager-app-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-manager-app-2.24.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-manager-app-2.24.1.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -17332,4 +17360,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-07-14T14:14:02.40635527Z"
+generated: "2023-07-26T08:13:18.376000357Z"
