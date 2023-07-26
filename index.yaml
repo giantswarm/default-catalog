@@ -675,6 +675,23 @@ entries:
     version: 2.0.0
   aws-pod-identity-webhook:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.11.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.11.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.11.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-07-26T15:12:21.386180864Z"
+    description: This webhook is for mutating pods that will require AWS IAM access.
+    digest: 395609732dc632b5b52bbea93ceed9d6ce434831d8d3f980acce03f968df9183
+    home: https://github.com/giantswarm/aws-pod-identity-webhook
+    name: aws-pod-identity-webhook
+    sources:
+    - https://github.com/aws/amazon-eks-pod-identity-webhook
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.11.0.tgz
+    version: 1.11.0
+  - annotations:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
@@ -17388,4 +17405,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-07-26T09:33:34.334278347Z"
+generated: "2023-07-26T15:12:21.385356652Z"
