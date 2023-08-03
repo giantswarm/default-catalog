@@ -10270,6 +10270,17 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/irsa-servicemonitors-0.0.1.tgz
     version: 0.0.1
+  k8s-audit-metrics:
+  - apiVersion: v1
+    appVersion: 0.6.1
+    created: "2023-08-03T14:56:21.825576242Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: d6347efa9b81d429c5c4cf4a41ea165b2c63ad0c5fa3126e9c1a629477167628
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-audit-metrics-0.6.1.tgz
+    version: 0.6.1
   k8s-dns-node-cache-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -17608,4 +17619,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-08-03T08:12:03.831047806Z"
+generated: "2023-08-03T14:56:21.82466346Z"
