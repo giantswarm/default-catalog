@@ -7938,6 +7938,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: v1.24.3
+    created: "2023-08-15T08:47:42.750635294Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: 8d2d3bee92339c14d9948e4a26fc229ab110cded4698d4557a76fee5d754a019
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.24.3.tgz
+    version: 1.24.3
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: v1.25.1
     created: "2023-06-30T10:09:20.054700398Z"
     description: A Helm chart for the cluster autoscaler.
@@ -17681,4 +17695,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-08-10T14:27:00.427907477Z"
+generated: "2023-08-15T08:47:42.74982817Z"
