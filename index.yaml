@@ -16764,6 +16764,27 @@ entries:
       application.giantswarm.io/team: bigmac
     apiVersion: v2
     appVersion: 13.1.0
+    created: "2023-08-15T09:03:24.528281302Z"
+    description: A Helm chart for Teleport Kubernetes access.
+    digest: e1637aeecd41dd7f874649a538243e4344f193419fe39eb96c8265c095accdeb
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      application.giantswarm.io/team: bigmac
+    apiVersion: v2
+    appVersion: 13.1.0
     created: "2023-08-10T07:34:18.710119285Z"
     description: A Helm chart for Teleport Kubernetes access.
     digest: 4cb1179eaa70f1561561d2237ef0148f29fc1cd4469b083b8416d43afaefb07a
@@ -17695,4 +17716,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-08-15T08:47:42.74982817Z"
+generated: "2023-08-15T09:03:24.525858493Z"
