@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: prometheus-agent-0.6.0.tgz
+dateCreated: '2023-09-04T12:02:46.964025'
+digest: 2baa63901459c4017f8609f2b428fe530a964ae7c3530119982c3ee1a91059c7
+home: https://github.com/giantswarm/prometheus-agent-app
+restrictions:
+  clusterSingleton: true
