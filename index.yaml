@@ -14362,6 +14362,28 @@ entries:
     version: 0.1.0
   prometheus-agent:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.47.0
+    created: "2023-09-12T08:02:47.483931957Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: 0.6.2
+    description: A Helm chart for Prometheus agent.
+    digest: 758d9a1237e3df30a2cc912a58a5c6922e048b4279dcff4b3ae840ade50af07c
+    home: https://github.com/giantswarm/prometheus-agent-app
+    kubeVersion: '>=1.19.0-0'
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.2.tgz
+    version: 0.6.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -18475,4 +18497,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-09-05T13:37:16.613988649Z"
+generated: "2023-09-12T08:02:47.482553373Z"
