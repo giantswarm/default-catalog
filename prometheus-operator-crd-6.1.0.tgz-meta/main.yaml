@@ -5,8 +5,8 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-6.1.0.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: prometheus-operator-crd-6.1.0.tgz
-dateCreated: '2023-09-12T08:12:23.207182'
-digest: 6d340658a051224cdebb6dea398100477a83d2428dadd1a2e7d49a268544f309
+dateCreated: '2023-09-12T12:54:38.637599'
+digest: 9a71e6b6e570a044d69f3a5b76fa0dd956163d8eedc6e41986eee3724c2c9332
 home: https://github.com/giantswarm/prometheus-operator-crd
 icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
 restrictions:
