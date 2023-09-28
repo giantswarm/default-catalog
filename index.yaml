@@ -12575,6 +12575,20 @@ entries:
       application.giantswarm.io/team: cabbage
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.18.0
+    created: "2023-09-28T09:29:01.8114012Z"
+    description: Helm chart for net-exporter.
+    digest: 7382977599cf5a7eeb306a6b8dcee2cc47efb445a29956e1b41d569801a99e47
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.18.0.tgz
+    version: 1.18.0
+  - annotations:
+      application.giantswarm.io/team: cabbage
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.17.1
     created: "2023-09-20T14:49:58.797256054Z"
     description: Helm chart for net-exporter.
@@ -19110,4 +19124,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-09-28T09:20:43.452940497Z"
+generated: "2023-09-28T09:29:01.810656895Z"
