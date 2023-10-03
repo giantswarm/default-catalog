@@ -4552,6 +4552,25 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/chart-operator-0.9.0.tgz
     version: 0.9.0
+  chart-operator-servicemonitors:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-servicemonitors-1.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/chart-operator-servicemonitors-1.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/chart-operator-servicemonitors-1.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-10-03T13:38:29.668181333Z"
+    description: Chart Operator ServiceMonitors
+    digest: e19bd0c04ac4a81bdb4e9b090aa1fe37bbccc19bfaf4dcacfb15c050e49c9921
+    home: https://github.com/giantswarm/chart-operator-servicemonitors
+    keywords:
+    - monitoring
+    name: chart-operator-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-servicemonitors-1.0.1.tgz
+    version: 1.0.1
   cilium:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cilium-0.13.0.tgz-meta/main.yaml
@@ -19216,4 +19235,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-10-03T13:38:18.262322539Z"
+generated: "2023-10-03T13:38:29.667636872Z"
