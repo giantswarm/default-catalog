@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-extensions-1.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/chart-operator-extensions-1.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/chart-operator-extensions-1.1.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: chart-operator-extensions-1.1.1.tgz
+dateCreated: '2023-10-04T11:59:23.616754'
+digest: 7fe55909936db108a26768427163185ec9073d97de9b1a01f1ce8ee26693e26e
+home: https://github.com/giantswarm/chart-operator-extensions
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: giantswarm
+  namespaceSingleton: true
