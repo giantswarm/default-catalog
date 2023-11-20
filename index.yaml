@@ -10382,6 +10382,22 @@ entries:
     - https://giantswarm.github.io/default-catalog/cluster-resources-0.1.0.tgz
     version: 0.1.0
   coredns-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/coredns-app-1.19.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/coredns-app-1.19.1.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/coredns-app-1.19.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.9.3
+    created: "2023-11-20T16:11:28.272865939Z"
+    description: A Helm chart for CoreDNS
+    digest: fc1141c60916485dd273d259359d180ef4db1e4591d9907960b27c859fb186aa
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.19.1.tgz
+    version: 1.19.1
   - apiVersion: v1
     appVersion: 1.9.3
     created: "2023-09-28T08:33:34.457870294Z"
@@ -21146,4 +21162,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-11-20T15:02:20.418709732Z"
+generated: "2023-11-20T16:11:28.2719719Z"
