@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.5.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.5.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-1.5.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cloud-provider-vsphere-1.5.1.tgz
+dateCreated: '2023-11-24T13:25:30.083562'
+digest: 7f3eaf8104a58b3d35fc1b55d04b0a1e06407d8e29910583be41dd3121598d02
+home: https://github.com/giantswarm/cloud-provider-vsphere-app
