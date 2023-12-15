@@ -12540,6 +12540,21 @@ entries:
     version: 0.4.0-3863c3f7e9842c0ea0ccd13e5cb91c7e771ee472
   external-dns-bundle:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.5.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-12-15T12:25:23.131068538Z"
+    description: External DNS Bundle with crossplane resources
+    digest: 988db80e550218d3f0a86ce1d35077ef5c839e6dcd883abf77e15153ae891bda
+    home: https://github.com/giantswarm/external-dns-bundle
+    name: external-dns-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-bundle-0.1.4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -21802,4 +21817,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2023-12-15T12:25:00.396939394Z"
+generated: "2023-12-15T12:25:23.130502626Z"
