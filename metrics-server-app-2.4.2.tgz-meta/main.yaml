@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/metrics-server-app-2.4.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/metrics-server-app-2.4.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/metrics-server-app-2.4.2.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: metrics-server-app-2.4.2.tgz
+dateCreated: '2023-12-20T16:09:08.263136'
+digest: d81c9a473089b92052deecb3fd7524ce914de1ab2a6211395dfefcb126b7634b
+home: https://github.com/giantswarm/metrics-server-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
