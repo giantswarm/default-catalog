@@ -2028,6 +2028,24 @@ entries:
     version: 0.3.1
   cert-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.9.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.9.0.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cert-exporter-2.9.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.9.0
+    created: "2024-01-12T07:23:07.759632319Z"
+    description: The cert-exporter walks a directory path it has gotten as input and
+      emits all NotAfter timestamps as metrics.
+    digest: d14b6d5b909d2be8790ec4b79d21170e225899f4570168f1ec271f97f17ef492
+    home: https://github.com/giantswarm/cert-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-exporter-2.9.0.tgz
+    version: 2.9.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-exporter-2.8.5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-exporter-2.8.5.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -22088,4 +22106,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-01-11T11:35:39.874371583Z"
+generated: "2024-01-12T07:23:07.758826782Z"
