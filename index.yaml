@@ -14357,6 +14357,16 @@ entries:
   loadtest-app:
   - apiVersion: v1
     appVersion: 0.0.1
+    created: "2024-01-16T07:06:31.849279476Z"
+    description: A Helm chart for Load Test App
+    digest: 40556bc5951c2ce863918152a296c8761e0eecc40490cfefd92e95282b7f8841
+    home: https://github.com/giantswarm/loadtest-app
+    name: loadtest-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/loadtest-app-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
+    appVersion: 0.0.1
     created: "2023-10-17T11:53:13.220144886Z"
     description: A Helm chart for Load Test App
     digest: 6bcd7aa85733a7c2b71b47e3f8ba3a376211800acc68e593e63dd9a7318aaac0
@@ -22142,4 +22152,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-01-15T15:39:26.660201374Z"
+generated: "2024-01-16T07:06:31.848762562Z"
