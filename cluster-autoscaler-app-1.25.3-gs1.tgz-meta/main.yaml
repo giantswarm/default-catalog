@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/README.md
+  application.giantswarm.io/team: turtles
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-autoscaler-app-1.25.3-gs1.tgz
+dateCreated: '2024-02-05T14:34:09.779701'
+digest: a6d2a8822204deee439beca13e970616e5b6e90e70a5689b0452e4f097f8d2e5
+home: https://github.com/giantswarm/cluster-autoscaler-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

@@ -10836,6 +10836,23 @@ entries:
     - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.27.3-gs1.tgz
     version: 1.27.3-gs1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.25.3
+    created: "2024-02-05T14:34:13.634138823Z"
+    description: A Helm chart for the Cluster Autoscaler.
+    digest: a6d2a8822204deee439beca13e970616e5b6e90e70a5689b0452e4f097f8d2e5
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz
+    version: 1.25.3-gs1
+  - annotations:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -23092,4 +23109,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-02-05T12:11:13.808568976Z"
+generated: "2024-02-05T14:34:13.632765578Z"
