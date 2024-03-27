@@ -23034,6 +23034,27 @@ entries:
   - annotations:
       application.giantswarm.io/team: bigmac
     apiVersion: v2
+    appVersion: 15.1.9
+    created: "2024-03-27T17:47:38.774490781Z"
+    description: Teleport provides a secure SSH, Kubernetes, database and application
+      remote access solution that doesn't get in the way.
+    digest: 49f54ad4b4e78c2a9817d737a2fc8277da9a023a3f3baec2132c56da46d01cc9
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
+      application.giantswarm.io/team: bigmac
+    apiVersion: v2
     appVersion: 13.1.0
     created: "2024-01-18T10:10:27.509316096Z"
     description: A Helm chart for Teleport Kubernetes access.
@@ -24454,4 +24475,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-03-27T08:45:10.432230909Z"
+generated: "2024-03-27T17:47:38.772286277Z"
