@@ -808,6 +808,22 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-2.0.0.tgz
     version: 2.0.0
+  aws-ebs-csi-driver-servicemonitors:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-04-02T12:30:38.86739579Z"
+    description: AWS EBS CSI driver ServiceMonitors
+    digest: 6032f7b6f07be9e8a4d10306cd2a50ca0f6343990cd2a5ca19420b3784aeaca9
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app
+    keywords:
+    - monitoring
+    name: aws-ebs-csi-driver-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-servicemonitors-0.1.0.tgz
+    version: 0.1.0
   aws-pod-identity-webhook:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.14.2.tgz-meta/main.yaml
@@ -24535,4 +24551,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-04-02T09:15:07.361151619Z"
+generated: "2024-04-02T12:30:38.866774318Z"
