@@ -2031,6 +2031,19 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 1.26.0
+    created: "2024-04-15T12:16:15.942370862Z"
+    description: A Helm chart to run Azure CSI driver for Azure File.
+    digest: ebb79c520b61d10aaabe33672434a1b471ac7a321f415a36bddb31de70a147f8
+    home: https://github.com/giantswarm/azurefile-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azurefile-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azurefile-csi-driver-app-1.26.0-gs5.tgz
+    version: 1.26.0-gs5
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.26.0
     created: "2024-01-23T12:08:33.465479815Z"
     description: A Helm chart to run Azure CSI driver for Azure File.
     digest: 8ae870cc20a09c35d13df3f32a824d6cec4592f74e13ba1d8f8dcffca4f39194
@@ -24758,4 +24771,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-04-15T09:10:51.799153331Z"
+generated: "2024-04-15T12:16:15.939425433Z"
