@@ -21088,6 +21088,36 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.23.0
+    created: "2024-06-26T08:46:15.51140027Z"
+    description: Prometheus Blackbox Exporter
+    digest: b8a78389527a53a08cd91f06f1757607890b2ae994ce6dd6bb09b98b41368017
+    home: https://github.com/giantswarm/prometheus-blackbox-exporter-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.4.2.tgz
+    version: 0.4.2
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.23.0
     created: "2023-12-20T16:10:50.527681292Z"
     description: Prometheus Blackbox Exporter
     digest: ad8d4ebb928835dde9020bd87474ec612b930fb3b8ea297aaf3d2d577de87a2e
@@ -25853,4 +25883,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-06-26T08:46:01.618250658Z"
+generated: "2024-06-26T08:46:15.508728166Z"
