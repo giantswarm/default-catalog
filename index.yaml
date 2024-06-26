@@ -15672,6 +15672,21 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-06-26T08:46:01.618871455Z"
+    description: IRSA ServiceMonitors
+    digest: ae0c4227233ba8c84d747375b46dd2c065e93bf6cde6d1f10605c08ffd2edfbc
+    home: https://github.com/giantswarm/irsa-servicemonitors-app
+    keywords:
+    - monitoring
+    name: irsa-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/irsa-servicemonitors-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-02-24T12:39:05.465144414Z"
     description: IRSA ServiceMonitors
     digest: b94e926b71fc0a779c41405b792618ec083c3c4b376100a7fd07dd30177915a4
@@ -25838,4 +25853,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-06-25T13:08:36.759419946Z"
+generated: "2024-06-26T08:46:01.618250658Z"
