@@ -15750,6 +15750,23 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/gcp-compute-persistent-disk-csi-driver-0.2.1.tgz
     version: 0.2.1
+  giantswarm-cluster-suite:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-27T11:38:45.889087242Z"
+    description: App providing basic set of Giant Swarm resources
+    digest: 8ee573ec6bf849730d0fe6dd025300d56c82a2e9b833d97e3d5a4301515b95e9
+    home: https://github.com/giantswarm/giantswarm-cluster-suite
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: giantswarm-cluster-suite
+    urls:
+    - https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz
+    version: 0.1.0
   helm-2to3-migration:
   - apiVersion: v1
     appVersion: 0.5.0
@@ -26067,4 +26084,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-06-26T09:38:11.46969688Z"
+generated: "2024-06-27T11:38:45.88865705Z"

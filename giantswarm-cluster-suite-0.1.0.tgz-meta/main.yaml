@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: giantswarm-cluster-suite-0.1.0.tgz
+dateCreated: '2024-06-27T11:38:42.220098'
+digest: 8ee573ec6bf849730d0fe6dd025300d56c82a2e9b833d97e3d5a4301515b95e9
+home: https://github.com/giantswarm/giantswarm-cluster-suite
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
