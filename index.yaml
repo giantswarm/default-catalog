@@ -15788,6 +15788,22 @@ entries:
     version: 0.2.1
   giantswarm-cluster-suite:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-07-02T08:42:53.77447056Z"
+    description: App providing basic set of Giant Swarm resources
+    digest: 9fe6c4feef4bcadf1fb486315e20a63773154871a4292cf01536c81aebe8f6c7
+    home: https://github.com/giantswarm/giantswarm-cluster-suite
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: giantswarm-cluster-suite
+    urls:
+    - https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/giantswarm-cluster-suite-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -26171,4 +26187,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-07-02T08:15:32.753468472Z"
+generated: "2024-07-02T08:42:53.773994287Z"
