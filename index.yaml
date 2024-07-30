@@ -21572,6 +21572,26 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/observability-bundle-0.1.0.tgz
     version: 0.1.0
+  observability-policies:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-07-30T11:58:09.539342019Z"
+    description: Observability stack Kyverno policies
+    digest: ab6ff09ddc2ee6a8f357124be23743da3b593f373462b46a12fbec1ef6c5545c
+    home: https://github.com/giantswarm/observability-policies-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - monitoring
+    name: observability-policies
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz
+    version: 0.0.1
   prometheus-agent:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-agent-0.6.9.tgz-meta/main.yaml
@@ -26833,4 +26853,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-07-30T09:42:16.778323049Z"
+generated: "2024-07-30T11:58:09.538689918Z"

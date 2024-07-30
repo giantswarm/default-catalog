@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: observability-policies-0.0.1.tgz
+dateCreated: '2024-07-30T11:58:05.152718'
+digest: ab6ff09ddc2ee6a8f357124be23743da3b593f373462b46a12fbec1ef6c5545c
+home: https://github.com/giantswarm/observability-policies-app
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
