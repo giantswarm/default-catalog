@@ -2055,6 +2055,19 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 1.30.2
+    created: "2024-07-30T20:19:26.440674272Z"
+    description: A Helm chart to run Azure CSI driver for Azure Disks.
+    digest: e5c53cf80132cca1c4b45680d45d8d6103237a24dc7b4233e131d0a90c641a48
+    home: https://github.com/giantswarm/azuredisk-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azuredisk-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azuredisk-csi-driver-app-1.30.2-gs2.tgz
+    version: 1.30.2-gs2
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 1.30.2
     created: "2024-07-30T16:34:15.438585481Z"
     description: A Helm chart to run Azure CSI driver for Azure Disks.
     digest: 94cc4b23f5d8ae50693679ec34db7bc2310c528c405f82330d0d1e6800fb1330
@@ -26866,4 +26879,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-07-30T16:34:15.436612748Z"
+generated: "2024-07-30T20:19:26.437763707Z"
