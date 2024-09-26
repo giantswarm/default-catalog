@@ -25723,6 +25723,27 @@ entries:
       application.giantswarm.io/team: shield
     apiVersion: v2
     appVersion: 16.1.7
+    created: "2024-09-26T14:48:02.87984207Z"
+    description: Teleport provides a secure SSH, Kubernetes, database and application
+      remote access solution that doesn't get in the way.
+    digest: e259a5e49652988883955876d57fd3270d3e58b6b5214172d0cf482fdb11d9a8
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.3.tgz
+    version: 0.10.3
+  - annotations:
+      application.giantswarm.io/team: shield
+    apiVersion: v2
+    appVersion: 16.1.7
     created: "2024-09-25T14:13:28.085693786Z"
     description: Teleport provides a secure SSH, Kubernetes, database and application
       remote access solution that doesn't get in the way.
@@ -27453,4 +27474,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-09-25T14:13:28.083450916Z"
+generated: "2024-09-26T14:48:02.877519718Z"
