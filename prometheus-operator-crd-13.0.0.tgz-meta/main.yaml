@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-13.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-13.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-13.0.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: prometheus-operator-crd-13.0.0.tgz
+dateCreated: '2024-11-15T14:54:31.429248Z'
+digest: 8c21eb4554a185ba03d97c4544c4347b7386152b74f28790af1fcfbdccfd2253
+home: https://github.com/giantswarm/prometheus-operator-crd
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+restrictions:
+  clusterSingleton: true
