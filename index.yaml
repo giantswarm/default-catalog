@@ -21044,6 +21044,27 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-bundle-1.9.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-bundle-1.9.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/observability-bundle-1.9.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-11-18T12:36:37.524291821Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: a0bb9aca402b330fd8deec0050b5aa329285d5c099a37ce022ff3b01c64b21e4
+    home: https://github.com/giantswarm/observability-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: observability-bundle
+    sources:
+    - https://github.com/giantswarm/observability-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-bundle-1.9.0.tgz
+    version: 1.9.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-bundle-1.8.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-bundle-1.8.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -27745,4 +27766,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-11-18T08:55:48.604859885Z"
+generated: "2024-11-18T12:36:37.522311864Z"
