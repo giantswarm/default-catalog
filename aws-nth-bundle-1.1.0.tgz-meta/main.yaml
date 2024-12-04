@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: aws-nth-bundle-1.1.0.tgz
+dateCreated: '2024-12-04T14:54:47.995703Z'
+digest: 3f535aa0dc2d65ab96cb70c53118ca4aa3d4c3c872aec848e648516ededa072c
+home: https://github.com/giantswarm/aws-nth-bundle
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
