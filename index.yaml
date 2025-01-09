@@ -13624,6 +13624,23 @@ entries:
     - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.3.tgz
     version: 1.30.3
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.3-gs2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.3-gs2.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.3-gs2.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.30.3
+    created: "2025-01-09T07:47:06.712198693Z"
+    description: A Helm chart for the Cluster Autoscaler.
+    digest: e2f4971865742ae7afa7caa6c3edfe2ff08f58cefffed8b5a670471f2a7a78ed
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.3-gs2.tgz
+    version: 1.30.3-gs2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.2-gs1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-1.30.2-gs1.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -27891,4 +27908,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2024-12-13T11:18:45.911108161Z"
+generated: "2025-01-09T07:47:06.710828418Z"
