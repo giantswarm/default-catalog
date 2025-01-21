@@ -15114,6 +15114,24 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/csi-external-snapshotter-app-0.1.0.tgz
     version: 0.1.0
+  etcd-defrag:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/etcd-defrag-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/etcd-defrag-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: tenet
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/etcd-defrag-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.22.0
+    created: "2025-01-21T17:41:36.077333465Z"
+    description: etcd-defrag is an easy to use and smart etcd defragmentation tool.
+    digest: 62837d30323e3f47afc152c1c3f847b2bf4ea56c4f5aae5909e83edc939c8ef8
+    home: https://github.com/giantswarm/etcd-defrag-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: etcd-defrag
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/etcd-defrag-0.1.0.tgz
+    version: 0.1.0
   etcd-kubernetes-resources-count-exporter:
   - annotations:
       application.giantswarm.io/team: turtles
@@ -27980,4 +27998,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-01-20T16:26:45.587234227Z"
+generated: "2025-01-21T17:41:36.075511997Z"
