@@ -5,7 +5,7 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/etcd-defrag-0.1.0.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: etcd-defrag-0.1.0.tgz
-dateCreated: '2025-01-21T17:41:31.367788Z'
-digest: 62837d30323e3f47afc152c1c3f847b2bf4ea56c4f5aae5909e83edc939c8ef8
+dateCreated: '2025-01-21T17:52:08.722499Z'
+digest: 01302afc141cde24df52207727c52b8b9040b471f4e1f7c5755c7b26b751df6b
 home: https://github.com/giantswarm/etcd-defrag-app
 icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
