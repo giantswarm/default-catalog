@@ -6570,6 +6570,40 @@ entries:
     version: 1.0.1
   cilium:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cilium-0.31.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cilium-0.31.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cilium-0.31.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.16.6
+    created: "2025-01-28T11:14:56.321725189Z"
+    dependencies:
+    - alias: cniCustomConf
+      condition: cni.customConf
+      name: cilium-giantswarm-cni-customconf
+      repository: ""
+      version: 0.1.0
+    description: eBPF-based Networking, Security, and Observability
+    digest: 8e1c4bd423cfe2f287b354c44473b6df33247ca096b1616bfe6a80890f73b520
+    home: https://cilium.io/
+    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@main/Documentation/images/logo-solo.svg
+    keywords:
+    - BPF
+    - eBPF
+    - Kubernetes
+    - Networking
+    - Security
+    - Observability
+    - Troubleshooting
+    kubeVersion: '>= 1.21.0-0'
+    name: cilium
+    sources:
+    - https://github.com/giantswarm/cilium-app
+    - https://github.com/cilium/cilium
+    urls:
+    - https://giantswarm.github.io/default-catalog/cilium-0.31.0.tgz
+    version: 0.31.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cilium-0.30.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cilium-0.30.0.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -28109,4 +28143,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-01-27T14:06:56.973155057Z"
+generated: "2025-01-28T11:14:56.306838002Z"
