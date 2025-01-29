@@ -15242,6 +15242,25 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/coredns-app-0.9.0.tgz
     version: 0.9.0
+  coredns-extensions:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/coredns-extensions-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/coredns-extensions-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/coredns-extensions-0.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-29T09:05:25.050555646Z"
+    description: Extra resources for CoreDNS
+    digest: 22360590c27275a79c9ae309c5580146e1375ce9b41d0a66983e30c77835576a
+    home: https://github.com/giantswarm/coredns-extensions-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-extensions
+    sources:
+    - https://github.com/giantswarm/coredns-extensions-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/coredns-extensions-0.1.2.tgz
+    version: 0.1.2
   csi-external-snapshotter-app:
   - apiVersion: v1
     appVersion: latest
@@ -28210,4 +28229,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-01-28T17:31:10.796655393Z"
+generated: "2025-01-29T09:05:25.049980082Z"
