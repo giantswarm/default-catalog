@@ -12581,6 +12581,33 @@ entries:
     version: 0.0.1
   cloud-provider-cloud-director:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-02-06T12:38:26.556420451Z"
+    dependencies:
+    - name: cloud-director-named-disk-csi-driver
+      repository: ""
+      version: 0.0.1
+    - name: cloud-provider-for-cloud-director
+      repository: ""
+      version: 0.0.1
+    description: A Helm chart for cloud-provider-cloud-director with CPI and CSI
+    digest: 76c7c3860a1d137d6c3d07538591aa6711ce059378763fba53f640a0ed790c0a
+    home: https://github.com/giantswarm/cloud-provider-cloud-director-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-cloud-director
+    sources:
+    - https://github.com/giantswarm/cloud-provider-cloud-director-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.3.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.3.1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -28320,4 +28347,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-02-05T16:10:17.712103264Z"
+generated: "2025-02-06T12:38:26.554758363Z"
