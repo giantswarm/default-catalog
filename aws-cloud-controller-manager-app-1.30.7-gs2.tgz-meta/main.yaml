@@ -1,0 +1,18 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.30.7-gs2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.30.7-gs2.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.30.7-gs2.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+chartApiVersion: v1
+chartFile: aws-cloud-controller-manager-app-1.30.7-gs2.tgz
+dateCreated: '2025-02-18T14:00:45.445373Z'
+digest: 04ac23e68de8354e3268839b8fd6567467849dac9b74d99fda493db28b92c5e8
+home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - aws
+  fixedNamespace: kube-system
+  gpuInstances: false
