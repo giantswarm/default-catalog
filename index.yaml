@@ -19285,6 +19285,25 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/kube-state-metrics-app-0.5.0.tgz
     version: 0.5.0
+  kube-vip-cloud-provider:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.0.10
+    created: "2025-02-25T13:57:16.056738816Z"
+    description: A Helm chart for kube-vip cloud provider
+    digest: 85ee6ba065b91fe13e56532e42e290b9059d395574fa90f0eac8a84fe80a7f3f
+    icon: https://github.com/kube-vip/kube-vip/raw/main/kube-vip.png
+    maintainers:
+    - name: kube-vip
+    name: kube-vip-cloud-provider
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz
+    version: 0.2.0
   loadtest-app:
   - apiVersion: v1
     appVersion: 0.0.1
@@ -28649,4 +28668,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-02-25T10:43:49.497333806Z"
+generated: "2025-02-25T13:57:16.055998293Z"

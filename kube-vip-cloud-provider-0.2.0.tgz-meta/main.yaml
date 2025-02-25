@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kube-vip-cloud-provider-0.2.0.tgz
+dateCreated: '2025-02-25T13:57:12.520334Z'
+digest: 85ee6ba065b91fe13e56532e42e290b9059d395574fa90f0eac8a84fe80a7f3f
+icon: https://github.com/kube-vip/kube-vip/raw/main/kube-vip.png
