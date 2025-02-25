@@ -26820,6 +26820,33 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/prometheus-operator-crd-1.0.0.tgz
     version: 1.0.0
+  proxmox-cloud-controller-manager:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.7.0
+    created: "2025-02-25T14:43:48.087759239Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: 68bae02c2ed608a7c5cb0603fb14ff2c13a9119f91986a0bf9137165bb22b829
+    home: https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.0.tgz
+    version: 0.2.0
   teleport-kube-agent:
   - annotations:
       application.giantswarm.io/team: shield
@@ -28668,4 +28695,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-02-25T13:57:16.055998293Z"
+generated: "2025-02-25T14:43:48.086252814Z"
