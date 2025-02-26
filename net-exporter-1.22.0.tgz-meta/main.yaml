@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/net-exporter-1.22.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/net-exporter-1.22.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/net-exporter-1.22.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: net-exporter-1.22.0.tgz
+dateCreated: '2025-02-26T15:08:14.055267Z'
+digest: 0410c902c9676aa1f36e9218c1f81a1f44e6bee209d2c21823b32314be1d1ba8
+home: https://github.com/giantswarm/net-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
