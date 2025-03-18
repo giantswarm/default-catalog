@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.19.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.19.1.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-1.19.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: aws-pod-identity-webhook-1.19.1.tgz
+dateCreated: '2025-03-18T08:19:22.789571Z'
+digest: 01e7d1c7f4b02b387f0acc274265005cde29139ea5b008aa975f101639e439bb
+home: https://github.com/giantswarm/aws-pod-identity-webhook
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
