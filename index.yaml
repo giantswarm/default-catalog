@@ -5705,6 +5705,24 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/cert-manager-app-1.0.0.tgz
     version: 1.0.0
+  cert-manager-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cert-manager-bundle-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cert-manager-bundle-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cert-manager-bundle-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-03-20T00:31:11.40500906Z"
+    description: cert-manager Bundle with crossplane resources
+    digest: b57bce82778ca4f674c0bfb46cad714230c0259ac808a1887c502cfcfdaaa53b
+    home: https://github.com/giantswarm/cert-manager-bundle
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cert-manager-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/cert-manager-bundle-0.0.1.tgz
+    version: 0.0.1
   chart-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-4.0.0.tgz-meta/main.yaml
@@ -29280,4 +29298,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-03-18T14:42:33.621100214Z"
+generated: "2025-03-20T00:31:11.404557397Z"
