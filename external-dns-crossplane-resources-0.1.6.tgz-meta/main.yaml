@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.1.6.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.1.6.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.1.6.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: external-dns-crossplane-resources-0.1.6.tgz
+dateCreated: '2025-04-10T13:24:42.978840'
+digest: a605377cc3eea27d6bc25fb8759e38bf9d32979d0fe19ffd5f939e58049c89d6
+home: https://github.com/giantswarm/external-dns-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
