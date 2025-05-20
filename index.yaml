@@ -24012,6 +24012,25 @@ entries:
     version: 0.1.0
   observability-policies:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-policies-0.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-policies-0.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/observability-policies-0.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-05-20T15:45:55.259809413Z"
+    description: Observability stack Kyverno policies
+    digest: 64191efa8d05f52509e2810cda10fe75d6fc4b4e8206c889ace17ffc73c7c1ca
+    home: https://github.com/giantswarm/observability-policies-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - monitoring
+    name: observability-policies
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-policies-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/observability-policies-0.0.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -29868,4 +29887,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-05-20T09:45:58.47314929Z"
+generated: "2025-05-20T15:45:55.259258277Z"
