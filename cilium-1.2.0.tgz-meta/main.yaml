@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cilium-1.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/cilium-1.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/cilium-1.2.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cilium-1.2.0.tgz
+dateCreated: '2025-06-02T14:08:59.149199Z'
+digest: 7c8799f46e9ee233c7449ddec73c2c4a1462a7bb8f04e89988c2acb19d9522c3
+home: https://cilium.io/
+icon: https://cdn.jsdelivr.net/gh/cilium/cilium@main/Documentation/images/logo-solo.svg
