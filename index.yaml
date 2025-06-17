@@ -18645,6 +18645,22 @@ entries:
     version: 0.6.1
   k8s-dns-node-cache-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.9.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.9.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.9.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.26.4
+    created: "2025-06-17T08:56:24.67522828Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: d643be623d6b405d465479302da967eefbce09ed1b5cd9d960ab50da3718def6
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.9.0.tgz
+    version: 2.9.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.8.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.8.1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -30506,4 +30522,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-06-17T05:50:11.473054257Z"
+generated: "2025-06-17T08:56:24.67451595Z"
