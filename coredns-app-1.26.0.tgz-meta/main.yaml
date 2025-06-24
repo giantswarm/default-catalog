@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/coredns-app-1.26.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/coredns-app-1.26.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/coredns-app-1.26.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: coredns-app-1.26.0.tgz
+dateCreated: '2025-06-24T11:14:43.073329Z'
+digest: 02969141895db1e6b023ad5cb98d0a6b526f7ce4aebb6182cac060f1ef988b27
+home: https://github.com/giantswarm/coredns-app
+icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
