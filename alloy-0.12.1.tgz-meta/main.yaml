@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/alloy-0.12.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/alloy-0.12.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/alloy-0.12.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: alloy-0.12.1.tgz
+dateCreated: '2025-08-19T14:06:54.226166Z'
+digest: e180e76c0f8dc8dcf5ff60b31f93c0808a332cb50c3bf0d1942caeb0a646981d
+home: https://github.com/giantswarm/alloy-app
+icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
