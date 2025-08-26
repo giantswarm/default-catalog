@@ -18901,6 +18901,18 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
+    appVersion: 0.10.6
+    created: "2025-08-26T18:00:33.442463663Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 4c4424bdf8c7d9d92011cb99405767a7c14794c907ddf7cab017b6c0e08a041b
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-audit-metrics-0.10.6.tgz
+    version: 0.10.6
+  - annotations:
+      application.giantswarm.io/team: turtles
+    apiVersion: v1
     appVersion: 0.10.5
     created: "2025-07-31T11:53:50.095750091Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -31119,4 +31131,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-08-26T17:57:42.344432921Z"
+generated: "2025-08-26T18:00:33.441663714Z"
