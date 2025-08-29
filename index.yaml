@@ -2357,6 +2357,20 @@ entries:
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
     apiVersion: v2
     appVersion: 1.30.14
+    created: "2025-08-29T09:18:02.592461855Z"
+    description: A Helm chart for the Azure Cloud Node Manager.
+    digest: 6676b53c168f930e63770b79abc40422f830b5317d3f1d81ea1d591987459cf3
+    home: https://github.com/giantswarm/azure-cloud-node-manager-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azure-cloud-node-manager-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azure-cloud-node-manager-app-1.30.14-gs2.tgz
+    version: 1.30.14-gs2
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.30.14
     created: "2025-08-23T08:42:13.102846965Z"
     description: A Helm chart for the Azure Cloud Node Manager.
     digest: 4ec1c779e3dbf3303fab72f92c2b6d4f7f87ed95430ecf6e6c15fdcfe431d9e5
@@ -31255,4 +31269,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-08-27T06:57:14.750338913Z"
+generated: "2025-08-29T09:18:02.591659565Z"
