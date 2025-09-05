@@ -133,6 +133,23 @@ entries:
     version: 0.10.0
   aws-cloud-controller-manager-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.4-1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.4-1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.4-1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    apiVersion: v1
+    appVersion: 1.32.4
+    created: "2025-09-05T09:06:33.03698279Z"
+    description: A Helm chart to run AWS Cloud Controller Manager.
+    digest: 6fcaaf7444dc77e6fa0c2335abca24c39cb6aee3aadde816d6a3855bc478a129
+    home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.4-1.tgz
+    version: 1.32.4-1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.3-gs1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-1.32.3-gs1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -31542,4 +31559,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-09-04T22:37:36.085297042Z"
+generated: "2025-09-05T09:06:33.035980298Z"
