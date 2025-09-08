@@ -20159,6 +20159,32 @@ entries:
     version: 0.3.0
   kube-prometheus-stack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.85.0
+    created: "2025-09-08T08:37:39.510271248Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 77.0.1
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: b72fb7952db9bec0c465a8223185b364bf6682f96fc01143d250b3e625f9e214
+    home: https://github.com/giantswarm/kube-prometheus-stack-app
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.1.0.tgz
+    version: 18.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-prometheus-stack-18.0.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -31580,4 +31606,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-09-05T10:00:38.93806036Z"
+generated: "2025-09-08T08:37:39.437647652Z"
