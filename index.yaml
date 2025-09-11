@@ -19786,6 +19786,25 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/karpenter-1.2.0.tgz
     version: 1.2.0
+  karpenter-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/karpenter-crossplane-resources-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/karpenter-crossplane-resources-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/karpenter-crossplane-resources-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.4
+    created: "2025-09-11T10:50:11.095522452Z"
+    description: Crossplane Resources for Karpenter
+    digest: d81923bf46b50876f573139a5183c6bb91838a5592974d5cae57c24d9766f1ec
+    home: https://github.com/giantswarm/karpenter-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    name: karpenter-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/karpenter-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/karpenter-crossplane-resources-0.2.0.tgz
+    version: 0.2.0
   kiam-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -31826,4 +31845,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-09-11T10:42:13.819487302Z"
+generated: "2025-09-11T10:50:11.094928167Z"
