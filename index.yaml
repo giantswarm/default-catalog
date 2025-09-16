@@ -30178,6 +30178,22 @@ entries:
     version: 0.0.1
   test-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v2.13.0
+    created: "2025-09-16T08:26:20.212526179Z"
+    description: A Helm chart for a test app
+    digest: 2a9179ee7d8ac066effd39217a57b2f40c2356809643024262336f535e51c0d5
+    home: https://github.com/giantswarm/test-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: test-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/test-app-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/test-app-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -31863,4 +31879,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-09-11T11:23:40.968707914Z"
+generated: "2025-09-16T08:26:20.211911898Z"

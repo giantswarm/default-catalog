@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/test-app-1.0.1.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: test-app-1.0.1.tgz
+dateCreated: '2025-09-16T08:26:15.329772Z'
+digest: 2a9179ee7d8ac066effd39217a57b2f40c2356809643024262336f535e51c0d5
+home: https://github.com/giantswarm/test-app
+icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
