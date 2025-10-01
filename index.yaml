@@ -1423,6 +1423,24 @@ entries:
     version: 0.1.0
   aws-nth-bundle:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.3.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-10-01T16:18:34.629697737Z"
+    description: AWS Node Termination Handler Crossplane Resources
+    digest: 9a393169315edef95f068ff11246fae85b2a892188bdb1c657c2ebb96736ff03
+    home: https://github.com/giantswarm/aws-nth-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-nth-bundle
+    sources:
+    - https://github.com/giantswarm/aws-nth-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.3.tgz
+    version: 1.2.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.2.2.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -32027,4 +32045,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-10-01T11:17:06.909522264Z"
+generated: "2025-10-01T16:18:34.629025401Z"
