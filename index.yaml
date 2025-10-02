@@ -6570,6 +6570,23 @@ entries:
     version: 0.0.1
   chart-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-4.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/chart-operator-4.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/chart-operator-4.1.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 4.1.1
+    created: "2025-10-02T14:52:38.240488096Z"
+    description: A Helm chart for the chart-operator
+    digest: 73933003fca22775bb978f52637858dae93f07f4de35d3681489fc287d8255aa
+    home: https://github.com/giantswarm/chart-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-4.1.1.tgz
+    version: 4.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-4.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/chart-operator-4.1.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -32221,4 +32238,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-10-02T10:47:54.892023726Z"
+generated: "2025-10-02T14:52:38.239604093Z"
