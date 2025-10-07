@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: turtles
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.1.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: vertical-pod-autoscaler-crd-4.1.1.tgz
+dateCreated: '2025-10-07T08:13:01.596818Z'
+digest: 9efbb29ded5c97efc6d2fa2ce5d392f40092c88bf266ac8552da19dd238264b8
+home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+restrictions:
+  clusterSingleton: true
