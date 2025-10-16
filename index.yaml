@@ -3603,6 +3603,19 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/calico-policy-only-0.2.0.tgz
     version: 0.2.0
+  capa-karpenter-taint-remover:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
+    created: "2025-10-16T14:29:44.927713641Z"
+    description: CAPA karpenter taint remover
+    digest: 9d91b80197da3308e224c9aba0fd2bf8ca2c61d6c0ae8b69bcb3ff8809765b41
+    home: https://github.com/giantswarm/capa-karpenter-taint-remover
+    name: capa-karpenter-taint-remover
+    urls:
+    - https://giantswarm.github.io/default-catalog/capa-karpenter-taint-remover-1.0.1.tgz
+    version: 1.0.1
   capi-node-labeler:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -32664,4 +32677,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-10-15T15:11:23.251534286Z"
+generated: "2025-10-16T14:29:44.92694266Z"
