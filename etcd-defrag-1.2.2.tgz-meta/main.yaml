@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.2.tgz-meta/README.md
+  application.giantswarm.io/team: tenet
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: etcd-defrag-1.2.2.tgz
+dateCreated: '2025-10-18T15:13:22.035262Z'
+digest: c890a10e1faf77432b32b4a89f83ca2650991287b9a692fadfa50bbedf062a4f
+home: https://github.com/giantswarm/etcd-defrag-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
