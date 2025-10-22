@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-3.3.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-3.3.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-app-3.3.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: aws-ebs-csi-driver-app-3.3.0.tgz
+dateCreated: '2025-10-22T10:45:17.923982Z'
+digest: def5ba26dcf06ebb813b6cc0bca55ef0e02fea619354eb12fdb616cd83c0c024
+home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
