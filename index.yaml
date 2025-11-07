@@ -26785,6 +26785,29 @@ entries:
     version: 0.0.1
   priority-classes:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/priority-classes-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/priority-classes-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: tenet
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/priority-classes-0.2.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-11-07T15:03:06.712677783Z"
+    description: Standardized PriorityClass resources for Giant Swarm clusters, providing
+      giantswarm-critical and giantswarm-high priority levels
+    digest: 65d88a4bea49d67a9f666ebea650e96994dd6caba0b567c37c2427cc4d62b586
+    home: https://github.com/giantswarm/priority-classes
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    maintainers:
+    - email: team-tenet@giantswarm.io
+      name: Team Tenet
+    name: priority-classes
+    sources:
+    - https://github.com/giantswarm/priority-classes
+    urls:
+    - https://giantswarm.github.io/default-catalog/priority-classes-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/priority-classes-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/priority-classes-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: tenet
@@ -32964,4 +32987,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-11-07T12:12:32.555964839Z"
+generated: "2025-11-07T15:03:06.712196563Z"
