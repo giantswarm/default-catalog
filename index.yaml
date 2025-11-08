@@ -17695,9 +17695,9 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.3.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2025-11-08T07:01:28.156534907Z"
+    created: "2025-11-08T08:13:11.005459706Z"
     description: etcd-defrag is an easy to use and smart etcd defragmentation tool.
-    digest: 289b868d4105daa3f5948aa07e58703291811bfb537fe2e734476b9ed0c703f9
+    digest: 7929c0b5795e387b229320fc303b3f37dbfce8ad3332397daf06b65c0a082267
     home: https://github.com/giantswarm/etcd-defrag-app
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
     name: etcd-defrag
@@ -33026,4 +33026,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-11-08T07:01:28.155770512Z"
+generated: "2025-11-08T08:13:11.003880692Z"
