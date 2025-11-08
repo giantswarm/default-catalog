@@ -17689,6 +17689,23 @@ entries:
     version: 0.1.0
   etcd-defrag:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.3.tgz-meta/README.md
+      application.giantswarm.io/team: tenet
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.36.0
+    created: "2025-11-08T07:01:28.156534907Z"
+    description: etcd-defrag is an easy to use and smart etcd defragmentation tool.
+    digest: 289b868d4105daa3f5948aa07e58703291811bfb537fe2e734476b9ed0c703f9
+    home: https://github.com/giantswarm/etcd-defrag-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: etcd-defrag
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.3.tgz
+    version: 1.2.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/etcd-defrag-1.2.2.tgz-meta/README.md
       application.giantswarm.io/team: tenet
@@ -33009,4 +33026,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-11-07T15:35:46.531055466Z"
+generated: "2025-11-08T07:01:28.155770512Z"
