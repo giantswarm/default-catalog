@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/shoot-2.5.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/shoot-2.5.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/shoot-2.5.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: shoot-2.5.0.tgz
+dateCreated: '2025-11-12T11:36:33.391400Z'
+digest: fd0f19c8bccd03b7dc8efb33a2406c7589d31b5c4c0e3639d564be128bff6182
+home: https://github.com/giantswarm/shoot
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
