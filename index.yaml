@@ -30779,6 +30779,32 @@ entries:
     version: 0.2.0
   shoot:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/shoot-2.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/shoot-2.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/shoot-2.6.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.6.0
+    created: "2025-11-12T13:02:51.132388413Z"
+    description: A Helm chart for shoot - General purpose agent for Kubernetes
+    digest: 24252ae86e872c771043ab80c635151e4202653a0379dff24aff0b5ba6d29318
+    home: https://github.com/giantswarm/shoot
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    keywords:
+    - ai
+    - troubleshooting
+    - debugging
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: Giant Swarm
+    name: shoot
+    sources:
+    - https://github.com/giantswarm/shoot
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/shoot-2.6.0.tgz
+    version: 2.6.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/shoot-2.5.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/shoot-2.5.0.tgz-meta/README.md
       application.giantswarm.io/team: team-phoenix
@@ -33235,4 +33261,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-11-12T11:36:38.215439554Z"
+generated: "2025-11-12T13:02:51.131554739Z"
