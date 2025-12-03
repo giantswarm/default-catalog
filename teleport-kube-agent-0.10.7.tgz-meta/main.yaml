@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: teleport-kube-agent-0.10.7.tgz
+dateCreated: '2025-12-03T13:54:42.472544Z'
+digest: 98a0f42ea6d3f21fd74d1e7c7f8716d0842e09c3daae802fc8af4643493779ce
+home: https://github.com/giantswarm/teleport-kube-agent-app
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
