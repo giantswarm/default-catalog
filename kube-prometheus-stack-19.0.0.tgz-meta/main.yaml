@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: kube-prometheus-stack-19.0.0.tgz
+dateCreated: '2025-12-16T11:51:49.934418Z'
+digest: cf94cc4615ce8d24e6fc44c19601684630e86b36eb01d63e6f4e54f12bc229f1
+home: https://github.com/giantswarm/kube-prometheus-stack-app
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
