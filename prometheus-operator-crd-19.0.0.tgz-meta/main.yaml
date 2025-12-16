@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: prometheus-operator-crd-19.0.0.tgz
+dateCreated: '2025-12-16T11:41:36.567085Z'
+digest: 48d7bb42d8922f77c8dc8d718db0bdb5d6d9129af52d139c5853995ac58e0cb2
+home: https://github.com/giantswarm/prometheus-operator-crd
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+restrictions:
+  clusterSingleton: true
