@@ -33768,6 +33768,28 @@ entries:
     version: 1.0.0
   vsphere-csi-driver:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vsphere-csi-driver-app/refs/tags/v3.4.3/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/vsphere-csi-driver-app/refs/tags/v3.4.3/helm/vsphere-csi-driver/values.schema.json
+    apiVersion: v2
+    appVersion: 3.3.1
+    created: "2025-12-19T11:20:50.991368488Z"
+    description: A Helm chart for vSphere CSI (Container Storage Interface) Driver
+    digest: 0598482f2dcab2c7dabbbcc9b7b5101dad4548ec0a3e3f9437b82929509c0680
+    home: https://github.com/giantswarm/vsphere-csi-driver-app
+    icon: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
+    keywords:
+    - vsphere
+    - vmware
+    - csi
+    name: vsphere-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/vsphere-csi-driver
+    urls:
+    - https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.3.tgz
+    version: 3.4.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.2.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -33952,4 +33974,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-12-19T11:03:03.617168998Z"
+generated: "2025-12-19T11:20:50.990430155Z"
