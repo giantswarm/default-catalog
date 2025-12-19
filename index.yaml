@@ -3753,6 +3753,18 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 0.0.1
+    created: "2025-12-19T08:55:12.473131221Z"
+    description: CAPI node labeler
+    digest: 13e5c38456175a8b684902640cfb08394269fe4df9b02954fd2a81f3e83126c6
+    home: https://github.com/giantswarm/capi-node-labeler-app
+    name: capi-node-labeler
+    urls:
+    - https://giantswarm.github.io/default-catalog/capi-node-labeler-1.1.6.tgz
+    version: 1.1.6
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
     created: "2025-11-01T07:58:37.590463152Z"
     description: CAPI node labeler
     digest: 1ade742c00a5e959a5ddbf30f9d27684a7b490cc2ddf83c7eb805145b5ea708b
@@ -33910,4 +33922,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2025-12-19T08:45:16.008805829Z"
+generated: "2025-12-19T08:55:12.472632963Z"
