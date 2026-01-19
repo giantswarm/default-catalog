@@ -17446,6 +17446,23 @@ entries:
   coredns-app:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/coredns-app-1.29.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/coredns-app/refs/tags/v1.29.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/coredns-app/refs/tags/v1.29.1/helm/coredns-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.14.1
+    created: "2026-01-19T11:35:42.103732649Z"
+    description: A Helm chart for CoreDNS
+    digest: 5bca234c23996e3d8f38d30d1cb6f15530f097e7b7078f1770fda2e43dcb7382
+    home: https://github.com/giantswarm/coredns-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/coredns-app-1.29.1.tgz
+    version: 1.29.1
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/coredns-app-1.29.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/coredns-app/refs/tags/v1.29.0/README.md
       io.giantswarm.application.team: cabbage
@@ -34278,4 +34295,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-01-19T10:05:55.964135999Z"
+generated: "2026-01-19T11:35:42.102877003Z"
