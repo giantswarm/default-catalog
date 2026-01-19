@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: cilium-1.2.6.tgz
+dateCreated: '2026-01-19T10:05:51.333956Z'
+digest: 6fb70c7b5043f7d325fe22a8315239fda253b4c2c9594182a4599908c28e3e02
+home: https://cilium.io/
+icon: https://cdn.jsdelivr.net/gh/cilium/cilium@main/Documentation/images/logo-solo.svg
