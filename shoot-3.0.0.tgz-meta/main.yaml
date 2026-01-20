@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: team-phoenix
+chartApiVersion: v2
+chartFile: shoot-3.0.0.tgz
+dateCreated: '2026-01-20T09:34:15.329373Z'
+digest: f9324fedbd7ff2642da431eb98de80f3441160dc29354638b34f3ba134b97943
+home: https://github.com/giantswarm/shoot
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
