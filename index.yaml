@@ -1571,6 +1571,25 @@ entries:
     version: 2.0.0
   aws-ebs-csi-driver-bundle:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.0.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.0.1/helm/aws-ebs-csi-driver-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 1.51.0
+    created: "2026-01-22T12:17:21.733119859Z"
+    description: A Helm chart for AWS EBS CSI Driver with IAM resources
+    digest: 11b9081deee0fe8e3616fb4934af74ad87ab66dd57510a557169746eaab9931c
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-ebs-csi-driver-bundle
+    sources:
+    - https://github.com/giantswarm/aws-ebs-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.0.1.tgz
+    version: 4.0.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.0.0/README.md
       io.giantswarm.application.team: phoenix
@@ -34408,4 +34427,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-01-22T12:16:48.491516939Z"
+generated: "2026-01-22T12:17:21.729904992Z"
