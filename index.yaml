@@ -21308,6 +21308,47 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-1.1.0.tgz
     version: 1.1.0
+  kamaji-etcd:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: feat
+          description: custom certmanager object names and customisations
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kamaji-etcd-0.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/clastix/kamaji-etcd/refs/tags/v0.2.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream: https://github.com/clastix/kamaji-etcd
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/clastix/kamaji-etcd/refs/tags/v0.2.0/helm/kamaji-etcd/values.schema.json
+    apiVersion: v2
+    appVersion: 3.5.17
+    created: "2026-01-27T16:44:18.641105947Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: 1e711e322210d72f5fe5e1171b037e6596bd7eb491168192f2872ccf1539c12c
+    home: https://github.com/clastix/kamaji-etcd
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/kamaji-etcd-0.2.0.tgz
+    version: 0.2.0
   karpenter:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/karpenter-1.4.0.tgz-meta/main.yaml
@@ -34581,4 +34622,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-01-27T08:55:00.352232409Z"
+generated: "2026-01-27T16:44:18.639000673Z"
