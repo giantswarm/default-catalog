@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/team: atlas
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: observability-bundle-2.6.0.tgz
+dateCreated: '2026-01-28T08:20:30.265485Z'
+digest: d44ab0a89436076f821ebf06283e80e5ead4882c61d0944c94e20f45ad21c86c
+home: https://github.com/giantswarm/observability-bundle
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
