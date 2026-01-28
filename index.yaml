@@ -21470,6 +21470,38 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/karpenter-1.2.0.tgz
     version: 1.2.0
+  karpenter-bundle:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/karpenter-bundle-2.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/karpenter-app/refs/tags/v2.0.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/karpenter-app/refs/tags/v2.0.0/helm/karpenter-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2026-01-28T16:07:24.331953699Z"
+    description: A Helm chart bundle that deploys Karpenter with AWS Crossplane resources
+      (IAM roles, SQS queues, CloudWatch rules).
+    digest: 8351fbfa40a2c74f82d0aeaf44248ffcc47fcace0114121826f6ae5ff0adc4b7
+    home: https://github.com/giantswarm/karpenter-app
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    - bundle
+    - crossplane
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: giantswarm/team-phoenix
+    name: karpenter-bundle
+    sources:
+    - https://github.com/aws/karpenter/
+    - https://karpenter.sh/
+    urls:
+    - https://giantswarm.github.io/default-catalog/karpenter-bundle-2.0.0.tgz
+    version: 2.0.0
   karpenter-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/karpenter-crossplane-resources-0.5.1.tgz-meta/main.yaml
@@ -34673,4 +34705,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-01-28T16:06:50.903473048Z"
+generated: "2026-01-28T16:07:24.32990027Z"
