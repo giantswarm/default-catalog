@@ -20864,6 +20864,22 @@ entries:
     version: 0.0.1
   k8s-audit-metrics:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/k8s-audit-metrics-0.10.12.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/refs/tags/v0.10.12/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/refs/tags/v0.10.12/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.12
+    created: "2026-02-04T12:55:02.896882668Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 5f1d7c4019287b6364206c1d468fddc37861a89e3b598ec49a0422cbe9e770ae
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-audit-metrics-0.10.12.tgz
+    version: 0.10.12
+  - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
     appVersion: 0.10.11
@@ -34705,4 +34721,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-01-28T16:07:24.32990027Z"
+generated: "2026-02-04T12:55:02.896195791Z"

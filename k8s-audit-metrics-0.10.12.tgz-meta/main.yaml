@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: tenet
+chartApiVersion: v2
+chartFile: k8s-audit-metrics-0.10.12.tgz
+dateCreated: '2026-02-04T12:54:58.178944Z'
+digest: 5f1d7c4019287b6364206c1d468fddc37861a89e3b598ec49a0422cbe9e770ae
+home: https://github.com/giantswarm/k8s-audit-metrics
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
