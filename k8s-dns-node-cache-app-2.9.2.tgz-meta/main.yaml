@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: k8s-dns-node-cache-app-2.9.2.tgz
+dateCreated: '2026-02-10T09:57:13.628986Z'
+digest: cf3b471451fe0b4e483685883d2b45cc259f6b6f0c8795c005aa86e567af5a6c
+home: https://github.com/giantswarm/k8s-dns-node-cache-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
+  gpuInstances: false
