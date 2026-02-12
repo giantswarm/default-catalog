@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: metrics-server-app-2.8.0.tgz
+dateCreated: '2026-02-12T15:15:32.407458Z'
+digest: 3d2d559b79ff079c0a54d42c4b36f672b87e3577a33a6a7300790c75cf5434d9
+home: https://github.com/giantswarm/metrics-server-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
