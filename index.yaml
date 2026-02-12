@@ -31685,6 +31685,31 @@ entries:
     version: 0.3.0
   prometheus-operator-crd:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-19.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v19.0.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v19.0.1/helm/prometheus-operator-crd/values.schema.json
+    apiVersion: v2
+    appVersion: v0.87.1
+    created: "2026-02-12T15:36:05.86270444Z"
+    dependencies:
+    - name: prometheus-operator-crds
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.0.1
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: b96466c075044da65eb4d993b74ea6256e3adeab633822bdfe4b6874c0735d8d
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-crd-19.0.1.tgz
+    version: 19.0.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-19.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v19.0.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -34988,4 +35013,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-12T15:15:37.121750232Z"
+generated: "2026-02-12T15:36:05.839090079Z"
