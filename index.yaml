@@ -1949,6 +1949,25 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.1.0.tgz
     version: 1.1.0
+  aws-nth-crossplane-resources:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-nth-crossplane-resources-1.3.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-nth-crossplane-resources/refs/tags/v1.3.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-nth-crossplane-resources/refs/tags/v1.3.1/helm/aws-nth-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 1.3.1
+    created: "2026-02-12T16:42:35.010437196Z"
+    description: Please add description
+    digest: e2bd1c946d137c43e6d13df537a216d6537e471e06fc699cfd21f8c4c234d9e3
+    home: https://github.com/giantswarm/aws-nth-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-nth-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/aws-nth-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-nth-crossplane-resources-1.3.1.tgz
+    version: 1.3.1
   aws-pod-identity-webhook:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-2.1.0.tgz-meta/main.yaml
@@ -35013,4 +35032,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-12T15:36:05.839090079Z"
+generated: "2026-02-12T16:42:35.009849194Z"
