@@ -18900,6 +18900,23 @@ entries:
   etcd-kubernetes-resources-count-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/etcd-kubernetes-resources-count-exporter-1.10.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/etcd-kubernetes-resources-count-exporter/refs/tags/v1.10.14/README.md
+      io.giantswarm.application.team: turtles
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/etcd-kubernetes-resources-count-exporter/refs/tags/v1.10.14/helm/etcd-kubernetes-resources-count-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.10.14
+    created: "2026-02-16T10:27:22.998693332Z"
+    description: Collector that exposes metrics about k8s resources stored in etcd
+    digest: cba441c0e2226eab3cd031d3666054711319f1594bd17c81417feb83dc7b3a1e
+    home: https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: etcd-kubernetes-resources-count-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/etcd-kubernetes-resources-count-exporter-1.10.14.tgz
+    version: 1.10.14
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/etcd-kubernetes-resources-count-exporter-1.10.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/etcd-kubernetes-resources-count-exporter/refs/tags/v1.10.13/README.md
       io.giantswarm.application.team: turtles
@@ -35106,4 +35123,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-16T10:20:12.754882306Z"
+generated: "2026-02-16T10:27:22.997640339Z"
