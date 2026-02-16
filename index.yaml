@@ -25299,6 +25299,41 @@ entries:
     version: 1.1.0
   node-exporter-app:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/node-exporter-app-1.20.11.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/node-exporter-app/refs/tags/v1.20.11/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/node-exporter-app/refs/tags/v1.20.11/helm/node-exporter-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.8.2
+    created: "2026-02-16T10:20:12.756817922Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: ec83788cfbca6cf35ea4109a9230b1f8a9eaf31e2a0d3ef4dfd51ccd09389444
+    home: https://github.com/giantswarm/node-exporter-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: node-exporter-app
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/node-exporter-app-1.20.11.tgz
+    version: 1.20.11
+  - annotations:
       application.giantswarm.io/team: turtles
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -35071,4 +35106,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-14T23:30:48.065798073Z"
+generated: "2026-02-16T10:20:12.754882306Z"
