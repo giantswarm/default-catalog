@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: azure-private-dns-crossplane-resources-0.1.0.tgz
+dateCreated: '2026-02-17T14:05:33.688440Z'
+digest: 7f0983ab91fc0fc6c4f35070d0b968ec8b8eaebd9ff59eb4d776f597d9fd75e3
+home: https://github.com/giantswarm/azure-private-dns-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
