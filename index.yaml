@@ -1808,6 +1808,27 @@ entries:
     version: 4.0.0
   aws-ebs-csi-driver-servicemonitors:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-servicemonitors-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/refs/tags/v0.1.1/helm/aws-ebs-csi-driver-servicemonitors/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-19T15:14:32.348927893Z"
+    description: AWS EBS CSI driver ServiceMonitors
+    digest: 7caed7401e93315c6fa8ab6fb1307cb77c03f606cf2d68c3ed08905cacc8f224
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - monitoring
+    name: aws-ebs-csi-driver-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-servicemonitors-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 1.0.0
@@ -35336,4 +35357,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-19T15:13:52.513143462Z"
+generated: "2026-02-19T15:14:32.348188057Z"
