@@ -32964,6 +32964,26 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/shoot-2.0.0.tgz
     version: 2.0.0
+  starboard-exporter:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/starboard-exporter-1.0.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.0.3/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.0.3/helm/starboard-exporter/values.schema.json
+    apiVersion: v1
+    appVersion: 1.0.3
+    created: "2026-02-19T13:31:08.980733821Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: 042c8bfd243fb9da4e509d4cabe3115c094628d1e4b50d147cc2402bd3286cd0
+    home: https://github.com/giantswarm/starboard-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/starboard-exporter-1.0.3.tgz
+    version: 1.0.3
   teleport-kube-agent:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/main.yaml
@@ -35260,4 +35280,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-18T11:28:06.902215148Z"
+generated: "2026-02-19T13:31:08.97962183Z"
