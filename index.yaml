@@ -21159,6 +21159,27 @@ entries:
     version: 1.0.0
   irsa-servicemonitors:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/irsa-servicemonitors-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/irsa-servicemonitors-app/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/irsa-servicemonitors-app/refs/tags/v0.1.1/helm/irsa-servicemonitors/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-19T15:13:52.513916397Z"
+    description: IRSA ServiceMonitors
+    digest: dcee67d49b0275520cc60ca5bf0b49b116c4c370d50d0831d7537ce711465116
+    home: https://github.com/giantswarm/irsa-servicemonitors-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - monitoring
+    name: irsa-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/irsa-servicemonitors-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 1.0.0
@@ -35315,4 +35336,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-19T15:13:22.633037978Z"
+generated: "2026-02-19T15:13:52.513143462Z"
