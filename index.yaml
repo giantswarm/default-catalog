@@ -28982,6 +28982,41 @@ entries:
     version: 0.3.0
   prometheus-blackbox-exporter:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-blackbox-exporter-app/refs/tags/v0.5.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-blackbox-exporter-app/refs/tags/v0.5.1/helm/prometheus-blackbox-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.23.0
+    created: "2026-02-19T15:13:22.634610169Z"
+    description: Prometheus Blackbox Exporter
+    digest: 8efc91bcdc4a13999af182a94e521a33e7f9d631baa9b0543c651f5ecc1446c6
+    home: https://github.com/giantswarm/prometheus-blackbox-exporter-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.23.0
@@ -35280,4 +35315,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-19T13:31:08.97962183Z"
+generated: "2026-02-19T15:13:22.633037978Z"
