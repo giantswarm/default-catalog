@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: capa-karpenter-taint-remover-1.0.2.tgz
+dateCreated: '2026-02-19T15:35:56.499178Z'
+digest: c1c0422cc061a89f7910f60b837a46f4fafba723944d0240ebdb7e8c7a68e911
+home: https://github.com/giantswarm/capa-karpenter-taint-remover
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
