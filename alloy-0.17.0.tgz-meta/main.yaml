@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: alloy-0.17.0.tgz
+dateCreated: '2026-02-20T14:43:04.593679Z'
+digest: 1866b04cd35008c3fdaf84fc475b5e6df47102d3c5b82156fd6a09789a40893e
+home: https://github.com/giantswarm/alloy-app
+icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
