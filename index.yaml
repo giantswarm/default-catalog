@@ -33240,6 +33240,33 @@ entries:
     version: 1.0.3
   teleport-kube-agent:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.10.8/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.10.8/helm/teleport-kube-agent/values.schema.json
+    apiVersion: v2
+    appVersion: 17.5.4
+    created: "2026-02-23T11:48:35.273966883Z"
+    description: Teleport provides a secure SSH, Kubernetes, database and application
+      remote access solution that doesn't get in the way.
+    digest: c5f07a4e0776812a205d39f685f5162f0e425cedb4ca9d8c091191d647d47a02
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.8.tgz
+    version: 0.10.8
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.7.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -35534,4 +35561,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-20T19:08:46.316396638Z"
+generated: "2026-02-23T11:48:35.27126577Z"
