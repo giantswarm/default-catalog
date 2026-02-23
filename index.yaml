@@ -3466,6 +3466,24 @@ entries:
     version: 1.23.17-gs2
   azure-private-dns-crossplane-resources:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azure-private-dns-crossplane-resources-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-dns-crossplane-resources/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-private-dns-crossplane-resources/refs/tags/v0.1.1/helm/azure-private-dns-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-02-23T14:59:55.750649642Z"
+    description: Azure Private DNS Zone Crossplane Resources
+    digest: a314af18ba9064d0cb56a4cf9f50884b6cc24b907ae0065cbc13edb0636fa594
+    home: https://github.com/giantswarm/azure-private-dns-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: azure-private-dns-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/azure-private-dns-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/azure-private-dns-crossplane-resources-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azure-private-dns-crossplane-resources-0.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-dns-crossplane-resources/refs/tags/v0.1.0/README.md
       io.giantswarm.application.team: phoenix
@@ -35582,4 +35600,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-23T12:49:52.012930181Z"
+generated: "2026-02-23T14:59:55.750086881Z"
