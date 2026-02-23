@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-ebs-csi-driver-servicemonitors-0.1.2.tgz
+dateCreated: '2026-02-23T12:49:47.357939Z'
+digest: 31b518d1285f4ec48bd1214b39b537276ca7cc5c9838fa3f15d8946ca6e2f8e6
+home: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
