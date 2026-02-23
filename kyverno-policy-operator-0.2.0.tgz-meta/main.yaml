@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: kyverno-policy-operator-0.2.0.tgz
+dateCreated: '2026-02-23T20:19:18.402489Z'
+digest: aea091b9ebec9d3fe2b659df91a774205ac95bb26bda3e3ba8d55c65b7bc2692
+home: https://github.com/giantswarm/kyverno-policy-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
