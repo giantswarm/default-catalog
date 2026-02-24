@@ -35163,6 +35163,24 @@ entries:
     version: 2.0.0
   vertical-pod-autoscaler-crd:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vertical-pod-autoscaler-crd/refs/tags/v4.1.2/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: turtles
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/vertical-pod-autoscaler-crd/refs/tags/v4.1.2/helm/vertical-pod-autoscaler-crd/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.5.1
+    created: "2026-02-24T12:12:41.609049442Z"
+    description: A Helm chart for the Vertical Pod Autoscaler CRDs.
+    digest: 40bd435b81e063ca9b393326ca12f3d4568821d4eaa245d2f74a54865e7f9c2e
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: vertical-pod-autoscaler-crd
+    urls:
+    - https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.2.tgz
+    version: 4.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-crd-4.1.1.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -35660,4 +35678,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-24T12:10:30.42771048Z"
+generated: "2026-02-24T12:12:41.60817942Z"
