@@ -34037,6 +34037,34 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/test-app-0.1.0.tgz
     version: 0.1.0
+  trivy:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-0.14.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-app/refs/tags/v0.14.2/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-app/refs/tags/v0.14.2/helm/trivy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.63.0
+    created: "2026-02-26T09:18:53.800588377Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.15.0
+    description: A Helm chart for trivy
+    digest: 2bcfe5ebbf6e2c4a06f16c51639862185f24b6e2ef93e9b93d71e65e7813f61f
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/trivy-0.14.2.tgz
+    version: 0.14.2
   vertical-pod-autoscaler-app:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/vertical-pod-autoscaler-app-6.1.2.tgz-meta/main.yaml
@@ -35814,4 +35842,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-25T16:57:15.166471428Z"
+generated: "2026-02-26T09:18:53.799189295Z"
