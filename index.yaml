@@ -22082,6 +22082,36 @@ entries:
     version: 0.2.0
   karpenter:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/karpenter-2.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/karpenter-app/refs/tags/v2.1.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/karpenter-app/refs/tags/v2.1.0/helm/karpenter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2026-03-01T15:04:23.028343357Z"
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: f6a426cee7665c07f11097165de240b478fecefa20536437851baeb11aa9826d
+    home: https://github.com/giantswarm/karpenter-app
+    icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: giantswarm/team-phoenix
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    - https://karpenter.sh/
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/karpenter-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/karpenter-2.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/karpenter-app/refs/tags/v2.0.0/README.md
       io.giantswarm.application.team: phoenix
@@ -35871,4 +35901,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-02-26T10:45:50.454900549Z"
+generated: "2026-03-01T15:04:23.026148964Z"
