@@ -24176,6 +24176,31 @@ entries:
     version: 0.5.0
   kube-vip:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kube-vip-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-vip-app/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/kube-vip/helm-charts/tree/main/charts/kube-vip
+      io.giantswarm.application.upstream-chart-version: 0.8.4
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-vip-app/refs/tags/v0.3.0/helm/kube-vip/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.4
+    created: "2026-03-03T20:15:33.003541027Z"
+    description: A Helm chart for kube-vip
+    digest: 0f9eee8dc27326ffe0db0899541e9dd5f59635685db98f54fb14f5f31c70be5f
+    home: https://github.com/giantswarm/kube-vip-app
+    icon: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kube-vip
+    sources:
+    - https://github.com/kube-vip/helm-charts
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-vip-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-vip-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-vip-0.2.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -36029,4 +36054,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-03T14:28:28.058126599Z"
+generated: "2026-03-03T20:15:33.002748364Z"
