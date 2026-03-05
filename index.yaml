@@ -33233,6 +33233,32 @@ entries:
     version: 1.0.0
   proxmox-cloud-controller-manager:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.3.0/helm/cloud-provider-proxmox/values.schema.json
+    apiVersion: v2
+    appVersion: v0.12.3
+    created: "2026-03-05T13:42:17.470229667Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: b37b64398a8dfdcedf6e0a00ee2148dee68ec56432924665a81b9bfb3b56843a
+    home: https://github.com/giantswarm/cloud-provider-proxmox-app
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -36140,4 +36166,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-04T14:47:36.323511347Z"
+generated: "2026-03-05T13:42:17.468857018Z"
