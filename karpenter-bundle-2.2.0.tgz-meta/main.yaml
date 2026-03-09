@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: karpenter-bundle-2.2.0.tgz
+dateCreated: '2026-03-09T13:45:10.934610Z'
+digest: 0311cb738a80005dce36e90294b96ea7cf805cce9dfae5274d981b7ee86aa032
+home: https://github.com/giantswarm/karpenter-app
+icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
