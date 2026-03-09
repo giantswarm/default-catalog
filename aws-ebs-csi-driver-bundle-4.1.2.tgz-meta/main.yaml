@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-ebs-csi-driver-bundle-4.1.2.tgz
+dateCreated: '2026-03-09T11:37:37.910695Z'
+digest: 4af06aa44a8fb8d1e7421da4af1d35f45e64be488a99a3fa92e342c5acadeeb7
+home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
