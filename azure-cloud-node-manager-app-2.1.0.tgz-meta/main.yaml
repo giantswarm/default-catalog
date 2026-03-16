@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+chartApiVersion: v2
+chartFile: azure-cloud-node-manager-app-2.1.0.tgz
+dateCreated: '2026-03-16T16:36:11.908583Z'
+digest: ae5f61eb8a389406345eab18dcd310e7a01be8e9126c1abf50b1d80c610c2c15
+home: https://github.com/giantswarm/azure-cloud-node-manager-app
+icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - azure
+  fixedNamespace: kube-system
+  gpuInstances: false
