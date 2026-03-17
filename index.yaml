@@ -33498,6 +33498,32 @@ entries:
     version: 1.0.0
   proxmox-cloud-controller-manager:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.4.0/helm/cloud-provider-proxmox/values.schema.json
+    apiVersion: v2
+    appVersion: v0.12.3
+    created: "2026-03-17T14:40:26.334720325Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: 45a2b114b372a788b131dccba42a8ad320d8661798629b5f8a9c044a11a80147
+    home: https://github.com/giantswarm/cloud-provider-proxmox-app
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.3.0/README.md
       io.giantswarm.application.team: rocket
@@ -36431,4 +36457,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-17T12:07:12.034451645Z"
+generated: "2026-03-17T14:40:26.332932379Z"
