@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: prometheus-blackbox-exporter-0.6.0.tgz
+dateCreated: '2026-03-17T12:07:06.708747Z'
+digest: 4fed459a6f9257b5c776cea8422ba1dea1e2b7432cad0ce8cb4ad15e79467f52
+home: https://github.com/giantswarm/prometheus-blackbox-exporter-app
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
