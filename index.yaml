@@ -1993,6 +1993,30 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-node-termination-handler-1.23.1.tgz
     version: 1.23.1
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-node-termination-handler-1.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/refs/tags/v1.4.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/refs/tags/v1.4.0/helm/aws-node-termination-handler/values.schema.json
+    apiVersion: v2
+    appVersion: 1.25.2
+    created: "2026-03-24T15:11:49.402293316Z"
+    dependencies:
+    - alias: upstream
+      name: aws-node-termination-handler
+      repository: oci://public.ecr.aws/aws-ec2/helm
+      version: 0.27.5
+    description: Deploy components for the aws-node-termination-handler app
+    digest: eaabf7014d150f75badf742219dd321d89be2a45ac4aa7cbe3c4124fa3cdcf4c
+    home: https://github.com/giantswarm/aws-nth-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-node-termination-handler
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-node-termination-handler-1.4.0.tgz
+    version: 1.4.0
   aws-nth-bundle:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-1.4.0.tgz-meta/main.yaml
@@ -36641,4 +36665,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-24T15:11:45.919133805Z"
+generated: "2026-03-24T15:11:49.400209116Z"
