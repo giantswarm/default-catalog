@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: karpenter-bundle-2.3.0.tgz
+dateCreated: '2026-03-24T15:11:40.156159Z'
+digest: a2984c7996a7a1ebc1f1c5e6733340c08a51f26ab324aa794bf3ff8e7c2ee96d
+home: https://github.com/giantswarm/karpenter-app
+icon: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
