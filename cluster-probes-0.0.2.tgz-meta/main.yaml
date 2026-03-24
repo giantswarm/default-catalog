@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: internal
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-probes-0.0.2.tgz
+dateCreated: '2026-03-24T21:12:48.134633Z'
+digest: e56b8436f87a5bd337aa6700552b380f80be3eec259066792fe122b4c4e4158f
+home: https://github.com/giantswarm/cluster-probes
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

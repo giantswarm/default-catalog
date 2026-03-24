@@ -18430,6 +18430,34 @@ entries:
   - annotations:
       io.giantswarm.application.audience: internal
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cluster-probes-0.0.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-probes/refs/tags/v0.0.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-probes/refs/tags/v0.0.2/helm/cluster-probes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-24T21:12:53.116695662Z"
+    description: Helm chart for monitoring workload cluster API server availability
+      from the management cluster using Prometheus blackbox exporter
+    digest: e56b8436f87a5bd337aa6700552b380f80be3eec259066792fe122b4c4e4158f
+    home: https://github.com/giantswarm/cluster-probes
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - monitoring
+    - prometheus
+    - servicemonitor
+    - blackbox-exporter
+    - cluster-probes
+    name: cluster-probes
+    sources:
+    - https://github.com/giantswarm/cluster-probes
+    - https://github.com/giantswarm/cluster
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-probes-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      io.giantswarm.application.audience: internal
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cluster-probes-0.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-probes/refs/tags/v0.0.1/README.md
       io.giantswarm.application.team: phoenix
@@ -36729,4 +36757,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-24T20:53:27.513500245Z"
+generated: "2026-03-24T21:12:53.116175905Z"
