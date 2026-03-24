@@ -18426,6 +18426,35 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-0.9.0.tgz
     version: 0.9.0
+  cluster-probes:
+  - annotations:
+      io.giantswarm.application.audience: internal
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cluster-probes-0.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-probes/refs/tags/v0.0.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-probes/refs/tags/v0.0.1/helm/cluster-probes/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-24T20:53:27.51434748Z"
+    description: Helm chart for monitoring workload cluster API server availability
+      from the management cluster using Prometheus blackbox exporter
+    digest: 29cb8e93151ad5c8ca570f80867f821004e476d6204207d3144871f93f778e02
+    home: https://github.com/giantswarm/cluster-probes
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - monitoring
+    - prometheus
+    - servicemonitor
+    - blackbox-exporter
+    - cluster-probes
+    name: cluster-probes
+    sources:
+    - https://github.com/giantswarm/cluster-probes
+    - https://github.com/giantswarm/cluster
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-probes-0.0.1.tgz
+    version: 0.0.1
   cluster-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/cluster-resources-0.1.1.tgz-meta/main.yaml
@@ -36700,4 +36729,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-24T16:58:45.440289952Z"
+generated: "2026-03-24T20:53:27.513500245Z"
