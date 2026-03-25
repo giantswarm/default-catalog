@@ -1808,6 +1808,29 @@ entries:
     version: 2.0.0
   aws-ebs-csi-driver-bundle:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.2.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.2.0/helm/aws-ebs-csi-driver-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 4.2.0
+    created: "2026-03-25T09:28:15.891351453Z"
+    description: A Helm chart for AWS EBS CSI Driver with IAM resources
+    digest: d2f7cd6f2d22db3f3648344fa5d27019b951815b96637d7231b47942c0545804
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-ebs-csi-driver-bundle
+    sources:
+    - https://github.com/giantswarm/aws-ebs-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.2.0.tgz
+    version: 4.2.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-bundle-4.1.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.1.2/README.md
       io.giantswarm.application.team: phoenix
@@ -36783,4 +36806,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-25T09:27:40.826598168Z"
+generated: "2026-03-25T09:28:15.889892328Z"
