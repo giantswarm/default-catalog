@@ -34098,6 +34098,31 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.2.0.tgz
     version: 0.2.0
+  reports-server:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/reports-server-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/reports-server-app/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/reports-server-app/refs/tags/v0.1.1/helm/reports-server/values.schema.json
+    apiVersion: v2
+    appVersion: v0.1.6
+    created: "2026-04-10T22:27:31.858987776Z"
+    dependencies:
+    - name: reports-server
+      repository: ""
+      version: 0.1.6
+    description: A Giant Swarm app for deploying the Kyverno Reports Server.
+    digest: 856a215e8a27dd75fd504bfc56c210d6dc7a07ebe6e7f438a86dde40b48b5710
+    home: https://github.com/giantswarm/reports-server-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    name: reports-server
+    sources:
+    - https://github.com/kyverno/reports-server
+    urls:
+    - https://giantswarm.github.io/default-catalog/reports-server-0.1.1.tgz
+    version: 0.1.1
   shoot:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/shoot-3.0.0.tgz-meta/main.yaml
@@ -36954,4 +36979,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-04-08T19:56:41.60745508Z"
+generated: "2026-04-10T22:27:31.850596154Z"

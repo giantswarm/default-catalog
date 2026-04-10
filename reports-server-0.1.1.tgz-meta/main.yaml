@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: reports-server-0.1.1.tgz
+dateCreated: '2026-04-10T22:27:27.152063Z'
+digest: 856a215e8a27dd75fd504bfc56c210d6dc7a07ebe6e7f438a86dde40b48b5710
+home: https://github.com/giantswarm/reports-server-app
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
