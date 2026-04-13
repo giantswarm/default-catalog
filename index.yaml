@@ -21606,6 +21606,25 @@ entries:
     version: 0.1.0
   external-dns-crossplane-resources:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.2.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.2.0/helm/external-dns-crossplane-resources/values.schema.json
+    apiVersion: v2
+    created: "2026-04-13T10:42:52.513640424Z"
+    description: Crossplane IAM resources for external-dns Route53 access on CAPA
+      clusters
+    digest: ceabfca90d22a377ba92b1f30bf5f621d2e14d401706b0c571f969432d32195a
+    home: https://github.com/giantswarm/external-dns-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
+    name: external-dns-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.1.6.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.1.6.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -36979,4 +36998,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-04-10T22:27:31.850596154Z"
+generated: "2026-04-13T10:42:52.51318415Z"
