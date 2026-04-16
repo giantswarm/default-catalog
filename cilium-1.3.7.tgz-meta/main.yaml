@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: cilium-1.3.7.tgz
+dateCreated: '2026-04-16T13:10:47.630531Z'
+digest: 4cce0f9e1415aa1c03c2639f4333f3c36b48ffd3171a6a1fca07b5190c96694a
+home: https://cilium.io/
+icon: https://s.giantswarm.io/app-icons/cilium/1/light.svg
