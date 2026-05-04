@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: shield
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: kyverno-0.24.2.tgz
+dateCreated: '2026-05-04T18:56:36.381160Z'
+digest: e8c31b2a0678da0433d28a7568cd572a9e7a5a08005dc1a398b10c29d52b4441
+home: https://github.com/giantswarm/kyverno-app
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
