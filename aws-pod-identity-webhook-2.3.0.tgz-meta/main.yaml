@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/upstreamChartUrl: https://github.com/aws/amazon-eks-pod-identity-webhook
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: aws-pod-identity-webhook-2.3.0.tgz
+dateCreated: '2026-05-04T15:49:36.821187Z'
+digest: 0bc7147280421d533a7a85ce7e2aae47ff96e777eb1dc6c31e6baf6f0d3be433
+home: https://github.com/giantswarm/aws-pod-identity-webhook
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
