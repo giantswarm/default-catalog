@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-node-termination-handler-2.0.0.tgz
+dateCreated: '2026-05-06T14:19:56.938818Z'
+digest: f8104af6a640252949fc497a548a1e6378276c330b938c1da8527dc12fc7b6ff
+home: https://github.com/giantswarm/aws-nth-bundle
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+restrictions:
+  compatibleProviders:
+  - aws
