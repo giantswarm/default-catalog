@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: tenet
+chartApiVersion: v2
+chartFile: etcd-defrag-1.2.7.tgz
+dateCreated: '2026-05-08T10:47:34.037116Z'
+digest: 14feac8f79773ec7ee9c0997cff25d6a2618a0d1527c2cbac604555525ebe670
+home: https://github.com/giantswarm/etcd-defrag-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
