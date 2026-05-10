@@ -26206,6 +26206,23 @@ entries:
   net-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/net-exporter-1.24.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.0/helm/net-exporter/values.schema.json
+    apiVersion: v1
+    appVersion: 1.24.0
+    created: "2026-05-10T17:51:07.752744534Z"
+    description: Helm chart for net-exporter.
+    digest: 9fcee1a21ac2ff3f027f4ecedc1bba1f657a0a1328f76dfb8a6d0fe5977d4b35
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.24.0.tgz
+    version: 1.24.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/net-exporter-1.23.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.23.1/README.md
       io.giantswarm.application.team: cabbage
@@ -37596,4 +37613,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-05-10T10:55:36.874855467Z"
+generated: "2026-05-10T17:51:07.752050229Z"
