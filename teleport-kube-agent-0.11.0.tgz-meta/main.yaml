@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: teleport-kube-agent-0.11.0.tgz
+dateCreated: '2026-05-18T23:14:59.280459Z'
+digest: 0218f739c94e10ae3301b021f685081cc4b78760297c33d667b4b7aca98d738b
+home: https://github.com/giantswarm/teleport-kube-agent-app
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

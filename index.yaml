@@ -35266,6 +35266,37 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.11.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.11.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.11.0/helm/teleport-kube-agent/values.schema.json
+    apiVersion: v2
+    appVersion: 18.7.6
+    created: "2026-05-18T23:15:04.684755801Z"
+    dependencies:
+    - name: teleport-kube-agent
+      repository: ""
+      version: 18.7.6
+    description: Teleport provides a secure SSH, Kubernetes, database and application
+      remote access solution that doesn't get in the way.
+    digest: 0218f739c94e10ae3301b021f685081cc4b78760297c33d667b4b7aca98d738b
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.10.8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.10.8/README.md
       io.giantswarm.application.team: shield
@@ -37681,4 +37712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-05-18T10:51:05.045750678Z"
+generated: "2026-05-18T23:15:04.680913641Z"
