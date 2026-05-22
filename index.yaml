@@ -17263,6 +17263,33 @@ entries:
     version: 0.1.0
   cloud-provider-vsphere:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.5.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.5.0/helm/cloud-provider-vsphere/values.schema.json
+    apiVersion: v2
+    appVersion: 1.36.0
+    created: "2026-05-22T11:05:17.201448795Z"
+    description: A Helm chart for vSphere Cloud Provider Interface Manager (CPI)
+    digest: 74d23ade6e7e6dbff842980c25e93bdca1beb601ba39765726abe7abd87f2523
+    home: https://github.com/giantswarm/cloud-provider-vsphere-app
+    icon: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
+    keywords:
+    - vsphere
+    - vmware
+    - cloud
+    - provider
+    - cpi
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-vsphere
+    sources:
+    - https://github.com/giantswarm/cloud-provider-vsphere-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.5.0.tgz
+    version: 2.5.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.4.0/README.md
       io.giantswarm.application.team: rocket
@@ -37812,4 +37839,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-05-22T09:42:48.538374458Z"
+generated: "2026-05-22T11:05:17.200125997Z"

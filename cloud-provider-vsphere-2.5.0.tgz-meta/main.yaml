@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cloud-provider-vsphere-2.5.0.tgz
+dateCreated: '2026-05-22T11:05:10.632187Z'
+digest: 74d23ade6e7e6dbff842980c25e93bdca1beb601ba39765726abe7abd87f2523
+home: https://github.com/giantswarm/cloud-provider-vsphere-app
+icon: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
