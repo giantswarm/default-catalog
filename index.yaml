@@ -4684,6 +4684,25 @@ entries:
     version: 0.2.0
   capa-karpenter-taint-remover:
   - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/capa-karpenter-taint-remover-1.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capa-karpenter-taint-remover/refs/tags/v1.1.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/capa-karpenter-taint-remover/refs/tags/v1.1.0/helm/capa-karpenter-taint-remover/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-05-29T09:15:00.218893887Z"
+    description: CAPA karpenter taint remover
+    digest: cf300c67c8e33f9ab7565fdf1833aef4df657f39eea9bbc686acf705560812d2
+    home: https://github.com/giantswarm/capa-karpenter-taint-remover
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: capa-karpenter-taint-remover
+    urls:
+    - https://giantswarm.github.io/default-catalog/capa-karpenter-taint-remover-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/capa-karpenter-taint-remover-1.0.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capa-karpenter-taint-remover/refs/tags/v1.0.2/README.md
       io.giantswarm.application.team: phoenix
@@ -37970,4 +37989,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-05-28T14:14:55.664658048Z"
+generated: "2026-05-29T09:15:00.218080781Z"
