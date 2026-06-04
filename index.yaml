@@ -391,6 +391,28 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/alloy-0.10.0.tgz
     version: 0.10.0
+  alloy-podlogs-crds:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/alloy-podlogs-crds-0.20.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.20.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.20.0/helm/alloy-podlogs-crds/values.schema.json
+    apiVersion: v2
+    appVersion: 0.20.0
+    created: "2026-06-04T08:34:40.997721833Z"
+    description: CRDs for Grafana Alloy PodLogs
+    digest: 6a2adeba577cff4c4555118e77d9e367845214a86fdd0e33c9f0f22e99f4d02e
+    home: https://github.com/giantswarm/alloy-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: alloy-podlogs-crds
+    sources:
+    - https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy/charts/crds
+    urls:
+    - https://giantswarm.github.io/default-catalog/alloy-podlogs-crds-0.20.0.tgz
+    version: 0.20.0
   aws-cloud-controller-manager-app:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-cloud-controller-manager-app-2.1.0.tgz-meta/main.yaml
@@ -38015,4 +38037,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-04T08:34:34.656722124Z"
+generated: "2026-06-04T08:34:40.997186729Z"
