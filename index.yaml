@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   alloy:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/alloy-0.20.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.20.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.20.0/helm/alloy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.20.0
+    created: "2026-06-04T08:34:34.659762301Z"
+    dependencies:
+    - condition: alloy.enabled
+      name: alloy
+      repository: https://grafana.github.io/helm-charts
+      version: 1.8.2
+    description: Grafana Alloy OpenTelemetry Collector
+    digest: 2826cdd6e5874fd1ae9823b113b7708bd12e3ba19717fbcbcb3f3d6bd3041e6c
+    home: https://github.com/giantswarm/alloy-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: alloy
+    sources:
+    - https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy
+    urls:
+    - https://giantswarm.github.io/default-catalog/alloy-0.20.0.tgz
+    version: 0.20.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/alloy-0.19.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.19.0/README.md
       io.giantswarm.application.team: atlas
@@ -37989,4 +38015,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-05-29T09:15:00.218080781Z"
+generated: "2026-06-04T08:34:34.656722124Z"
