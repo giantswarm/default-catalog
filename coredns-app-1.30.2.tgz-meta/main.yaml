@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: coredns-app-1.30.2.tgz
+dateCreated: '2026-06-08T08:13:34.399953Z'
+digest: e532d498fde373fe3471f514d15533473f9014bab05eea914f8219de09f46d0d
+home: https://github.com/giantswarm/coredns-app
+icon: https://s.giantswarm.io/app-icons/coredns/1/light.svg
