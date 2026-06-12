@@ -3324,6 +3324,27 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-0.3.0.tgz
     version: 0.3.0
+  azure-aks-extras:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azure-aks-extras-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-aks-extras/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: TEAM-NAME
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-aks-extras/refs/tags/v0.1.0/helm/azure-aks-extras/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-06-12T07:09:20.352686849Z"
+    description: Please add description
+    digest: aac9064d7436f0be0d04ab731f44f1d31ded2776e68954e923db6c28ebb1e633
+    home: https://github.com/giantswarm/azure-aks-extras
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: azure-aks-extras
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/default-catalog/azure-aks-extras-0.1.0.tgz
+    version: 0.1.0
   azure-cloud-controller-manager-app:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azure-cloud-controller-manager-app-2.1.0.tgz-meta/main.yaml
@@ -38282,4 +38303,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-11T13:37:34.134066972Z"
+generated: "2026-06-12T07:09:20.351921305Z"

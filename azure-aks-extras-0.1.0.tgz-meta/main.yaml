@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: TEAM-NAME
+chartApiVersion: v2
+chartFile: azure-aks-extras-0.1.0.tgz
+dateCreated: '2026-06-12T07:09:13.588152Z'
+digest: aac9064d7436f0be0d04ab731f44f1d31ded2776e68954e923db6c28ebb1e633
+home: https://github.com/giantswarm/azure-aks-extras
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
