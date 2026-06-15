@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: vsphere-csi-driver-3.4.4.tgz
+dateCreated: '2026-06-15T20:40:42.229631Z'
+digest: b1627831763f6fc9357f6fea91258d02b270be926d4cdf6ccf313faf383eb862
+home: https://github.com/giantswarm/vsphere-csi-driver-app
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
