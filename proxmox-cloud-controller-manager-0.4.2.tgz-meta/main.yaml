@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: proxmox-cloud-controller-manager-0.4.2.tgz
+dateCreated: '2026-06-15T20:57:22.230377Z'
+digest: ae4cef976a8aed91d9c291ac9447e7b6ab79ce62c9d72d232343ddf3b04b2ba1
+home: https://github.com/giantswarm/cloud-provider-proxmox-app
+icon: https://s.giantswarm.io/app-icons/proxmox/2/light.svg

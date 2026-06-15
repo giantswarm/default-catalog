@@ -35144,6 +35144,32 @@ entries:
     version: 1.0.0
   proxmox-cloud-controller-manager:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.4.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.4.2/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.4.2/helm/cloud-provider-proxmox/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.2
+    created: "2026-06-15T20:57:28.236042254Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: ae4cef976a8aed91d9c291ac9447e7b6ab79ce62c9d72d232343ddf3b04b2ba1
+    home: https://github.com/giantswarm/cloud-provider-proxmox-app
+    icon: https://s.giantswarm.io/app-icons/proxmox/2/light.svg
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.4.2.tgz
+    version: 0.4.2
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/proxmox-cloud-controller-manager-0.4.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-proxmox-app/refs/tags/v0.4.1/README.md
       io.giantswarm.application.team: rocket
@@ -38359,4 +38385,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-15T20:40:47.509221738Z"
+generated: "2026-06-15T20:57:28.234671876Z"
