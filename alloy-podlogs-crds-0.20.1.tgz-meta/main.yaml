@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: alloy-podlogs-crds-0.20.1.tgz
+dateCreated: '2026-06-16T10:19:53.334155Z'
+digest: e71edf43d45d7aa67103574590ace533d3a9bb7ead9955ceda426e617744091b
+home: https://github.com/giantswarm/alloy-app
+icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
