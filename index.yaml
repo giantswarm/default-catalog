@@ -2360,6 +2360,23 @@ entries:
     version: 1.4.0
   aws-nth-bundle:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-2.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/refs/tags/v2.1.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/refs/tags/v2.1.0/helm/aws-nth-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2026-06-18T13:22:52.077441466Z"
+    description: Bundle chart for aws-node-termination-handler (management cluster)
+    digest: 18e244d10bc566b394d9deae6950898ad664181f5895aa0c3bd5d9648555c4d6
+    home: https://github.com/giantswarm/aws-nth-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    name: aws-nth-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-nth-bundle-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-nth-bundle-2.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-nth-bundle/refs/tags/v2.0.1/README.md
       io.giantswarm.application.restrictions.compatible-providers: aws
@@ -38552,4 +38569,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-18T13:22:44.081375415Z"
+generated: "2026-06-18T13:22:52.076916898Z"

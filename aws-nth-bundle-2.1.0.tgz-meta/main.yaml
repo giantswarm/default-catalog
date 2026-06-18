@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-nth-bundle-2.1.0.tgz
+dateCreated: '2026-06-18T13:22:39.049098Z'
+digest: 18e244d10bc566b394d9deae6950898ad664181f5895aa0c3bd5d9648555c4d6
+home: https://github.com/giantswarm/aws-nth-bundle
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
