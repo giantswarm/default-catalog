@@ -34926,6 +34926,31 @@ entries:
     version: 0.3.0
   prometheus-operator-crd:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-22.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v22.0.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v22.0.0/helm/prometheus-operator-crd/values.schema.json
+    apiVersion: v2
+    appVersion: v0.92.0
+    created: "2026-06-29T12:28:28.181798332Z"
+    dependencies:
+    - name: prometheus-operator-crds
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 30.0.0
+    description: kube-prometheus-stack CustomResourceDefinitions.
+    digest: 9f8292aa4fcf00898fb8d154042f54e1147f10ef2ba56ad87151e43a71c4a8a7
+    home: https://github.com/giantswarm/prometheus-operator-crd
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
+    kubeVersion: '>=1.19.0-0'
+    name: prometheus-operator-crd
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-operator-crd-22.0.0.tgz
+    version: 22.0.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-operator-crd-21.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-operator-crd/refs/tags/v21.0.0/README.md
       io.giantswarm.application.team: atlas
@@ -38823,4 +38848,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-29T12:26:56.182754511Z"
+generated: "2026-06-29T12:28:28.160286919Z"

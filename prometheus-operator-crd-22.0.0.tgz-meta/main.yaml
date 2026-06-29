@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: prometheus-operator-crd-22.0.0.tgz
+dateCreated: '2026-06-29T12:28:22.740795Z'
+digest: 9f8292aa4fcf00898fb8d154042f54e1147f10ef2ba56ad87151e43a71c4a8a7
+home: https://github.com/giantswarm/prometheus-operator-crd
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
