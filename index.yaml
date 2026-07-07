@@ -37203,6 +37203,34 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-operator-0.13.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.13.2/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.13.2/helm/trivy-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.13.2
+    created: "2026-07-07T14:28:19.053134578Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.33.2
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 15ae6a5002585d4cb7684de699731706489343645b2053ecfff5725894e5d7c9
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/trivy-operator-0.13.2.tgz
+    version: 0.13.2
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-operator-0.13.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.13.1/README.md
       io.giantswarm.application.team: shield
@@ -39083,4 +39111,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-07T12:58:55.014316665Z"
+generated: "2026-07-07T14:28:19.048351969Z"
