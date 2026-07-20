@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/fixedNamespace: kube-system
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: cilium-servicemonitors-0.2.0.tgz
+dateCreated: '2026-07-20T12:48:27.359531Z'
+digest: df80c0246c468663e77e103c8d66bfea88198b4ec3a749cf949ea22dcdf769c2
+home: https://github.com/giantswarm/cilium-servicemonitors-app
+icon: https://s.giantswarm.io/app-icons/cilium/1/dark.svg

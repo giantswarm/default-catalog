@@ -16765,6 +16765,28 @@ entries:
   cilium-servicemonitors:
   - annotations:
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cilium-servicemonitors-0.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cilium-servicemonitors-app/refs/tags/v0.2.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cilium-servicemonitors-app/refs/tags/v0.2.0/helm/cilium-servicemonitors/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2026-07-20T12:48:33.084265101Z"
+    description: Cilium ServiceMonitors
+    digest: df80c0246c468663e77e103c8d66bfea88198b4ec3a749cf949ea22dcdf769c2
+    home: https://github.com/giantswarm/cilium-servicemonitors-app
+    icon: https://s.giantswarm.io/app-icons/cilium/1/dark.svg
+    keywords:
+    - monitoring
+    name: cilium-servicemonitors
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/cilium-servicemonitors-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cilium-servicemonitors-0.1.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cilium-servicemonitors-app/refs/tags/v0.1.4/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -39244,4 +39266,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-15T07:49:37.183042694Z"
+generated: "2026-07-20T12:48:33.083617926Z"
