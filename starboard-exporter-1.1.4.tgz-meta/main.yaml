@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v1
+chartFile: starboard-exporter-1.1.4.tgz
+dateCreated: '2026-07-20T18:59:42.522176Z'
+digest: 32c8859423f5402d21220345b79256d6bd37dab0ceaa53878ddbfdd38c96658c
+home: https://github.com/giantswarm/starboard-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
