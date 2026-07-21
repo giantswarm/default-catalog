@@ -36685,6 +36685,27 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/starboard-exporter-1.0.3.tgz
     version: 1.0.3
+  teleport-exporter:
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-exporter-0.1.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.5/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.5/helm/teleport-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.5
+    created: "2026-07-21T12:06:34.184356092Z"
+    description: A Helm chart for teleport-exporter, which exposes Prometheus metrics
+      about nodes, clusters, databases, and applications registered in Teleport.
+    digest: a6b60c611d5b6a23893546e85cd78135d4d4c9f045a0e365616d9b6d0e4fd070
+    home: https://github.com/giantswarm/teleport-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: teleport-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-exporter-0.1.5.tgz
+    version: 0.1.5
   teleport-kube-agent:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -39326,4 +39347,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-21T04:37:40.060053616Z"
+generated: "2026-07-21T12:06:34.183022378Z"
