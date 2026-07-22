@@ -22831,6 +22831,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,azure
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.4.0/helm/external-dns-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2026-07-22T15:04:55.864626067Z"
+    description: Crossplane resources for external-dns DNS access on CAPA (Route53)
+      and CAPZ (Workload Identity) clusters
+    digest: 126053e3495fb7c082cd8a6bb3359147ace64b58a52c5df9330fd90603dc1dd7
+    home: https://github.com/giantswarm/external-dns-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
+    name: external-dns-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.3.0/README.md
       io.giantswarm.application.restrictions.compatible-providers: aws
@@ -39444,4 +39464,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-22T11:38:28.579158283Z"
+generated: "2026-07-22T15:04:55.864121316Z"
