@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/coredns-app/issues\n"
+chartApiVersion: v2
+chartFile: coredns-app-1.31.1.tgz
+dateCreated: '2026-07-24T12:54:48.509740Z'
+digest: b1da96937236761a3268be914a800d28a10c6e06173a2e343ab4eca6e59d7b1b
+home: https://github.com/giantswarm/coredns-app
+icon: https://s.giantswarm.io/app-icons/coredns/1/light.svg
