@@ -36795,6 +36795,29 @@ entries:
     version: 2.0.0
   starboard-exporter:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/starboard-exporter/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/starboard-exporter-1.1.7.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.1.7/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.1.7/helm/starboard-exporter/values.schema.json
+    apiVersion: v1
+    appVersion: 1.1.7
+    created: "2026-07-27T16:18:14.71102198Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: e7c0f50b073cb6f54c804665c2655844b71248c051fd29cd1d3df10bcffcc759
+    home: https://github.com/giantswarm/starboard-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/starboard-exporter-1.1.7.tgz
+    version: 1.1.7
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/starboard-exporter-1.1.6.tgz-meta/main.yaml
@@ -39628,4 +39651,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-27T08:39:02.366944183Z"
+generated: "2026-07-27T16:18:14.709932764Z"
