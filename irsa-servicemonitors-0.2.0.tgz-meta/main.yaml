@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: irsa-servicemonitors-0.2.0.tgz
+dateCreated: '2026-07-27T08:38:53.533768Z'
+digest: 0e9f30c5d75ea89861c95a38bf315cf2aa2fcaf435ca067a2cf6dea1e54e6f4f
+home: https://github.com/giantswarm/irsa-servicemonitors-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
