@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: turtles
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cert-exporter/issues\n"
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+chartApiVersion: v2
+chartFile: cert-exporter-2.11.2.tgz
+dateCreated: '2026-07-28T09:18:13.347255Z'
+digest: 923f39b5be9b1700b138a354a50603e2055bb7b13cbb718bedc41cd3adb13e81
+home: https://github.com/giantswarm/cert-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
