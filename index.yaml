@@ -26684,6 +26684,29 @@ entries:
     version: 0.2.0
   kube-vip-cloud-provider:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kube-vip-cloud-provider-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.3.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-vip-cloud-provider-app/refs/tags/v0.3.1/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-vip-cloud-provider-app/refs/tags/v0.3.1/helm/kube-vip-cloud-provider/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.1
+    created: "2026-07-30T16:57:46.865713269Z"
+    description: A Helm chart for kube-vip cloud provider
+    digest: 36dcf355f733dd162d42754e200ff7d0608b415cbcf156edbd83d8ee8a306050
+    home: https://github.com/giantswarm/kube-vip-cloud-provider-app
+    icon: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
+    maintainers:
+    - name: kube-vip
+    name: kube-vip-cloud-provider
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/kube-vip-cloud-provider-0.3.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -39763,4 +39786,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-07-30T16:44:48.619497574Z"
+generated: "2026-07-30T16:57:46.864993155Z"
