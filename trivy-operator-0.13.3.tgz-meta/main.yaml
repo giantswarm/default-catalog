@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: trivy-operator-0.13.3.tgz
+dateCreated: '2026-07-30T14:16:10.090281Z'
+digest: 2669fa122b058a3fc69e63d59ecd9766e3f5c51b74cbc6895e7125537c45a10f
+home: https://github.com/giantswarm/trivy-operator-app
+icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
