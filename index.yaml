@@ -39581,6 +39581,34 @@ entries:
     version: 1.0.0
   vsphere-csi-driver:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/vsphere-csi-driver-app/issues
+        - name: Upstream project
+          url: https://github.com/kubernetes-sigs/vsphere-csi-driver
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vsphere-csi-driver-app/refs/tags/v3.4.5/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/vsphere-csi-driver-app/refs/tags/v3.4.5/helm/vsphere-csi-driver/values.schema.json
+    apiVersion: v2
+    appVersion: 3.4.5
+    created: "2026-08-03T11:52:19.310921086Z"
+    description: A Helm chart for vSphere CSI (Container Storage Interface) Driver
+    digest: 71e5a6446ba5a78c54ab2ed1b3677bc101dc844263081dca9b2ea74ec720e573
+    home: https://github.com/giantswarm/vsphere-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - vsphere
+    - vmware
+    - csi
+    name: vsphere-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/vsphere-csi-driver
+    urls:
+    - https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.5.tgz
+    version: 3.4.5
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/vsphere-csi-driver-3.4.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/vsphere-csi-driver-app/refs/tags/v3.4.4/README.md
       io.giantswarm.application.team: rocket
@@ -39809,4 +39837,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-03T11:49:13.065145803Z"
+generated: "2026-08-03T11:52:19.309938507Z"
