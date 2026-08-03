@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cloud-provider-cloud-director-app/issues\n"
+chartApiVersion: v2
+chartFile: cloud-provider-cloud-director-0.5.1.tgz
+dateCreated: '2026-08-03T15:05:54.068714Z'
+digest: 19264be34bdedd83c71ec3681ff28f1eb23068cc47135f2c6cf6ebe2b447a818
+home: https://github.com/giantswarm/cloud-provider-cloud-director-app
+restrictions:
+  compatibleProviders:
+  - cloud-director
