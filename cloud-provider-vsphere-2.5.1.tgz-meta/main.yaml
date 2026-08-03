@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cloud-provider-vsphere-app/issues\n"
+chartApiVersion: v2
+chartFile: cloud-provider-vsphere-2.5.1.tgz
+dateCreated: '2026-08-03T11:55:53.476705Z'
+digest: dd804bfec048f70501782b1b573f8f0fe1a4a713db4047e5cfe54e9f141d682e
+home: https://github.com/giantswarm/cloud-provider-vsphere-app
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png

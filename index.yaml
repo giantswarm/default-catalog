@@ -17861,6 +17861,37 @@ entries:
     version: 0.1.0
   cloud-provider-vsphere:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cloud-provider-vsphere-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.5.1/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.5.1/helm/cloud-provider-vsphere/values.schema.json
+    apiVersion: v2
+    appVersion: 2.5.1
+    created: "2026-08-03T11:56:00.044421962Z"
+    description: A Helm chart for vSphere Cloud Provider Interface Manager (CPI)
+    digest: dd804bfec048f70501782b1b573f8f0fe1a4a713db4047e5cfe54e9f141d682e
+    home: https://github.com/giantswarm/cloud-provider-vsphere-app
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - vsphere
+    - vmware
+    - cloud
+    - provider
+    - cpi
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-vsphere
+    sources:
+    - https://github.com/giantswarm/cloud-provider-vsphere-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.5.1.tgz
+    version: 2.5.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-vsphere-2.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-vsphere-app/refs/tags/v2.5.0/README.md
       io.giantswarm.application.team: rocket
@@ -39837,4 +39868,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-03T11:52:19.309938507Z"
+generated: "2026-08-03T11:56:00.042709125Z"
