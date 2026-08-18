@@ -21798,6 +21798,30 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/etcd-kubernetes-resources-count-exporter-0.5.0.tgz
     version: 0.5.0
+  exception-recommender:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/exception-recommender/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/exception-recommender-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/exception-recommender/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/exception-recommender/refs/tags/v0.3.0/helm/exception-recommender/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-08-18T12:16:01.71934544Z"
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts
+      from Kyverno's PolicyReport results.
+    digest: d2d7d7826d1ccc9847f4ba7152570bf22e6e0dfd6ddeed4f5b9945e46bd8e21b
+    home: https://github.com/giantswarm/exception-recommender
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: exception-recommender
+    urls:
+    - https://giantswarm.github.io/default-catalog/exception-recommender-0.3.0.tgz
+    version: 0.3.0
   external-dns-app:
   - annotations:
       io.giantswarm.application.audience: all
@@ -40362,4 +40386,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-17T13:17:52.305111216Z"
+generated: "2026-08-18T12:16:01.718377294Z"

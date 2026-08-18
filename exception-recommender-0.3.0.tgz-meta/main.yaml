@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/exception-recommender/issues\n"
+chartApiVersion: v2
+chartFile: exception-recommender-0.3.0.tgz
+dateCreated: '2026-08-18T12:15:55.498926Z'
+digest: d2d7d7826d1ccc9847f4ba7152570bf22e6e0dfd6ddeed4f5b9945e46bd8e21b
+home: https://github.com/giantswarm/exception-recommender
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
