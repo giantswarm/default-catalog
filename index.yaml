@@ -1176,6 +1176,32 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-4.3.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.3.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.3.1/helm/aws-ebs-csi-driver/values.schema.json
+    apiVersion: v2
+    appVersion: 4.3.1
+    created: "2026-08-21T09:14:35.493928746Z"
+    dependencies:
+    - alias: upstream
+      name: aws-ebs-csi-driver
+      repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+      version: 2.56.1
+    description: A Helm chart for the AWS EBS CSI Driver.
+    digest: 613b61422f0df9c129f30b85af24d3325a2c27013dc9d0bac14306335057c9c9
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-ebs-csi-driver
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-4.3.1.tgz
+    version: 4.3.1
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-ebs-csi-driver-4.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/refs/tags/v4.3.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -40453,4 +40479,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-21T07:50:40.463650883Z"
+generated: "2026-08-21T09:14:35.490005594Z"
