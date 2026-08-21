@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-ebs-csi-driver-bundle-4.3.1.tgz
+dateCreated: '2026-08-21T09:15:03.029395Z'
+digest: 4460f33c949c58098271d65990a4b1a724fd58622d1991c4b9a3f1e0b35153da
+home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
