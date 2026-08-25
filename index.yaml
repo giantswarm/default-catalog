@@ -38512,6 +38512,37 @@ entries:
           url: https://github.com/giantswarm/trivy-app/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-0.18.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-app/refs/tags/v0.18.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-app/refs/tags/v0.18.0/helm/trivy/values.schema.json
+    apiVersion: v2
+    appVersion: 0.18.0
+    created: "2026-08-25T02:16:17.534638623Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.25.0
+    description: A Helm chart for trivy
+    digest: a621f2c35d913ffa4ed651cc50d90960cc6395582b5def2a8b6dd3d8094cac22
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/trivy-0.18.0.tgz
+    version: 0.18.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/trivy-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-0.17.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-app/refs/tags/v0.17.0/README.md
       io.giantswarm.application.team: shield
@@ -40641,4 +40672,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-25T00:36:35.092216967Z"
+generated: "2026-08-25T02:16:17.532905986Z"
