@@ -10123,6 +10123,46 @@ entries:
           url: https://github.com/giantswarm/cilium-app/issues
         - name: Upstream project
           url: https://github.com/cilium/cilium
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cilium-1.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cilium-app/refs/tags/v1.6.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cilium-app/refs/tags/v1.6.0/helm/cilium/values.schema.json
+    apiVersion: v2
+    appVersion: 1.20.1
+    created: "2026-08-26T10:42:53.404544073Z"
+    dependencies:
+    - alias: cniCustomConf
+      condition: cni.customConf
+      name: cilium-giantswarm-cni-customconf
+      repository: ""
+      version: 0.1.0
+    description: eBPF-based Networking, Security, and Observability
+    digest: 21b021ae0f548ad6de31c8d18ca078492f2dc5deb693ab54515e451763f0ac57
+    home: https://github.com/giantswarm/cilium-app
+    icon: https://s.giantswarm.io/app-icons/cilium/1/light.svg
+    keywords:
+    - BPF
+    - eBPF
+    - Kubernetes
+    - Networking
+    - Security
+    - Observability
+    - Troubleshooting
+    kubeVersion: '>= 1.21.0-0'
+    name: cilium
+    sources:
+    - https://github.com/giantswarm/cilium-app
+    - https://github.com/cilium/cilium
+    urls:
+    - https://giantswarm.github.io/default-catalog/cilium-1.6.0.tgz
+    version: 1.6.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cilium-app/issues
+        - name: Upstream project
+          url: https://github.com/cilium/cilium
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cilium-1.5.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cilium-app/refs/tags/v1.5.1/README.md
       io.giantswarm.application.team: cabbage
@@ -40787,4 +40827,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-26T09:26:47.175877553Z"
+generated: "2026-08-26T10:42:53.385448156Z"
