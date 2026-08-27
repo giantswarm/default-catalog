@@ -38194,6 +38194,43 @@ entries:
     version: 0.1.5
   teleport-kube-agent:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/teleport-kube-agent-app/issues
+        - name: Upstream project
+          url: https://github.com/gravitational/teleport
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.12.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.12.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-kube-agent-app/refs/tags/v0.12.0/helm/teleport-kube-agent/values.schema.json
+    apiVersion: v2
+    appVersion: 0.12.0
+    created: "2026-08-27T16:42:41.65410629Z"
+    dependencies:
+    - name: teleport-kube-agent
+      repository: ""
+      version: 18.10.7
+    description: Teleport provides a secure SSH, Kubernetes, database and application
+      remote access solution that doesn't get in the way.
+    digest: 64f5a29238fb4f43d5b640b1f490cf4299b004d8217d1fd3f34f5a728ce80202
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-kube-agent-0.11.1.tgz-meta/main.yaml
@@ -41007,4 +41044,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-08-26T17:13:14.994808337Z"
+generated: "2026-08-27T16:42:41.646349523Z"
