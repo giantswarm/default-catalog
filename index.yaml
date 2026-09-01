@@ -23970,9 +23970,9 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/jiralert-app/refs/tags/v0.1.3/helm/jiralert/values.schema.json
     apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-09-01T11:51:34.449048819Z"
+    created: "2026-09-01T17:26:02.266153809Z"
     description: Alertmanager plugin that creates Jira tickets
-    digest: 0a257c649e39e9bbaf6fb1e86bef37e8301019bdf078db961c3718daf878e698
+    digest: 428ecf507bdeaecc237d44072af21d1ab7c72137c0ddec7e8d0ae75c48b47f19
     home: https://github.com/giantswarm/jiralert-app
     icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
     name: jiralert
@@ -41084,4 +41084,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-01T11:51:34.447738278Z"
+generated: "2026-09-01T17:26:02.265357193Z"
