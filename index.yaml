@@ -27350,6 +27350,44 @@ entries:
           url: https://github.com/kubescape/helm-charts
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kubescape-0.1.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubescape-app/refs/tags/v0.1.2/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubescape-app/refs/tags/v0.1.2/helm/kubescape/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-09-07T14:25:30.033694984Z"
+    dependencies:
+    - condition: exceptions.enabled
+      name: exceptions
+      repository: ""
+      version: 0.0.0
+    - name: dependency_chart
+      repository: ""
+      version: 0.0.0
+    - name: kubescape-operator
+      repository: ""
+      version: 1.40.2
+    description: This chart contains the kubescape operator chart and custom Giant
+      Swarm resources.
+    digest: c630fd70d075c7a740fd79dbeb7f4f2cb4f9f0c7c2589f11db260df93e926bf6
+    home: https://github.com/giantswarm/kubescape-app
+    icon: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
+    name: kubescape
+    sources:
+    - https://github.com/kubescape/helm-charts
+    urls:
+    - https://giantswarm.github.io/default-catalog/kubescape-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kubescape-app/issues
+        - name: Upstream project
+          url: https://github.com/kubescape/helm-charts
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kubescape-0.1.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubescape-app/refs/tags/v0.1.1/README.md
       io.giantswarm.application.team: shield
@@ -41214,4 +41252,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-03T20:04:57.417886689Z"
+generated: "2026-09-07T14:25:30.024805456Z"
