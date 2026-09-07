@@ -39271,6 +39271,40 @@ entries:
     version: 0.14.2
   trivy-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/trivy-operator-app/issues
+        - name: Upstream project
+          url: https://github.com/aquasecurity/trivy-operator
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-operator-0.15.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/helm/trivy-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.15.0
+    created: "2026-09-07T17:19:53.752179743Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.36.0
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 8d0652f9195793fa04bbe6cc0b655290f07e415a90524ae3e5c699e623406011
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/trivy-operator-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/trivy-operator-0.14.0.tgz-meta/main.yaml
@@ -41293,4 +41327,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-07T17:18:39.888996657Z"
+generated: "2026-09-07T17:19:53.7469287Z"
