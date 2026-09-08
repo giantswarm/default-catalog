@@ -37337,6 +37337,33 @@ entries:
       io.giantswarm.application.audience: all
       io.giantswarm.application.in-cluster-app: "true"
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/security-bundle-2.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v2.4.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v2.4.0/helm/security-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 2.4.0
+    created: "2026-09-08T00:43:22.895476692Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: aa736285da1a24e806513b9a41471621219a70b22d2c83a65965fc13deec2c0a
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/security-bundle-2.4.0.tgz
+    version: 2.4.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/security-bundle/issues
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.in-cluster-app: "true"
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/security-bundle-2.3.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/security-bundle/refs/tags/v2.3.0/README.md
       io.giantswarm.application.team: shield
@@ -41361,4 +41388,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-07T18:23:53.381406605Z"
+generated: "2026-09-08T00:43:22.893651658Z"
