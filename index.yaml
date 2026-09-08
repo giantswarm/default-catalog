@@ -27581,13 +27581,13 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.0/helm/kyverno-policies/values.schema.json
     apiVersion: v2
     appVersion: 0.28.0
-    created: "2026-09-08T14:31:25.866111158Z"
+    created: "2026-09-08T17:34:36.538182216Z"
     dependencies:
     - name: kyverno-policies
       repository: ""
-      version: 3.7.2
+      version: 3.9.0
     description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
-    digest: 86ce6e2f37c4525b3a3f897e128cb33793a6c21cd4f6bfc48afa63163277f3dd
+    digest: 3212b9ec064475b4a101e9eeb3b463f7b94b0bfe7a7628f2ec7b5e7e1918dd10
     home: https://github.com/giantswarm/kyverno-policies
     icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
     keywords:
@@ -41422,4 +41422,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-08T14:31:25.863632233Z"
+generated: "2026-09-08T17:34:36.535393156Z"
