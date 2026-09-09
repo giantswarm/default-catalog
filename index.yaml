@@ -515,6 +515,33 @@ entries:
           url: https://github.com/giantswarm/alloy-app/issues
         - name: Upstream project
           url: https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy/charts/crds
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/alloy-podlogs-crds-0.22.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.22.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.22.0/helm/alloy-podlogs-crds/values.schema.json
+    apiVersion: v2
+    appVersion: v1.13.2
+    created: "2026-09-09T08:47:58.654358457Z"
+    description: CRDs for Grafana Alloy PodLogs
+    digest: ba4369d68551f00fdae709852cbf2c8bc2ebeae1a95f45c4be193b53ce85c8e1
+    home: https://github.com/giantswarm/alloy-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: alloy-podlogs-crds
+    sources:
+    - https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy/charts/crds
+    urls:
+    - https://giantswarm.github.io/default-catalog/alloy-podlogs-crds-0.22.0.tgz
+    version: 0.22.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/alloy-app/issues
+        - name: Upstream project
+          url: https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy/charts/crds
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/alloy-podlogs-crds-0.21.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alloy-app/refs/tags/v0.21.2/README.md
       io.giantswarm.application.team: atlas
@@ -41443,4 +41470,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-09T06:08:37.496377875Z"
+generated: "2026-09-09T08:47:58.653876906Z"
