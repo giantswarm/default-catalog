@@ -1,0 +1,17 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/azuredisk-csi-driver-app/issues\n"
+chartApiVersion: v2
+chartFile: azuredisk-csi-driver-app-2.2.0.tgz
+dateCreated: '2026-09-10T06:25:08.323862Z'
+digest: 786b0fb3069ff1095a242e86778d952fa06774d9643579c80285447d2e943240
+home: https://github.com/giantswarm/azuredisk-csi-driver-app
+icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - azure
+  fixedNamespace: kube-system
+  gpuInstances: false
