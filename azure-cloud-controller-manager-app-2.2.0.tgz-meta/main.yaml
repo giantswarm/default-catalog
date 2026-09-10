@@ -1,0 +1,18 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/azure-cloud-controller-manager-app/issues\n"
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+chartApiVersion: v2
+chartFile: azure-cloud-controller-manager-app-2.2.0.tgz
+dateCreated: '2026-09-10T06:25:06.563507Z'
+digest: 8a081eee5ceb7849017bb70789fd97caec17ca77fcd29f4211569fba2270ed18
+home: https://github.com/giantswarm/azure-cloud-controller-manager-app
+icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - azure
+  fixedNamespace: kube-system
+  gpuInstances: false
