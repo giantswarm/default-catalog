@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/appType: bundle
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/observability-bundle/issues\n"
+chartApiVersion: v2
+chartFile: observability-bundle-3.5.0.tgz
+dateCreated: '2026-09-16T07:28:31.437251Z'
+digest: 3b4cd6d3b3697dd040feae629ddcd0b0f1f17bd5746b8e40fc73aa00c8be866b
+home: https://github.com/giantswarm/observability-bundle
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
