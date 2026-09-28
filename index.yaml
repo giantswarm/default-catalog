@@ -39244,6 +39244,30 @@ entries:
           url: https://github.com/giantswarm/teleport-exporter/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-exporter-0.1.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.14/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.14/helm/teleport-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.14
+    created: "2026-09-28T05:05:45.709172395Z"
+    description: A Helm chart for teleport-exporter, which exposes Prometheus metrics
+      about nodes, clusters, databases, and applications registered in Teleport.
+    digest: ff31203a88356e114d77cf7e0eac8b103c8db65fe13bfc39f82e520d62a01588
+    home: https://github.com/giantswarm/teleport-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: teleport-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/teleport-exporter-0.1.14.tgz
+    version: 0.1.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/teleport-exporter/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/teleport-exporter-0.1.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-exporter/refs/tags/v0.1.13/README.md
       io.giantswarm.application.team: shield
@@ -42283,4 +42307,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-28T03:56:22.222554983Z"
+generated: "2026-09-28T05:05:45.707484087Z"
