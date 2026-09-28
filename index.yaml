@@ -28921,6 +28921,33 @@ entries:
     version: 0.4.0
   net-exporter:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/net-exporter/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/net-exporter-1.24.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.1/helm/net-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.24.1
+    created: "2026-09-28T03:56:22.223363516Z"
+    description: Helm chart for net-exporter.
+    digest: c9d5d1af1650f1490cc66f429e68200b599da190faae3f28401e65b3469ca870
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - networking
+    - monitoring
+    - observability
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/net-exporter-1.24.1.tgz
+    version: 1.24.1
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/net-exporter-1.24.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.0/README.md
@@ -42256,4 +42283,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-09-24T21:55:04.592995437Z"
+generated: "2026-09-28T03:56:22.222554983Z"
