@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/policy-api/issues\n"
+chartApiVersion: v2
+chartFile: policy-api-crds-0.1.1.tgz
+dateCreated: '2026-09-28T16:06:56.669002Z'
+digest: 65d66449af15141ca726e9b0f768590fa739b9c2ca5a8901626207c6366c6f11
+home: https://github.com/giantswarm/policy-api
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
