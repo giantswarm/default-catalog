@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cilium-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/cilium/cilium\n"
+chartApiVersion: v2
+chartFile: cilium-1.5.2.tgz
+dateCreated: '2026-09-29T14:13:41.648100Z'
+digest: 0720f39c92ca84dfb1d283b9aa821b68ee87d0111bb92135169b3c85c3627f31
+home: https://github.com/giantswarm/cilium-app
+icon: https://s.giantswarm.io/app-icons/cilium/1/light.svg
