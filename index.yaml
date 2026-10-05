@@ -9265,6 +9265,30 @@ entries:
     version: 0.0.1
   chart-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/chart-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/chart-operator-4.2.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/chart-operator/refs/tags/v4.2.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: giantswarm
+      io.giantswarm.application.restrictions.gpu-instances: "false"
+      io.giantswarm.application.restrictions.namespace-singleton: "true"
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/chart-operator/refs/tags/v4.2.1/helm/chart-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 4.2.1
+    created: "2026-10-05T17:10:42.279850211Z"
+    description: A Helm chart for the chart-operator
+    digest: 2e3e3479753b33981f7de6a7d7f5e2323c8a451ca234d7421682c351d9fe91f4
+    home: https://github.com/giantswarm/chart-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/default-catalog/chart-operator-4.2.1.tgz
+    version: 4.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/default-catalog/chart-operator-4.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/default-catalog/chart-operator-4.2.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -42836,4 +42860,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-02T12:02:04.231207587Z"
+generated: "2026-10-05T17:10:42.278885394Z"
