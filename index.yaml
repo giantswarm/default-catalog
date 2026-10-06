@@ -17860,6 +17860,38 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cloud-provider-cloud-director-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-cloud-director-app/refs/tags/v0.6.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: cloud-director
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cloud-provider-cloud-director-app/refs/tags/v0.6.0/helm/cloud-provider-cloud-director/values.schema.json
+    apiVersion: v2
+    appVersion: 0.6.0
+    created: "2026-10-06T14:41:00.346467179Z"
+    dependencies:
+    - name: cloud-director-named-disk-csi-driver
+      repository: ""
+      version: 0.0.1
+    - name: cloud-provider-for-cloud-director
+      repository: ""
+      version: 0.0.1
+    description: A Helm chart for cloud-provider-cloud-director with CPI and CSI
+    digest: 56276dce03a5f881d977072a549fb6a1e558e0cc6a030499d1aee7440bbcf6fb
+    home: https://github.com/giantswarm/cloud-provider-cloud-director-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cloud-provider-cloud-director
+    sources:
+    - https://github.com/giantswarm/cloud-provider-cloud-director-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cloud-provider-cloud-director-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cloud-provider-cloud-director-0.5.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cloud-provider-cloud-director-app/refs/tags/v0.5.2/README.md
       io.giantswarm.application.restrictions.compatible-providers: cloud-director
@@ -42860,4 +42892,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-05T17:10:42.278885394Z"
+generated: "2026-10-06T14:41:00.344695104Z"
