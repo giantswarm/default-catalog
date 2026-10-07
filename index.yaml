@@ -19508,6 +19508,27 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-autoscaler-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-2.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-autoscaler-app/refs/tags/v2.1.1/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-autoscaler-app/refs/tags/v2.1.1/helm/cluster-autoscaler-app/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 2.1.1
+    created: "2026-10-07T15:22:43.297718214Z"
+    description: A Helm chart for the Cluster Autoscaler.
+    digest: a6bc6f9828324daaba59a3b671a4c50e798f515750443103e9c5c5eec462f8ef
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-2.1.1.tgz
+    version: 2.1.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-autoscaler-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/cluster-autoscaler-app-2.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-autoscaler-app/refs/tags/v2.1.0/README.md
       io.giantswarm.application.team: tenet
@@ -42968,4 +42989,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-07T08:04:35.132660953Z"
+generated: "2026-10-07T15:22:43.296137506Z"
