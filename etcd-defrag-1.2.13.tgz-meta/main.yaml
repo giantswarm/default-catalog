@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/etcd-defrag-app/issues\n"
+chartApiVersion: v2
+chartFile: etcd-defrag-1.2.13.tgz
+dateCreated: '2026-10-14T06:09:57.198028Z'
+digest: 20fa77008a1a2451b9fd4cca7ca2b2b698c17b8d1f8c7c17f6bfdc4de48cfd92
+home: https://github.com/giantswarm/etcd-defrag-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
