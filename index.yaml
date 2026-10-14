@@ -3186,6 +3186,36 @@ entries:
     version: 1.3.1
   aws-pod-identity-webhook:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-pod-identity-webhook/issues
+        - name: Upstream project
+          url: https://github.com/aws/amazon-eks-pod-identity-webhook
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-2.3.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-pod-identity-webhook/refs/tags/v2.3.1/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.upstream-chart-url: https://github.com/aws/amazon-eks-pod-identity-webhook
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-pod-identity-webhook/refs/tags/v2.3.1/helm/aws-pod-identity-webhook/values.schema.json
+    apiVersion: v2
+    appVersion: 2.3.1
+    created: "2026-10-14T13:29:56.69299542Z"
+    description: This webhook is for mutating pods that will require AWS IAM access.
+    digest: 2fd8237b6103b9949e195658059a375a9af017a7ca510d56056c8f0ced309baf
+    home: https://github.com/giantswarm/aws-pod-identity-webhook
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-pod-identity-webhook
+    sources:
+    - https://github.com/aws/amazon-eks-pod-identity-webhook
+    urls:
+    - https://giantswarm.github.io/default-catalog/aws-pod-identity-webhook-2.3.1.tgz
+    version: 2.3.1
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
@@ -43237,4 +43267,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-14T12:41:03.384448745Z"
+generated: "2026-10-14T13:29:56.691890528Z"
