@@ -39890,6 +39890,29 @@ entries:
           url: https://github.com/giantswarm/starboard-exporter/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/starboard-exporter-1.2.35.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.2.35/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.2.35/helm/starboard-exporter/values.schema.json
+    apiVersion: v1
+    appVersion: 1.2.35
+    created: "2026-10-27T22:38:51.660313752Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: ae5b7677f64bf757850cfd3b389b26c0154b4ae4d68edf8b6ed78a2bc9ed9264
+    home: https://github.com/giantswarm/starboard-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/default-catalog/starboard-exporter-1.2.35.tgz
+    version: 1.2.35
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/starboard-exporter/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/starboard-exporter-1.2.34.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/starboard-exporter/refs/tags/v1.2.34/README.md
       io.giantswarm.application.team: shield
@@ -43900,4 +43923,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-27T22:36:14.609541549Z"
+generated: "2026-10-27T22:38:51.657802365Z"
