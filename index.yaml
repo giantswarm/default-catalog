@@ -34995,6 +34995,27 @@ entries:
           url: https://github.com/giantswarm/policy-api/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/policy-api-crds-0.1.10.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/policy-api/refs/tags/v0.1.10/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/policy-api/refs/tags/v0.1.10/helm/policy-api-crds/values.schema.json
+    apiVersion: v2
+    created: "2026-10-27T22:36:14.610204964Z"
+    description: This app contains the Policy API CRDs.
+    digest: 3c54b5ac7c5cbbc718d0db76217a4f0c69fdc0305854f6c9c73e23549f22fa85
+    home: https://github.com/giantswarm/policy-api
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-api-crds
+    urls:
+    - https://giantswarm.github.io/default-catalog/policy-api-crds-0.1.10.tgz
+    version: 0.1.10
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/policy-api/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/policy-api-crds-0.1.9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/policy-api/refs/tags/v0.1.9/README.md
       io.giantswarm.application.team: shield
@@ -43879,4 +43900,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-10-27T08:47:53.203458338Z"
+generated: "2026-10-27T22:36:14.609541549Z"
