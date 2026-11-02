@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/starboard-exporter/issues\n"
+chartApiVersion: v1
+chartFile: starboard-exporter-1.2.40.tgz
+dateCreated: '2026-11-02T18:23:23.806510Z'
+digest: e175cbafbe9168504d77c261e9a35709fd878bc85381aa9d7f20fc65756cdd00
+home: https://github.com/giantswarm/starboard-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
