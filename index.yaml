@@ -26176,6 +26176,47 @@ entries:
       artifacthub.io/changes: |
         - kind: added
           description: Persistent Volume Claim retention policy
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kamaji-etcd-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kamaji-etcd-app/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream: https://github.com/clastix/kamaji-etcd
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kamaji-etcd-app/refs/tags/v0.4.0/helm/kamaji-etcd/values.schema.json
+    apiVersion: v2
+    appVersion: 3.6.12
+    created: "2026-11-09T16:39:09.725632062Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: aba12fcf89c2bb2fd2ddd775edf50219803154ec353f2f2e4b34b67d646938f3
+    home: https://github.com/giantswarm/kamaji-etcd-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/2/light.svg
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/kamaji-etcd-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Persistent Volume Claim retention policy
       artifacthub.io/links: |
         - name: CLASTIX
           url: https://clastix.io
@@ -45150,4 +45191,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-09T16:24:51.427314491Z"
+generated: "2026-11-09T16:39:09.72337122Z"
