@@ -24865,6 +24865,34 @@ entries:
     version: 0.1.0
   external-dns-crossplane-resources:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/external-dns-crossplane-resources/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,azure
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/external-dns-crossplane-resources/refs/tags/v0.5.0/helm/external-dns-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-11-10T11:18:18.220920692Z"
+    description: Crossplane resources for external-dns DNS access on CAPA (Route53)
+      and CAPZ (Workload Identity) clusters
+    digest: 08b7b3367fd8554ce579d61eab91833930f11d8a9d62d9a540b6e08a29dcdf3f
+    home: https://github.com/giantswarm/external-dns-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
+    keywords:
+    - dns
+    - external-dns
+    - crossplane
+    name: external-dns-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/external-dns-crossplane-resources-0.4.0.tgz-meta/main.yaml
@@ -45301,4 +45329,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-10T10:48:14.976271645Z"
+generated: "2026-11-10T11:18:18.220356686Z"
