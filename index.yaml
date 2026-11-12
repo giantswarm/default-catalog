@@ -36822,6 +36822,47 @@ entries:
           url: https://github.com/giantswarm/prometheus-blackbox-exporter-app/issues
         - name: Upstream project
           url: https://github.com/prometheus/blackbox_exporter
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.11.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-blackbox-exporter-app/refs/tags/v0.11.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-blackbox-exporter-app/refs/tags/v0.11.0/helm/prometheus-blackbox-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 0.11.0
+    created: "2026-11-12T09:53:29.977469446Z"
+    description: Prometheus Blackbox Exporter
+    digest: 702431dba33c4a066369ceff9392a89e0a5777f525d7bfa3cd9edf3e35f80f1d
+    home: https://github.com/giantswarm/prometheus-blackbox-exporter-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/prometheus-blackbox-exporter-app/issues
+        - name: Upstream project
+          url: https://github.com/prometheus/blackbox_exporter
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/prometheus-blackbox-exporter-0.10.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-blackbox-exporter-app/refs/tags/v0.10.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -45536,4 +45577,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-12T08:48:37.292025011Z"
+generated: "2026-11-12T09:53:29.974544282Z"
