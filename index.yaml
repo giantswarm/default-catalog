@@ -5137,6 +5137,30 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/azuredisk-csi-driver-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azuredisk-csi-driver-app-2.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azuredisk-csi-driver-app/refs/tags/v2.3.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: azure
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.restrictions.gpu-instances: "false"
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azuredisk-csi-driver-app/refs/tags/v2.3.0/helm/azuredisk-csi-driver-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.36.3
+    created: "2026-11-12T18:55:43.497180173Z"
+    description: A Helm chart to run Azure CSI driver for Azure Disks.
+    digest: 60018cefc554f4a73cb2713cb3bcbef66364213b4fd552163d29236113219dde
+    home: https://github.com/giantswarm/azuredisk-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azuredisk-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/azuredisk-csi-driver-app-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/azuredisk-csi-driver-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/azuredisk-csi-driver-app-2.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azuredisk-csi-driver-app/refs/tags/v2.2.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -45717,4 +45741,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-12T18:55:19.409539507Z"
+generated: "2026-11-12T18:55:43.494952099Z"
