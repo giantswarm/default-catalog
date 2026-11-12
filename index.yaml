@@ -28966,6 +28966,34 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/kube-state-metrics-1.12.1.tgz
     version: 1.12.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kube-state-metrics-app/issues
+        - name: Upstream project
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-state-metrics
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/kube-state-metrics-0.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-state-metrics-app/refs/tags/v0.1.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-state-metrics-app/refs/tags/v0.1.0/helm/kube-state-metrics/values.schema.json
+    apiVersion: v2
+    appVersion: 2.20.0
+    created: "2026-11-12T08:48:37.297375514Z"
+    dependencies:
+    - name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 9.0.1
+    description: Generate and expose cluster-level metrics
+    digest: f37306d4d7ed6aa593a6f4a1761f56293e545500389ae8ba0d10353e27398ce9
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: kube-state-metrics
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-state-metrics
+    urls:
+    - https://giantswarm.github.io/default-catalog/kube-state-metrics-0.1.0.tgz
+    version: 0.1.0
   kube-state-metrics-app:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -45508,4 +45536,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-12T08:17:19.423761576Z"
+generated: "2026-11-12T08:48:37.292025011Z"
