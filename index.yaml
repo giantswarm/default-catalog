@@ -34626,6 +34626,32 @@ entries:
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/observability-bundle-3.8.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-bundle/refs/tags/v3.8.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/observability-bundle/refs/tags/v3.8.1/helm/observability-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.1
+    created: "2026-11-24T11:38:27.536140329Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: 179f62b28d5df4d18698088e3cdb7757179f9b72cb035c9324afc78021b3a9a0
+    home: https://github.com/giantswarm/observability-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    kubeVersion: '>=1.25.0-0'
+    name: observability-bundle
+    sources:
+    - https://github.com/giantswarm/observability-bundle
+    urls:
+    - https://giantswarm.github.io/default-catalog/observability-bundle-3.8.1.tgz
+    version: 3.8.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/observability-bundle/issues
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/observability-bundle-3.8.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-bundle/refs/tags/v3.8.0/README.md
       io.giantswarm.application.team: atlas
@@ -46677,4 +46703,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-23T15:09:30.425881261Z"
+generated: "2026-11-24T11:38:27.533255961Z"
