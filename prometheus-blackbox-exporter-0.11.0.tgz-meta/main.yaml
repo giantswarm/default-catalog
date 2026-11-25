@@ -6,8 +6,8 @@ annotations:
     - name: Upstream project\n  url: https://github.com/prometheus/blackbox_exporter\n"
 chartApiVersion: v2
 chartFile: prometheus-blackbox-exporter-0.11.0.tgz
-dateCreated: '2026-11-12T09:53:28.707234Z'
-digest: 702431dba33c4a066369ceff9392a89e0a5777f525d7bfa3cd9edf3e35f80f1d
+dateCreated: '2026-11-25T08:22:58.909146Z'
+digest: f2ecbc5f841a20de5ca74d75cf519016a5b7210134ba17f6329aad788afbe04a
 home: https://github.com/giantswarm/prometheus-blackbox-exporter-app
 icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
 restrictions:
