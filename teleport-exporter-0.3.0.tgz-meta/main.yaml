@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/teleport-exporter/issues\n"
+chartApiVersion: v2
+chartFile: teleport-exporter-0.3.0.tgz
+dateCreated: '2026-11-26T16:57:10.337260Z'
+digest: e870ec32cbfac233a546c8e64106c8b14e18566f42637471467abe370ae68922
+home: https://github.com/giantswarm/teleport-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
