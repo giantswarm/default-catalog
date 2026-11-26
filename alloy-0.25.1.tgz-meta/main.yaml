@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/alloy-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy\n"
+chartApiVersion: v2
+chartFile: alloy-0.25.1.tgz
+dateCreated: '2026-11-26T14:01:26.055763Z'
+digest: 54124d784b9a4d43765aef815e1c9744ede9a149a6dc7aedf1b89b96a7be50a0
+home: https://github.com/giantswarm/alloy-app
+icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
