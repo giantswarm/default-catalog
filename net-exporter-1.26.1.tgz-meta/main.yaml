@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: cabbage
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/net-exporter/issues\n"
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: net-exporter-1.26.1.tgz
+dateCreated: '2026-11-26T07:39:40.896981Z'
+digest: dc9115bcf8e7b4e872162ec2f871adf9c70e220539f6159bb790762d30431192
+home: https://github.com/giantswarm/net-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
