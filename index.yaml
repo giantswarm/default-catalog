@@ -26460,6 +26460,35 @@ entries:
           url: https://github.com/giantswarm/k8s-dns-node-cache-app/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.12.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.12.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.restrictions.gpu-instances: "false"
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.12.0/helm/k8s-dns-node-cache-app/values.schema.json
+    apiVersion: v2
+    appVersion: 1.26.7
+    created: "2026-11-26T13:48:06.24407062Z"
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    digest: 532e6d34bbca1c6ce99b4cdb2f0389b8715e4bd4149c906579546f3cfce91e3a
+    home: https://github.com/giantswarm/k8s-dns-node-cache-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - dns
+    - caching
+    - networking
+    name: k8s-dns-node-cache-app
+    urls:
+    - https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.12.0.tgz
+    version: 2.12.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/k8s-dns-node-cache-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/default-catalog/k8s-dns-node-cache-app-2.11.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-dns-node-cache-app/refs/tags/v2.11.3/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -46847,4 +46876,4 @@ entries:
     urls:
     - https://giantswarm.github.io/default-catalog/workload-identity-operator-gcp-0.2.0.tgz
     version: 0.2.0
-generated: "2026-11-26T13:23:07.242093652Z"
+generated: "2026-11-26T13:48:06.243215219Z"
